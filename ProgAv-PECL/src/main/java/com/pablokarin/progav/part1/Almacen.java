@@ -54,7 +54,9 @@ public class Almacen
             while (stock < dec)
             {
                 aforo.release();
+                //sigue desde el await cuando hace el signal
                 vacio.await();
+                
                 aforo.acquire();
             }
             Thread.sleep((new Random().nextInt(1) + 1) * 1000);
