@@ -14,18 +14,12 @@ import java.util.concurrent.locks.*;
  */
 public class Almacen 
 {
-    private int stock;
-    private final Semaphore aforo;
-    private Lock control = new ReentrantLock();
-    private Condition vacio = control.newCondition();
-
-    public Almacen(int stock, int aforo) 
-    {
-        this.stock = stock;
-        this.aforo = new Semaphore(aforo, true);
-    }
+    private static int stock = 0;
+    private static final Semaphore aforo = new Semaphore(10, true);
+    private static final Lock control = new ReentrantLock();
+    private static Condition vacio = control.newCondition();
     
-    public synchronized void incStock(int inc)
+    public static synchronized void incStock(int inc)
     {
         try 
         {
@@ -35,7 +29,6 @@ public class Almacen
             stock += inc;
             //puede haber problemas si llegan 10 recolectores (que hacer?)
             vacio.signalAll();
-            aforo.release();
         }
         catch(InterruptedException IE)
         {
@@ -44,9 +37,10 @@ public class Almacen
         finally 
         {
             control.unlock();
+            aforo.release();
         }
     }
-    public synchronized void decStock(int dec)
+    public static synchronized void decStock(int dec)
     {
         try
         {
@@ -59,12 +53,19 @@ public class Almacen
                 
                 aforo.acquire();
             }
+            control.lock();
             Thread.sleep((new Random().nextInt(1) + 1) * 1000);
+            stock -= dec;
             
         }
         catch (InterruptedException IE)
         {
             System.out.println(IE.getMessage());
+        }
+        finally 
+        {
+            control.unlock();
+            aforo.release();
         }
     }
 }

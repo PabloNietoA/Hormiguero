@@ -11,46 +11,44 @@ import java.util.Random;
  *
  * @author Slend
  */
-public class Obrera extends Thread{
+public class Obrera implements Hormiga{
     private int iteracion = 0;
     private int id;
-    private Hormiguero h;
-    private Comedor c;
-    private Descanso d;
-    private Almacen a;
     
     
-    public Obrera (int id, Hormiguero h, Comedor c, Descanso d, Almacen a)
+    public Obrera (int id)
    {
        this.id = id;
-       this.h = h;
-       this.c = c;
-       this.d = d;
-       this.a = a;
    }
     
     
+    @Override
     public void run(){
         //las obreras pares
         if (id%2==0)
         {
             while (true)
             {
-                //almacen.decStock(5);
+                Almacen.decStock(5);
                 //camina del almacén al comedor
                 try
                 {
-                    sleep((new Random().nextInt(2) + 1) * 1000);
+                    Thread.sleep((new Random().nextInt(2) + 1) * 1000);
                 }
                 catch(InterruptedException IE)
                 {
-                    
+                    System.out.println(IE.getMessage());
                 }
-                //comedor.incStock(5);
+                Comedor.incStock(5);
                 //cada 10 iteraciones
                 if (iteracion%10==0)
                 {
-                    //comedor.comer y luego descanso.descansar
+                    Hormiguero.getComer().add(this);
+                    Comedor.comer(1, 3);
+                    Hormiguero.getComer().remove(this);
+                    Hormiguero.getDescanso().add(this);
+                    Descanso.descansar(1);
+                    Hormiguero.getDescanso().remove(this);
                 }
                 iteracion++;
             }
@@ -60,12 +58,18 @@ public class Obrera extends Thread{
         {
             while (true)
             {
+                Hormiguero.getFuera()
                 //hormiguero.recolectar(); //lleva salir y entrar dentro
-                //almacen.incStock(5);
+                Almacen.incStock(5);
                 //cada 10 iteraciones              
                 if (iteracion%10==0)
                 {
-                    //comedor.comer y luego descanso.descansar
+                    Hormiguero.getComer().add(this);
+                    Comedor.comer(1, 3);
+                    Hormiguero.getComer().remove(this);
+                    Hormiguero.getDescanso().add(this);
+                    Descanso.descansar(1);
+                    Hormiguero.getDescanso().remove(this);
                 }
                 iteracion++;
             }

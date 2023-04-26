@@ -13,17 +13,12 @@ import java.util.concurrent.locks.*;
  */
 public class Comedor 
 {
-    private int stock;
-    private Lock control = new ReentrantLock();
-    private Condition vacio = control.newCondition();
-
-    public Comedor(int stock) 
-    {
-        this.stock = stock;
-    }
+    private static int stock = 0;
+    private static Lock control = new ReentrantLock();
+    private static Condition vacio = control.newCondition();
     
     //pilla del stock y luego come
-    public void comer(int comer, int tiempo)
+    public static void comer(int comer, int tiempo)
     {
         //prueba a comer
         try
@@ -58,7 +53,7 @@ public class Comedor
         }
     }
     
-    public void incStock(int inc)
+    public static void incStock(int inc)
     {
         try 
         {

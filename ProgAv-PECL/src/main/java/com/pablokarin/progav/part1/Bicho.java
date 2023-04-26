@@ -6,18 +6,18 @@ package com.pablokarin.progav.part1;
 
 /**
  *
- * @author Karín
+ * @author Slend
  */
-public class Descanso {
-    public static void descansar(int t)
+public class Bicho {
+    private static boolean amenaza = false;
+            
+    public static boolean getAmenaza()
     {
-        try
-        {
-        Thread.sleep(t*1000);
-        }
-        catch(InterruptedException IE)
-        {
-            System.out.println(IE.getMessage());
-        }
+        return amenaza;
+    }
+    
+    public static void amenazar()
+    {
+        Hormiguero.ataque();
     }
 }

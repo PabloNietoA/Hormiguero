@@ -4,6 +4,7 @@
  */
 package com.pablokarin.progav.part1.hilos;
 
+import java.util.ArrayList;
 import java.util.concurrent.locks.*;
 
 /**
@@ -11,6 +12,7 @@ import java.util.concurrent.locks.*;
  * @author Slend
  */
 public class Test extends Thread{
+    private static ArrayList<Integer> a = new ArrayList();
     private Lock l;
     private Condition c;
     private boolean cond;
@@ -50,4 +52,9 @@ public class Test extends Thread{
             l.unlock();
         }
     }
+
+    public static ArrayList<Integer> getA() {
+        return a;
+    }
+    
 }
