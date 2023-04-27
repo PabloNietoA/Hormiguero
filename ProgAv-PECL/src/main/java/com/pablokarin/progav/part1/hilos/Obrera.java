@@ -58,7 +58,7 @@ public class Obrera implements Hormiga{
         {
             while (true)
             {
-                Hormiguero.getFuera()
+                //Hormiguero.getFuera()
                 //hormiguero.recolectar(); //lleva salir y entrar dentro
                 Almacen.incStock(5);
                 //cada 10 iteraciones              
