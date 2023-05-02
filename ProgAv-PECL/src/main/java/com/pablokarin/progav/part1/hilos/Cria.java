@@ -4,10 +4,28 @@
  */
 package com.pablokarin.progav.part1.hilos;
 
+import com.pablokarin.progav.part1.*;
+import java.util.Random;
+
 /**
  *
  * @author Karín
  */
-public class Cria extends Thread {
+public class Cria implements Hormiga {
+    
+    private int id;
+    
+    public Cria (int id)
+    {
+        this.id = id;
+    }
+    public void run() {
+        while (true)
+        {
+            int tComer = (new Random().nextInt(2) + 3);
+            Comedor.comer(1, tComer);
+            Descanso.descansar(4);
+        }
+    }
     
 }
