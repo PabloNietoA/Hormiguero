@@ -5,6 +5,8 @@
 package com.pablokarin.progav.jframe;
 
 import java.awt.Color;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 /**
  *
@@ -17,6 +19,8 @@ public class VentanaPrincipal extends javax.swing.JFrame {
      */
     public VentanaPrincipal() {
         initComponents();
+        ExecutorService pool = Executors.newFixedThreadPool(10); 
+        
     }
 
     /**

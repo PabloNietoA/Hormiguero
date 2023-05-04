@@ -56,13 +56,10 @@ public class VentanaRemota extends javax.swing.JFrame {
         jLabel7.setText("Número de hormigas cría en el refugio:");
 
         campoNObrerasFuera.setEditable(false);
-        campoNObrerasFuera.setText("jTextField1");
 
         campoNObrerasDentro.setEditable(false);
-        campoNObrerasDentro.setText("jTextField2");
 
         campoNSoldadosInstruc.setEditable(false);
-        campoNSoldadosInstruc.setText("jTextField3");
         campoNSoldadosInstruc.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 campoNSoldadosInstrucActionPerformed(evt);
@@ -70,10 +67,8 @@ public class VentanaRemota extends javax.swing.JFrame {
         });
 
         campoNSoldadosAmenaza.setEditable(false);
-        campoNSoldadosAmenaza.setText("jTextField4");
 
         campoNCriasComedor.setEditable(false);
-        campoNCriasComedor.setText("jTextField5");
         campoNCriasComedor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 campoNCriasComedorActionPerformed(evt);
@@ -81,7 +76,6 @@ public class VentanaRemota extends javax.swing.JFrame {
         });
 
         campoNCriasRefugio.setEditable(false);
-        campoNCriasRefugio.setText("jTextField6");
 
         generarAmenaza.setBackground(new java.awt.Color(255, 0, 0));
         generarAmenaza.setForeground(new java.awt.Color(255, 255, 255));
@@ -93,7 +87,7 @@ public class VentanaRemota extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap(36, Short.MAX_VALUE)
+                .addContainerGap(44, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -119,17 +113,14 @@ public class VentanaRemota extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jLabel6)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(campoNCriasComedor, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(36, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(generarAmenaza)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addComponent(campoNCriasComedor, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(generarAmenaza))
+                .addContainerGap(44, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addContainerGap(30, Short.MAX_VALUE)
+                .addContainerGap(35, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
                     .addComponent(campoNObrerasFuera, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
