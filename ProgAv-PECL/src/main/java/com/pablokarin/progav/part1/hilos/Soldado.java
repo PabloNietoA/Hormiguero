@@ -4,10 +4,13 @@
  */
 package com.pablokarin.progav.part1.hilos;
 
+import com.pablokarin.progav.part1.*;
+
 /**
  *
  * @author Karín
  */
-public class Soldado extends Thread {
-    
+public class Soldado extends Thread 
+{
+    Instruc.instruir();
 }
