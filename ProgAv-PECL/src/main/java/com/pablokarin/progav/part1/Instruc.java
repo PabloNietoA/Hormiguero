@@ -11,7 +11,7 @@ import java.util.Random;
  * @author Slend
  */
 public class Instruc {
-    public void instruir()
+    public static void instruir ()
     {   
        try 
        {
