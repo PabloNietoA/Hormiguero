@@ -14,13 +14,42 @@ import java.util.Random;
 public class Obrera implements Hormiga{
     private int iteracion = 0;
     private int id;
+    private String nombre;
     
     
     public Obrera (int id)
    {
        this.id = id;
+       if (id < 10)
+        {
+            nombre = "HO000" + id;
+        }
+        else
+        {
+            if (id < 100)
+            {
+                nombre = "HO00" + id;
+            }
+            else
+            {    
+                if (id<1000)
+                {
+                    nombre = "HO0" + id;
+                }
+                else
+                {
+                    if (id<10000)
+                    {
+                        nombre = "HO" + id;
+                    }
+                }
+            }
+        }
    }
-    
+    public String getNombre()
+    {
+        return nombre;
+    }
     
     @Override
     public void run(){

@@ -13,15 +13,44 @@ import java.util.Random;
  */
 public class Cria implements Hormiga {
     
-    private String 
+    private String nombre; 
     private int id;
     private boolean triggered;
     
     public Cria (int id)
     {
         this.id = id;
+        if (id < 10)
+        {
+            nombre = "HC000" + id;
+        }
+        else
+        {
+            if (id < 100)
+            {
+                nombre = "HC00" + id;
+            }
+            else
+            {    
+                if (id<1000)
+                {
+                    nombre = "HC0" + id;
+                }
+                else
+                {
+                    if (id<10000)
+                    {
+                        nombre = "HC" + id;
+                    }
+                }
+            }
+        }
+        
     }
-    
+    public String getNombre()
+    {
+        return nombre;
+    }
     public void run()
     {
         while (true)
@@ -29,13 +58,16 @@ public class Cria implements Hormiga {
             while(!triggered)
             {
                 try
-                Comedor.comer(1, new Random().nextInt(2) + 3);
-                Descanso.descansar(4);
-                //Comprobar Trigger
-            }
+                {
+                    Comedor.comer(1, new Random().nextInt(2) + 3);
+                    Descanso.descansar(4);
+                    //Comprobar Trigger
+                }
+                catch (InterruptedException e){}
             //TRIGGER
             Refugio.refugiar();
             triggered = false;
+            }
         }
     }
 }

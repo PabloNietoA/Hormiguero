@@ -17,10 +17,41 @@ public class Soldado implements Hormiga {
     private int id;
     private int iteracion;
     private static CyclicBarrier barrera;
+    private String nombre;
     
     public Soldado(int id)
     {
         this.id = id;
+               if (id < 10)
+        {
+            nombre = "HS000" + id;
+        }
+        else
+        {
+            if (id < 100)
+            {
+                nombre = "HS00" + id;
+            }
+            else
+            {    
+                if (id<1000)
+                {
+                    nombre = "HS0" + id;
+                }
+                else
+                {
+                    if (id<10000)
+                    {
+                        nombre = "HS" + id;
+                    }
+                }
+            }
+        }
+    }
+    
+    public String getNombre()
+    {
+        return nombre;
     }
     
     public void run()
