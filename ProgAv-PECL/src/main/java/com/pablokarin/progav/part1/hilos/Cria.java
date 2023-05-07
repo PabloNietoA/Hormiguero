@@ -20,8 +20,37 @@ public class Cria implements Hormiga
     public Cria (int id)
     {
         this.id = id;
+        if (id < 10)
+        {
+            nombre = "HC000" + id;
+        }
+        else
+        {
+            if (id < 100)
+            {
+                nombre = "HC00" + id;
+            }
+            else
+            {    
+                if (id<1000)
+                {
+                    nombre = "HC0" + id;
+                }
+                else
+                {
+                    if (id<10000)
+                    {
+                        nombre = "HC" + id;
+                    }
+                }
+            }
+        }
+        
     }
-    
+    public String getNombre()
+    {
+        return nombre;
+    }
     public void run()
     {
         while (true)

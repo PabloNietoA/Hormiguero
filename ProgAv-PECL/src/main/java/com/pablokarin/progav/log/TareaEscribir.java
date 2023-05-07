@@ -108,16 +108,20 @@ public class TareaEscribir implements Runnable{
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", está refugiada.";
                 break;
             }
-            //escribir (mensaje, dirección del fichero .txt a modificar)
+
         }
+        toText(mensaje);
     }
-    public void toText(String mensaje, String dir){
+    
+    public void toText(String mensaje)
+    {
         StringBuilder sb = new StringBuilder();
         sb.append(mensaje);
         sb.append((System.lineSeparator()));
         mensaje = sb.toString();
-        try {
-            FileWriter fileWriter = new FileWriter(dir, true); //el primer param es la dirección del archivo a escribir, true es para escribir al final
+        try 
+        {
+            FileWriter fileWriter = new FileWriter("src/main/java/com/pablokarin/progav/log");
             //Escribe el string recibo en el documento de texto
             fileWriter.write(mensaje);
             fileWriter.close();
