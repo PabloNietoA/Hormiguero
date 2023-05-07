@@ -13,22 +13,14 @@ import java.util.Random;
  */
 public class Cria implements Hormiga {
     
+    private String 
     private int id;
+    private boolean triggered;
     
     public Cria (int id)
     {
         this.id = id;
     }
-    public void run() {
-        while (true)
-        {
-            int tComer = (new Random().nextInt(2) + 3);
-            Comedor.comer(1, tComer);
-            Descanso.descansar(4);
-        }
-    }
-    
-    private boolean triggered;
     
     public void run()
     {
@@ -36,6 +28,7 @@ public class Cria implements Hormiga {
         {
             while(!triggered)
             {
+                try
                 Comedor.comer(1, new Random().nextInt(2) + 3);
                 Descanso.descansar(4);
                 //Comprobar Trigger

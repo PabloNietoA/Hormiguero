@@ -6,6 +6,7 @@ package com.pablokarin.progav.part1;
 
 import com.pablokarin.progav.part1.hilos.*;
 import java.util.ArrayList;
+import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -17,6 +18,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class Hormiguero {
     private static Semaphore salida = new Semaphore(2,true);
     private static Lock entrada = new ReentrantLock();
+    private static CyclicBarrier barreraAtaque;
     private static ArrayList<Obrera> almacen = new ArrayList();
     private static ArrayList<Hormiga> comer = new ArrayList();
     private static ArrayList<Hormiga> descanso = new ArrayList();
@@ -25,6 +27,7 @@ public class Hormiguero {
     private static ArrayList<Soldado> defendiendo = new ArrayList();
     private static ArrayList<Soldado> instruc = new ArrayList();
     private static ArrayList<Cria> refugio = new ArrayList();
+    private static ArrayList<Soldado> soldados = new ArrayList();
     
     public static void entrar()
     {
@@ -59,10 +62,14 @@ public class Hormiguero {
             salida.release();
         }
     }
+    //se llama al iniciar un ataque
     public static void ataque()
     {
-        
+        //TRIGGER CRIAS
+        barreraAtaque = new CyclicBarrier(soldados.size());
+        Soldado.llamarAtaque(barreraAtaque);
     }
+    
     
     // <editor-fold desc="GETTER AND SETTER">
     public synchronized static ArrayList<Obrera> getAlmacen() {

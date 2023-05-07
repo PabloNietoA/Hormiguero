@@ -9,15 +9,8 @@ package com.pablokarin.progav.part1;
  * @author Karín
  */
 public class Descanso {
-    public static void descansar(int t)
+    public static void descansar(int t) throws InterruptedException
     {
-        try
-        {
         Thread.sleep(t*1000);
-        }
-        catch(InterruptedException IE)
-        {
-            System.out.println(IE.getMessage());
-        }
     }
 }

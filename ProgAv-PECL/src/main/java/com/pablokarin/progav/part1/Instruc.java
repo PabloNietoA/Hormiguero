@@ -11,15 +11,8 @@ import java.util.Random;
  * @author Slend
  */
 public class Instruc {
-    public static void instruir ()
-    {   
-       try 
-       {
+    public static void instruir() throws InterruptedException
+    {
            Thread.sleep((new Random().nextInt(6) + 2) * 1000);
-       }
-       catch (InterruptedException IE)
-       {
-           System.out.println(IE.getMessage());
-       }
     }
 }

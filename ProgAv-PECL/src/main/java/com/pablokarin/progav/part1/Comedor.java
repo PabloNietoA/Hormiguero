@@ -18,7 +18,7 @@ public class Comedor
     private static Condition vacio = control.newCondition();
     
     //pilla del stock y luego come
-    public static void comer(int comer, int tiempo)
+    public static void comer(int comer, int tiempo) throws InterruptedException
     {
         //prueba a comer
         try
@@ -34,23 +34,12 @@ public class Comedor
             stock -= comer;
             
         }
-        catch(InterruptedException IE)
-        {
-            System.out.println(IE.getMessage());
-        }
         finally
         {
             control.unlock();
         }
         
-        try
-        {
-            Thread.sleep(tiempo * 1000);
-        }
-        catch(InterruptedException IE)
-        {
-            System.out.println(IE.getMessage());
-        }
+        Thread.sleep(tiempo * 1000);
     }
     
     public static void incStock(int inc)
