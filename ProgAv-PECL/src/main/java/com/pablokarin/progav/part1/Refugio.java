@@ -12,25 +12,15 @@ import java.util.concurrent.locks.*;
  */
 public class Refugio {
     
-    private static Lock control = new ReentrantLock();
-    private static Condition espera = control.newCondition();
+    private static final Lock control = new ReentrantLock();
+    private static final Condition espera = control.newCondition();
     
-    public static void refugiar ()
+    public static void refugiar() throws InterruptedException
     {
-        while (Bicho.getAmenaza() == true)
-        {
-            try
-            {
-                espera.await();
-            }
-            catch (InterruptedException IE)
-            {
-                System.out.println(IE.getMessage());
-            }
-        }
+        espera.await();
     }
     public static void terminarAmenaza()
     {
-        espera.notifyAll();
+        espera.signalAll();
     }
 }

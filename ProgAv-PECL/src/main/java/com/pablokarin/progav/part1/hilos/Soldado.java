@@ -5,8 +5,8 @@
 package com.pablokarin.progav.part1.hilos;
 
 import com.pablokarin.progav.part1.*;
-import static java.lang.Thread.sleep;
 import java.util.concurrent.BrokenBarrierException;
+import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.CyclicBarrier;
 
 /**
@@ -17,6 +17,7 @@ public class Soldado implements Hormiga {
     private int id;
     private int iteracion;
     private static CyclicBarrier barrera;
+    private static CountDownLatch latch;
     
     public Soldado(int id)
     {
@@ -78,21 +79,23 @@ public class Soldado implements Hormiga {
         }
         catch(InterruptedException | BrokenBarrierException IE){}
 
-        //pelea durante 20 segundos
+        //entra a la pelea (CountdownLatch)
         try
         {
-            sleep(20000);
+            latch.await();
         }
         catch (InterruptedException IE){}
+        
         //vuelve a entrar en el hormiguero
         Hormiguero.entrar();
     }
 
     //se llama desde el hormiguero cada vez que hay un ataque
-    public static void llamarAtaque(CyclicBarrier b)
+    public static void llamarAtaque(CyclicBarrier b, CountDownLatch l)
     {
         Thread.currentThread().interrupt();
         barrera = b;
+        latch = l;
 
     }
 }

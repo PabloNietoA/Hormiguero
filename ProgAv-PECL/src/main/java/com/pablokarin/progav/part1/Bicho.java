@@ -4,20 +4,36 @@
  */
 package com.pablokarin.progav.part1;
 
+import static java.lang.Thread.sleep;
+import java.util.concurrent.CountDownLatch;
+
 /**
  *
  * @author Slend
  */
-public class Bicho {
-    private static boolean amenaza = false;
-            
-    public static boolean getAmenaza()
+public class Bicho implements Runnable
+{
+    private final CountDownLatch pelea;
+    
+    public Bicho(CountDownLatch l)
     {
-        return amenaza;
+        pelea = l;
     }
     
-    public static void amenazar()
+    @Override
+    public void run()
     {
-        Hormiguero.ataque();
+        //comienza la pelea (dura 20 s)
+        try
+        {
+            sleep(20000);
+        }
+        catch(InterruptedException IE){}
+        
+        //al terminar la pelea libera a todas las soldado peleando
+        pelea.countDown();
+        
+        //notifica a las crias de que la amenaza ha terminado
+        Refugio.terminarAmenaza();
     }
 }

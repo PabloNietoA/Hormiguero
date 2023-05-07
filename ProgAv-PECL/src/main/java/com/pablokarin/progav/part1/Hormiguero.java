@@ -10,15 +10,19 @@ import java.util.concurrent.CyclicBarrier;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
+import java.util.concurrent.CountDownLatch;
 
 /**
  *
  * @author Slend
  */
-public class Hormiguero {
+public class Hormiguero 
+{
     private static Semaphore salida = new Semaphore(2,true);
     private static Lock entrada = new ReentrantLock();
     private static CyclicBarrier barreraAtaque;
+    private static CountDownLatch bloqueoPelea;
+    
     private static ArrayList<Obrera> almacen = new ArrayList();
     private static ArrayList<Hormiga> comer = new ArrayList();
     private static ArrayList<Hormiga> descanso = new ArrayList();
@@ -66,8 +70,9 @@ public class Hormiguero {
     public static void ataque()
     {
         //TRIGGER CRIAS
-        barreraAtaque = new CyclicBarrier(soldados.size());
-        Soldado.llamarAtaque(barreraAtaque);
+        bloqueoPelea = new CountDownLatch(1);
+        barreraAtaque = new CyclicBarrier(soldados.size(), new Bicho(bloqueoPelea));
+        Soldado.llamarAtaque(barreraAtaque, bloqueoPelea);
     }
     
     

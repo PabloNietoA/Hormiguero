@@ -11,11 +11,11 @@ import java.util.Random;
  *
  * @author Karín
  */
-public class Cria implements Hormiga {
+public class Cria implements Hormiga 
+{
     
-    private String 
+    private String nombre;
     private int id;
-    private boolean triggered;
     
     public Cria (int id)
     {
@@ -26,16 +26,33 @@ public class Cria implements Hormiga {
     {
         while (true)
         {
-            while(!triggered)
+            while(true)
             {
                 try
+                {
                 Comedor.comer(1, new Random().nextInt(2) + 3);
+                }
+                catch(InterruptedException IE)
+                {
+                    interrumpido();
+                }
+                try
+                {
                 Descanso.descansar(4);
-                //Comprobar Trigger
+                }
+                catch(InterruptedException IE)
+                {
+                    interrumpido();
+                }
             }
-            //TRIGGER
-            Refugio.refugiar();
-            triggered = false;
         }
+    }
+    public static void llamarAtaque()
+    {
+        Thread.currentThread().interrupt();
+    }
+    public void interrumpido()
+    {
+        Refugio.refugiar();
     }
 }
