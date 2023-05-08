@@ -49,7 +49,7 @@ public class TareaEscribir implements Runnable{
     {
         switch (tipo)
         {
-            case 0:
+            case 0://hehco
             {
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", ha nacido.";
                 break;
@@ -64,7 +64,7 @@ public class TareaEscribir implements Runnable{
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", está descansando.";
                 break;
             }
-            case 3:
+            case 3: //Hecho
             {
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", está recogiendo comida.";
                 break;
@@ -94,9 +94,9 @@ public class TareaEscribir implements Runnable{
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", está instruyéndose.";
                 break;
             }
-            case 9:
+            case 9://hecho
             {
-                mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", está defendiendo a la colonia de una amenaza.";
+                mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", va a defender a la colonia de una amenaza.";
                 break;
             }
             case 10://Escrito ya

@@ -4,7 +4,10 @@
  */
 package com.pablokarin.progav.part1.hilos;
 
+import com.pablokarin.progav.log.Escritor;
+import com.pablokarin.progav.log.TareaEscribir;
 import com.pablokarin.progav.part1.*;
+import java.sql.Timestamp;
 import java.util.Random;
 
 /**
@@ -54,6 +57,9 @@ public class Cria implements Hormiga
     }
     public void run()
     {
+        Timestamp timestamp1 = new Timestamp(System.currentTimeMillis());
+        TareaEscribir entrada1 = new TareaEscribir(Thread.currentThread().getName(), 0, timestamp1);
+        Escritor.logger.execute(entrada1);
         while (true)
         {
             while(true)

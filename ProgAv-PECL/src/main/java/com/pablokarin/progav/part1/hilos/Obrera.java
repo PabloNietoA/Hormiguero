@@ -57,6 +57,9 @@ public class Obrera implements Hormiga{
     
     @Override
     public void run(){
+        Timestamp timestamp1 = new Timestamp(System.currentTimeMillis());
+        TareaEscribir entrada1 = new TareaEscribir(Thread.currentThread().getName(), 0, timestamp1);
+        Escritor.logger.execute(entrada1);
         //las obreras pares
         if (id%2==0)
         {
@@ -94,7 +97,19 @@ public class Obrera implements Hormiga{
         {
             while (true)
             {
-                //Hormiguero.getFuera()
+                Hormiguero.salir();
+                //recolecta comida
+                Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+                TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 3, timestamp);
+                Escritor.logger.execute(entrada);
+                try
+                {
+                    Thread.sleep(4000);
+                }
+                catch (InterruptedException IE)
+                {
+                
+                }
                 //hormiguero.recolectar(); //lleva salir y entrar dentro
                 Almacen.incStock(5);
                 //cada 10 iteraciones              
