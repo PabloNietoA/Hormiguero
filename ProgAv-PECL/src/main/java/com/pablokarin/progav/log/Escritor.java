@@ -4,10 +4,14 @@
  */
 package com.pablokarin.progav.log;
 
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
 /**
  *
  * @author Karín
  */
 public class Escritor {
+    public static final ExecutorService logger = Executors.newSingleThreadExecutor();
     
 }

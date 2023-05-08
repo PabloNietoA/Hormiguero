@@ -45,6 +45,7 @@ public class Cria implements Hormiga
                 }
             }
         }
+        setName(nombre);
         
     }
     public String getNombre()

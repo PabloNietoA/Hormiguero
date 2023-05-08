@@ -4,6 +4,8 @@
 
 package com.pablokarin.progav.pecl;
 
+import com.pablokarin.progav.part1.hilos.Cria;
+import com.pablokarin.progav.part1.hilos.Soldado;
 import com.pablokarin.progav.part1.hilos.Test;
 import java.util.Random;
 import java.util.concurrent.locks.*;
@@ -40,11 +42,11 @@ public class Main {
             }
             if ((i%5)+3==0)
             {
-                //crear Soldado 
+                //crear Soldado
             }
             if ((i%5)+4==0)
             {
-                //crear cría
+                //crar cria
             }
             else
             {

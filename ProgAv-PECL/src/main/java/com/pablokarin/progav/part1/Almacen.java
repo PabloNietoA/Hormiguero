@@ -4,6 +4,9 @@
  */
 package com.pablokarin.progav.part1;
 
+import com.pablokarin.progav.log.Escritor;
+import com.pablokarin.progav.log.TareaEscribir;
+import java.sql.Timestamp;
 import java.util.concurrent.Semaphore;
 import java.util.Random;
 import java.util.concurrent.locks.*;
@@ -21,6 +24,9 @@ public class Almacen
     
     public static synchronized void incStock(int inc)
     {
+        Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+        TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 4, timestamp);
+        Escritor.logger.execute(entrada);
         try 
         {
             aforo.acquire();
@@ -42,6 +48,10 @@ public class Almacen
     }
     public static synchronized void decStock(int dec)
     {
+        Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+        TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 5, timestamp);
+        Escritor.logger.execute(entrada);
+        
         try
         {
             aforo.acquire();

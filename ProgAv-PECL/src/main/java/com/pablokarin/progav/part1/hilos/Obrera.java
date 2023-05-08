@@ -4,7 +4,10 @@
  */
 package com.pablokarin.progav.part1.hilos;
 
+import com.pablokarin.progav.log.Escritor;
+import com.pablokarin.progav.log.TareaEscribir;
 import com.pablokarin.progav.part1.*;
+import java.sql.Timestamp;
 import java.util.Random;
 
 /**
@@ -45,6 +48,7 @@ public class Obrera implements Hormiga{
                 }
             }
         }
+       setName(nombre);
    }
     public String getNombre()
     {
@@ -60,6 +64,9 @@ public class Obrera implements Hormiga{
             {
                 Almacen.decStock(5);
                 //camina del almacén al comedor
+                Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+                TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 6, timestamp);
+                Escritor.logger.execute(entrada);
                 try
                 {
                     Thread.sleep((new Random().nextInt(2) + 1) * 1000);

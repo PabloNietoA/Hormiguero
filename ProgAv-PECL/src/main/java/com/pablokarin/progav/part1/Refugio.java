@@ -4,6 +4,9 @@
  */
 package com.pablokarin.progav.part1;
 
+import com.pablokarin.progav.log.Escritor;
+import com.pablokarin.progav.log.TareaEscribir;
+import java.sql.Timestamp;
 import java.util.concurrent.locks.*;
 
 /**
@@ -17,6 +20,9 @@ public class Refugio {
     
     public static void refugiar() throws InterruptedException
     {
+        Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+        TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 10, timestamp);
+        Escritor.logger.execute(entrada);
         espera.await();
     }
     public static void terminarAmenaza()

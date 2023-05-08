@@ -4,6 +4,9 @@
  */
 package com.pablokarin.progav.part1;
 
+import com.pablokarin.progav.log.Escritor;
+import com.pablokarin.progav.log.TareaEscribir;
+import java.sql.Timestamp;
 import java.util.Random;
 import java.util.concurrent.locks.*;
 
@@ -20,6 +23,11 @@ public class Comedor
     //pilla del stock y luego come
     public static void comer(int comer, int tiempo) throws InterruptedException
     {
+
+        Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+        TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 1, timestamp);
+        Escritor.logger.execute(entrada);
+        
         //prueba a comer
         try
         {
@@ -44,6 +52,9 @@ public class Comedor
     
     public static void incStock(int inc)
     {
+        Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+        TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 7, timestamp);
+        Escritor.logger.execute(entrada);
         try 
         {
             Thread.sleep((new Random().nextInt() + 1) * 1000);

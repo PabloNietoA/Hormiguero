@@ -4,13 +4,9 @@
  */
 package com.pablokarin.progav.log;
 
-import java.io.File;
-import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.ObjectOutputStream;
 import java.sql.Timestamp;
-import java.util.ArrayList;
 
 /**
  *
@@ -58,12 +54,12 @@ public class TareaEscribir implements Runnable{
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", ha nacido.";
                 break;
             }
-            case 1:
+            case 1: //Escrito ya
             {
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", está comiendo.";
                 break;
             }
-            case 2:
+            case 2://Escrito ya
             {
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", está descansando.";
                 break;
@@ -73,27 +69,27 @@ public class TareaEscribir implements Runnable{
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", está recogiendo comida.";
                 break;
             }
-            case 4:
+            case 4://hecho
             {
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", está guardando comida en el almacén.";
                 break;
             }
-            case 5:
+            case 5://hecho
             {
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", está sacando comida del almacén.";
                 break;
             }
-            case 6:
+            case 6: //Hecho
             {
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", está llevando comida del almacén al comedor.";
                 break;
             }
-            case 7:
+            case 7://hefcho
             {
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", está dejando comida en el comedor.";
                 break;
             }
-            case 8:
+            case 8://Escrito ya
             {
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", está instruyéndose.";
                 break;
@@ -103,7 +99,7 @@ public class TareaEscribir implements Runnable{
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", está defendiendo a la colonia de una amenaza.";
                 break;
             }
-            case 10:
+            case 10://Escrito ya
             {
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", está refugiada.";
                 break;
@@ -122,7 +118,7 @@ public class TareaEscribir implements Runnable{
         try 
         {
             FileWriter fileWriter = new FileWriter("src/main/java/com/pablokarin/progav/log");
-            //Escribe el string recibo en el documento de texto
+            //Escribe el string mensaje en el documento de texto
             fileWriter.write(mensaje);
             fileWriter.close();
         } 

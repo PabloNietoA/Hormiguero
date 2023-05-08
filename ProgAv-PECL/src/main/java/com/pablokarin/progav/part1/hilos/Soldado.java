@@ -48,6 +48,7 @@ public class Soldado implements Hormiga {
                 }
             }
         }
+        setName(nombre);
     }
     
     public String getNombre()
