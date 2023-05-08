@@ -4,9 +4,7 @@
 
 package com.pablokarin.progav.pecl;
 
-import com.pablokarin.progav.part1.hilos.Cria;
-import com.pablokarin.progav.part1.hilos.Soldado;
-import com.pablokarin.progav.part1.hilos.Test;
+import com.pablokarin.progav.part1.hilos.*;
 import java.util.Random;
 import java.util.concurrent.locks.*;
 
@@ -27,6 +25,11 @@ public class Main {
         Test thread = new Test(1, l, c, true);
         Test thread2 = new Test (2, l, c, false);
         
+        int soldados = 0;
+        int crias = 0;
+        int obreras = 0;
+        
+        
         thread.start();
         thread2.start();
         //creador de hormigas
@@ -34,23 +37,26 @@ public class Main {
         {
             try
             {
-                Thread.sleep(new Random().nextInt(2700)+800);
+                Thread.sleep(new Random().nextInt(2701)+800);
             }
             catch (InterruptedException IE)
             {
                 System.out.println(IE.getMessage());
             }
-            if ((i%5)+3==0)
+            if ((i%5)==0)
             {
-                //crear Soldado
+                new Thread(new Soldado(soldados)).start();
+                soldados++;
             }
-            if ((i%5)+4==0)
+            if (((i%5)-1)==0)
             {
-                //crar cria
+                new Thread(new Cria(crias)).start();
+                crias++;
             }
             else
             {
-                //crear obrera
+                new Thread(new Obrera(obreras)).start();
+                obreras++;
             }
         }
     }

@@ -48,8 +48,6 @@ public class Cria implements Hormiga
                 }
             }
         }
-        setName(nombre);
-        
     }
     public String getNombre()
     {
@@ -57,6 +55,9 @@ public class Cria implements Hormiga
     }
     public void run()
     {
+        Thread.currentThread().setName(nombre);
+        
+        
         Timestamp timestamp1 = new Timestamp(System.currentTimeMillis());
         TareaEscribir entrada1 = new TareaEscribir(Thread.currentThread().getName(), 0, timestamp1);
         Escritor.logger.execute(entrada1);
@@ -89,6 +90,10 @@ public class Cria implements Hormiga
     }
     public void interrumpido()
     {
-        Refugio.refugiar();
+        try
+        {
+            Refugio.refugiar();
+        }
+        catch(InterruptedException IE){}
     }
 }

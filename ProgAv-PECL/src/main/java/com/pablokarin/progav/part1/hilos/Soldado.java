@@ -51,7 +51,6 @@ public class Soldado implements Hormiga {
                 }
             }
         }
-        setName(nombre);
     }
     
     public String getNombre()
@@ -61,6 +60,8 @@ public class Soldado implements Hormiga {
     
     public void run()
     {
+        Thread.currentThread().setName(nombre);
+        
         Timestamp timestamp1 = new Timestamp(System.currentTimeMillis());
         TareaEscribir entrada1 = new TareaEscribir(Thread.currentThread().getName(), 0, timestamp1);
         Escritor.logger.execute(entrada1);

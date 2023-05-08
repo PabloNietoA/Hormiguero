@@ -57,7 +57,7 @@ public class Comedor
         Escritor.logger.execute(entrada);
         try 
         {
-            Thread.sleep((new Random().nextInt() + 1) * 1000);
+            Thread.sleep((new Random().nextInt(2) + 1) * 1000);
         } 
         catch (InterruptedException IE) 
         {

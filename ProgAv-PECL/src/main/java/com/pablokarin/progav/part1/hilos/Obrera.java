@@ -48,7 +48,6 @@ public class Obrera implements Hormiga{
                 }
             }
         }
-       setName(nombre);
    }
     public String getNombre()
     {
@@ -56,7 +55,10 @@ public class Obrera implements Hormiga{
     }
     
     @Override
-    public void run(){
+    public void run()
+    {
+        Thread.currentThread().setName(nombre);
+        
         Timestamp timestamp1 = new Timestamp(System.currentTimeMillis());
         TareaEscribir entrada1 = new TareaEscribir(Thread.currentThread().getName(), 0, timestamp1);
         Escritor.logger.execute(entrada1);
@@ -72,7 +74,7 @@ public class Obrera implements Hormiga{
                 Escritor.logger.execute(entrada);
                 try
                 {
-                    Thread.sleep((new Random().nextInt(2) + 1) * 1000);
+                    Thread.sleep((new Random().nextInt(3) + 1) * 1000);
                 }
                 catch(InterruptedException IE)
                 {
@@ -82,11 +84,27 @@ public class Obrera implements Hormiga{
                 //cada 10 iteraciones
                 if (iteracion%10==0)
                 {
+                    //Entra a comer
                     Hormiguero.getComer().add(this);
-                    Comedor.comer(1, 3);
+                    
+                    try
+                    {
+                        Comedor.comer(1, 3);
+                    }
+                    catch(InterruptedException IE){}
+                    
                     Hormiguero.getComer().remove(this);
+                    
+                    
+                    //Entra a descansar
                     Hormiguero.getDescanso().add(this);
-                    Descanso.descansar(1);
+                    
+                    try
+                    {
+                        Descanso.descansar(1);
+                    }
+                    catch(InterruptedException IE){}
+                    
                     Hormiguero.getDescanso().remove(this);
                 }
                 iteracion++;
@@ -115,11 +133,27 @@ public class Obrera implements Hormiga{
                 //cada 10 iteraciones              
                 if (iteracion%10==0)
                 {
+                    //Entra a comer
                     Hormiguero.getComer().add(this);
-                    Comedor.comer(1, 3);
+                    
+                    try
+                    {
+                        Comedor.comer(1, 3);
+                    }
+                    catch(InterruptedException IE){}
+                    
                     Hormiguero.getComer().remove(this);
+                    
+                    
+                    //Entra a descansar
                     Hormiguero.getDescanso().add(this);
-                    Descanso.descansar(1);
+                    
+                    try
+                    {
+                        Descanso.descansar(1);
+                    }
+                    catch(InterruptedException IE){}
+                    
                     Hormiguero.getDescanso().remove(this);
                 }
                 iteracion++;

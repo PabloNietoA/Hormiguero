@@ -19,6 +19,6 @@ public class Instruc {
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 8, timestamp);
         Escritor.logger.execute(entrada);
-        Thread.sleep((new Random().nextInt(6) + 2) * 1000);
+        Thread.sleep((new Random().nextInt(7) + 2) * 1000);
     }
 }

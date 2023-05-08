@@ -20,7 +20,7 @@ public class Almacen
     private static int stock = 0;
     private static final Semaphore aforo = new Semaphore(10, true);
     private static final Lock control = new ReentrantLock();
-    private static Condition vacio = control.newCondition();
+    private static final Condition vacio = control.newCondition();
     
     public static synchronized void incStock(int inc)
     {
@@ -30,7 +30,7 @@ public class Almacen
         try 
         {
             aforo.acquire();
-            Thread.sleep((new Random().nextInt(2) + 2)*1000);
+            Thread.sleep((new Random().nextInt(3) + 2)*1000);
             control.lock();
             stock += inc;
             //puede haber problemas si llegan 10 recolectores (que hacer?)
@@ -55,6 +55,7 @@ public class Almacen
         try
         {
             aforo.acquire();
+            control.lock();
             while (stock < dec)
             {
                 aforo.release();
@@ -63,8 +64,7 @@ public class Almacen
                 
                 aforo.acquire();
             }
-            control.lock();
-            Thread.sleep((new Random().nextInt(1) + 1) * 1000);
+            Thread.sleep((new Random().nextInt(2) + 1) * 1000);
             stock -= dec;
             
         }
@@ -74,8 +74,22 @@ public class Almacen
         }
         finally 
         {
-            control.unlock();
-            aforo.release();
+            try
+            {
+                control.unlock();
+            }
+            catch(Exception e)
+            {
+                System.out.println(e.getMessage());
+            }
+            try
+            {
+                aforo.release();
+            }
+            catch(Exception e)
+            {
+                System.out.println(e.getMessage());
+            }
         }
     }
 }

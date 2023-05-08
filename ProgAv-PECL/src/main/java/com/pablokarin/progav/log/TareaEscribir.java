@@ -117,7 +117,7 @@ public class TareaEscribir implements Runnable{
         mensaje = sb.toString();
         try 
         {
-            FileWriter fileWriter = new FileWriter("src/main/java/com/pablokarin/progav/log");
+            FileWriter fileWriter = new FileWriter("src/main/java/com/pablokarin/progav/log/evolucionColonia.txt");
             //Escribe el string mensaje en el documento de texto
             fileWriter.write(mensaje);
             fileWriter.close();
