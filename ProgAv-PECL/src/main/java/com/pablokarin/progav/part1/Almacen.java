@@ -22,16 +22,19 @@ public class Almacen
     private static final Lock control = new ReentrantLock();
     private static final Condition vacio = control.newCondition();
     
-    public static synchronized void incStock(int inc)
+    public static void incStock(int inc)
     {
+        System.out.println("Entra");
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 4, timestamp);
         Escritor.logger.execute(entrada);
         try 
         {
             aforo.acquire();
+            System.out.println("Entro en Aforo");
             Thread.sleep((new Random().nextInt(3) + 2)*1000);
             control.lock();
+            System.out.println("Deposito la carga");
             stock += inc;
             //puede haber problemas si llegan 10 recolectores (que hacer?)
             vacio.signalAll();
@@ -45,6 +48,10 @@ public class Almacen
             control.unlock();
             aforo.release();
         }
+    }
+
+    public static int getStock() {
+        return stock;
     }
     public static synchronized void decStock(int dec)
     {

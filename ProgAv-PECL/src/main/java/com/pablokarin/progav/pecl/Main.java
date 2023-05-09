@@ -24,6 +24,10 @@ public class Main {
         VentanaPrincipal ventana = new VentanaPrincipal();
         ventana.setLocationRelativeTo(null);
         ventana.setVisible(true);
+        
+        ScreenUpdate screenUpdater = new ScreenUpdate(ventana);
+        screenUpdater.start();
+        
         //prepara el log
         String inicio ="=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======";
         StringBuilder sb = new StringBuilder();

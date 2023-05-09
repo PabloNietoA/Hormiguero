@@ -67,7 +67,12 @@ public class Obrera implements Hormiga{
         {
             while (true)
             {
+                
+                Hormiguero.getAlmacen().add(this);
                 Almacen.decStock(5);
+                Hormiguero.getAlmacen().remove(this);
+                
+                
                 //camina del almacén al comedor
                 Timestamp timestamp = new Timestamp(System.currentTimeMillis());
                 TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 6, timestamp);
@@ -129,7 +134,10 @@ public class Obrera implements Hormiga{
                 
                 }
                 //hormiguero.recolectar(); //lleva salir y entrar dentro
+                
+                Hormiguero.getAlmacen().add(this);
                 Almacen.incStock(5);
+                Hormiguero.getAlmacen().remove(this);
                 //cada 10 iteraciones              
                 if (iteracion%10==0&& iteracion !=0)
                 {
