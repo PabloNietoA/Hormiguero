@@ -7,6 +7,7 @@ package com.pablokarin.progav.jframe;
 import java.awt.Color;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import com.pablokarin.progav.part1.*;
 
 /**
  *
@@ -366,6 +367,33 @@ public class VentanaPrincipal extends javax.swing.JFrame {
                 new VentanaPrincipal().setVisible(true);
             }
         });
+    }
+    
+    public void updateData()
+    {
+        campoComidaAlmacen.setText(String.valueOf(Almacen.getStock()));
+        campoComidaComedor.setText(String.valueOf(Comedor.getStock()));
+        
+        String almacen = "";
+        for (int i = 0; i < Hormiguero.getAlmacen().size(); i++)
+        {
+            almacen += " " + Hormiguero.getAlmacen().get(i).getNombre();
+        }
+        campoEnAlmacen.setText(almacen);
+        
+        String comiendo = "";
+        for (int i = 0; i < Hormiguero.getComer().size(); i++)
+        {
+            comiendo += " " + Hormiguero.getComer().get(i).getNombre();
+        }
+        campoComiendo.setText(comiendo);
+        
+        String descansando = " ";
+        for (int i = 0; i < Hormiguero.getDescanso().size(); i++)
+        {
+            descansando += " " + Hormiguero.getDescanso().get(i).getNombre();
+        }
+        campoDescansando.setText(descansando);
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

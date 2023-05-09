@@ -67,7 +67,9 @@ public class Cria implements Hormiga
             {
                 try
                 {
-                Comedor.comer(1, new Random().nextInt(2) + 3);
+                    Hormiguero.getComer().add(this);
+                    Comedor.comer(1, new Random().nextInt(2) + 3);
+                    Hormiguero.getComer().remove(this);
                 }
                 catch(InterruptedException IE)
                 {
@@ -75,7 +77,9 @@ public class Cria implements Hormiga
                 }
                 try
                 {
-                Descanso.descansar(4);
+                    Hormiguero.getDescanso().add(this);
+                    Descanso.descansar(4);
+                    Hormiguero.getDescanso().remove(this);
                 }
                 catch(InterruptedException IE)
                 {

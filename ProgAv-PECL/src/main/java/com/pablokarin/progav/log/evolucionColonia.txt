@@ -14,3 +14,2609 @@
 2023-05-09 14:37:50.408 : la hormiga Cría, HC0001, ha nacido.
 2023-05-09 14:37:50.408 : la hormiga Cría, HC0001, está comiendo.
 2023-05-09 14:37:51.232 : la hormiga Obrera, HO0004, ha nacido.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 16:46:33.853 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 16:46:33.862 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 16:46:36.184 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 16:46:36.188 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 16:46:37.521 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 16:46:37.626 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 16:46:38.575 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 16:46:40.051 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 16:46:40.051 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 16:46:40.053 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 16:46:40.152 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 16:46:41.068 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 16:46:41.068 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 16:46:43.057 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 16:46:43.236 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 16:46:44.057 : la hormiga Obrera, HO0005, ha nacido.
+2023-05-09 16:46:44.159 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 16:46:45.059 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 16:46:45.976 : la hormiga Obrera, HO0006, ha nacido.
+2023-05-09 16:46:47.045 : la hormiga Soldado, HS0001, ha nacido.
+2023-05-09 16:46:47.045 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 16:46:47.045 : la hormiga Obrera, HO0007, ha nacido.
+2023-05-09 16:46:47.146 : la hormiga Obrera, HO0007, está recogiendo comida.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 16:47:01.175 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 16:47:01.179 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 16:47:02.658 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 16:47:02.661 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 16:47:05.574 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 16:47:05.68 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 16:47:07.673 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 16:47:10.896 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 16:47:10.896 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 16:47:10.899 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 16:47:10.997 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 16:47:12.125 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 16:47:12.125 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 16:47:13.901 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 16:47:14.035 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 16:47:15.905 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 16:47:17.272 : la hormiga Obrera, HO0005, ha nacido.
+2023-05-09 16:47:17.373 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 16:47:18.672 : la hormiga Obrera, HO0006, ha nacido.
+2023-05-09 16:47:19.594 : la hormiga Soldado, HS0001, ha nacido.
+2023-05-09 16:47:19.594 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 16:47:19.594 : la hormiga Obrera, HO0007, ha nacido.
+2023-05-09 16:47:19.695 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 16:47:21.841 : la hormiga Cría, HC0002, ha nacido.
+2023-05-09 16:47:21.841 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 16:47:21.906 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 16:47:22.596 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 16:47:23.543 : la hormiga Obrera, HO0008, ha nacido.
+2023-05-09 16:47:23.909 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 16:47:24.596 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 16:47:26.222 : la hormiga Obrera, HO0009, ha nacido.
+2023-05-09 16:47:26.325 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 16:47:26.91 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 16:47:28.223 : la hormiga Obrera, HO0010, ha nacido.
+2023-05-09 16:47:28.597 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 16:47:28.91 : la hormiga Soldado, HS0000, está instruyéndose.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:04:53.312 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:04:53.313 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:04:55.308 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:04:55.309 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:04:57.945 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:04:58.048 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:05:00.617 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:05:03.922 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:05:03.922 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:05:03.923 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:05:04.023 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:05:05.794 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:05:05.794 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:05:06.679 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 17:05:07.924 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:05:08.699 : la hormiga Obrera, HO0005, ha nacido.
+2023-05-09 17:05:08.801 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:05:09.925 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:05:11.303 : la hormiga Obrera, HO0006, ha nacido.
+2023-05-09 17:05:11.925 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:05:12.774 : la hormiga Soldado, HS0001, ha nacido.
+2023-05-09 17:05:12.774 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:05:12.774 : la hormiga Obrera, HO0007, ha nacido.
+2023-05-09 17:05:12.875 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:05:13.926 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:05:14.576 : la hormiga Cría, HC0002, ha nacido.
+2023-05-09 17:05:14.576 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:05:17.353 : la hormiga Obrera, HO0008, ha nacido.
+2023-05-09 17:05:17.926 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:05:18.774 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:05:19.855 : la hormiga Obrera, HO0009, ha nacido.
+2023-05-09 17:05:19.926 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:05:19.957 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:05:20.775 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:05:23.148 : la hormiga Obrera, HO0010, ha nacido.
+2023-05-09 17:05:26.037 : la hormiga Soldado, HS0002, ha nacido.
+2023-05-09 17:05:26.037 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:05:26.037 : la hormiga Obrera, HO0011, ha nacido.
+2023-05-09 17:05:26.138 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:05:26.775 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:05:26.927 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:05:27.506 : la hormiga Cría, HC0003, ha nacido.
+2023-05-09 17:05:27.506 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:05:28.775 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:05:28.928 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:05:29.221 : la hormiga Obrera, HO0012, ha nacido.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:05:39.429 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:05:39.431 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:05:42.859 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:05:42.859 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:05:46.141 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:05:46.242 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:05:47.601 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:05:49.049 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:05:49.049 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:05:49.049 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:05:49.149 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:05:51.327 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:05:51.327 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:05:53.052 : la hormiga Soldado, HS0000, está descansando.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:10:34.384 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:10:34.386 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:10:36.839 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:10:36.84 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:10:37.793 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:10:37.895 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:10:38.853 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:10:40.964 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:10:40.964 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:10:40.965 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:10:41.067 : la hormiga Obrera, HO0003, está recogiendo comida.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:11:31.901 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:11:31.902 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:11:33.435 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:11:33.435 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:11:35.126 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:11:35.228 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:11:36.038 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:11:38.598 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:11:38.598 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:11:38.599 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:11:38.699 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:11:41.773 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:11:41.773 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:11:45.086 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 17:11:45.6 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:11:46.788 : la hormiga Obrera, HO0005, ha nacido.
+2023-05-09 17:11:46.89 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:11:47.601 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:12:06.159 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:12:06.159 : la hormiga Obrera, HO0006, ha nacido.
+2023-05-09 17:12:07.705 : la hormiga Soldado, HS0001, ha nacido.
+2023-05-09 17:12:07.705 : la hormiga Obrera, HO0007, ha nacido.
+2023-05-09 17:12:07.705 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:12:07.807 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:12:08.16 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:12:10.162 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:12:10.438 : la hormiga Cría, HC0002, ha nacido.
+2023-05-09 17:12:10.438 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:12:12.163 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:12:13.618 : la hormiga Obrera, HO0008, ha nacido.
+2023-05-09 17:12:13.705 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:12:14.163 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:12:15.705 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:12:16.163 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:12:16.927 : la hormiga Obrera, HO0009, ha nacido.
+2023-05-09 17:12:17.028 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:12:17.861 : la hormiga Obrera, HO0010, ha nacido.
+2023-05-09 17:12:20.164 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:12:21.305 : la hormiga Soldado, HS0002, ha nacido.
+2023-05-09 17:12:21.305 : la hormiga Obrera, HO0011, ha nacido.
+2023-05-09 17:12:21.305 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:12:21.409 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:12:21.708 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:12:22.166 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:12:23.709 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:12:23.884 : la hormiga Cría, HC0003, ha nacido.
+2023-05-09 17:12:23.884 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:12:25.032 : la hormiga Obrera, HO0012, ha nacido.
+2023-05-09 17:12:25.307 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:12:25.71 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:12:27.307 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:12:27.71 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:12:28.078 : la hormiga Obrera, HO0013, ha nacido.
+2023-05-09 17:12:28.166 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:12:28.18 : la hormiga Obrera, HO0013, está recogiendo comida.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:13:20.513 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:13:20.514 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:13:21.898 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:13:21.898 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:13:25.262 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:13:25.363 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:13:26.624 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:13:29.613 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:13:29.613 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:13:29.614 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:13:29.715 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:13:31.88 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:13:31.88 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:13:34.591 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 17:13:34.615 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:13:36.099 : la hormiga Obrera, HO0005, ha nacido.
+2023-05-09 17:13:36.199 : la hormiga Obrera, HO0005, está recogiendo comida.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:13:58.23 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:13:58.232 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:13:59.646 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:13:59.646 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:14:03.126 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:14:03.227 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:14:06.077 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:14:08.22 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:14:08.22 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:14:08.22 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:14:08.321 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:14:09.99 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:14:09.99 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:14:11.221 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:14:13.134 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 17:14:13.223 : la hormiga Soldado, HS0000, está instruyéndose.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:15:06.406 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:15:06.407 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:15:08.342 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:15:08.342 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:15:10.749 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:15:10.85 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:15:12.646 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:15:15.631 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:15:15.631 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:15:15.631 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:15:15.732 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:15:17.486 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:15:17.486 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:15:20.634 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:15:20.763 : la hormiga Obrera, HO0004, ha nacido.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:16:12.528 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:16:12.53 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:16:15.156 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:16:15.156 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:16:18.451 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:16:18.553 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:16:20.576 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:16:23.265 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:16:23.265 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:16:23.266 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:16:23.366 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:16:25.37 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:16:25.37 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:16:27.267 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:16:28.224 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 17:16:29.267 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:16:29.68 : la hormiga Obrera, HO0005, ha nacido.
+2023-05-09 17:16:29.781 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:16:31.054 : la hormiga Obrera, HO0006, ha nacido.
+2023-05-09 17:16:33.267 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:16:33.746 : la hormiga Soldado, HS0001, ha nacido.
+2023-05-09 17:16:33.746 : la hormiga Obrera, HO0007, ha nacido.
+2023-05-09 17:16:33.746 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:16:33.847 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:16:35.269 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:16:36.061 : la hormiga Cría, HC0002, ha nacido.
+2023-05-09 17:16:36.061 : la hormiga Cría, HC0002, está comiendo.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:17:25.613 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:17:25.614 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:17:28.977 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:17:28.977 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:17:30.384 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:17:30.485 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:17:31.654 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:17:35.1 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:17:35.1 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:17:35.101 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:17:35.201 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:17:38.103 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:17:38.229 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:17:38.229 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:17:40.104 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:17:41.603 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 17:17:44.069 : la hormiga Obrera, HO0005, ha nacido.
+2023-05-09 17:17:44.171 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:17:45.54 : la hormiga Obrera, HO0006, ha nacido.
+2023-05-09 17:17:48.104 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:17:48.301 : la hormiga Soldado, HS0001, ha nacido.
+2023-05-09 17:17:48.301 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:17:48.301 : la hormiga Obrera, HO0007, ha nacido.
+2023-05-09 17:17:48.403 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:17:50.104 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:17:51.249 : la hormiga Cría, HC0002, ha nacido.
+2023-05-09 17:17:51.249 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:17:53.734 : la hormiga Obrera, HO0008, ha nacido.
+2023-05-09 17:17:54.301 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:17:55.422 : la hormiga Obrera, HO0009, ha nacido.
+2023-05-09 17:17:55.523 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:17:56.303 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:17:56.662 : la hormiga Obrera, HO0010, ha nacido.
+2023-05-09 17:17:58.106 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:18:00.069 : la hormiga Soldado, HS0002, ha nacido.
+2023-05-09 17:18:00.069 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:18:00.069 : la hormiga Obrera, HO0011, ha nacido.
+2023-05-09 17:18:00.108 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:18:00.17 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:18:02.054 : la hormiga Cría, HC0003, ha nacido.
+2023-05-09 17:18:02.054 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:18:03.109 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:18:04.306 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:18:05.07 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:18:05.109 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:18:05.159 : la hormiga Obrera, HO0012, ha nacido.
+2023-05-09 17:18:06.307 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:18:07.071 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:18:07.11 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:18:07.874 : la hormiga Obrera, HO0013, ha nacido.
+2023-05-09 17:18:07.975 : la hormiga Obrera, HO0013, está recogiendo comida.
+2023-05-09 17:18:08.309 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:18:09.111 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:18:10.307 : la hormiga Obrera, HO0014, ha nacido.
+2023-05-09 17:18:10.31 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:18:12.072 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:18:13.157 : la hormiga Soldado, HS0003, ha nacido.
+2023-05-09 17:18:13.157 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:18:13.158 : la hormiga Obrera, HO0015, ha nacido.
+2023-05-09 17:18:13.258 : la hormiga Obrera, HO0015, está recogiendo comida.
+2023-05-09 17:18:14.02 : la hormiga Cría, HC0004, ha nacido.
+2023-05-09 17:18:14.02 : la hormiga Cría, HC0004, está comiendo.
+2023-05-09 17:18:14.072 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:18:15.159 : la hormiga Soldado, HS0003, está descansando.
+2023-05-09 17:18:16.114 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:18:17.16 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:18:17.374 : la hormiga Obrera, HO0016, ha nacido.
+2023-05-09 17:18:18.073 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:18:18.114 : la hormiga Soldado, HS0000, está comiendo.
+2023-05-09 17:18:18.31 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:18:19.161 : la hormiga Soldado, HS0003, está descansando.
+2023-05-09 17:18:19.396 : la hormiga Obrera, HO0017, ha nacido.
+2023-05-09 17:18:19.498 : la hormiga Obrera, HO0017, está recogiendo comida.
+2023-05-09 17:18:20.073 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:18:20.31 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:18:21.161 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:18:22.638 : la hormiga Obrera, HO0018, ha nacido.
+2023-05-09 17:18:24.311 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:18:25.073 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:18:25.903 : la hormiga Soldado, HS0004, ha nacido.
+2023-05-09 17:18:25.903 : la hormiga Soldado, HS0004, está instruyéndose.
+2023-05-09 17:18:25.903 : la hormiga Obrera, HO0019, ha nacido.
+2023-05-09 17:18:26.006 : la hormiga Obrera, HO0019, está recogiendo comida.
+2023-05-09 17:18:26.312 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:18:26.907 : la hormiga Cría, HC0005, ha nacido.
+2023-05-09 17:18:26.907 : la hormiga Cría, HC0005, está comiendo.
+2023-05-09 17:18:27.074 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:18:27.872 : la hormiga Obrera, HO0020, ha nacido.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:21:16.14 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:21:16.141 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:21:18.949 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:21:18.949 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:21:22.232 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:21:22.332 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:21:24.26 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:21:26.371 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:21:26.371 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:21:26.371 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:21:26.472 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:21:28.442 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:21:28.442 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:21:29.716 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 17:21:30.373 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:21:30.729 : la hormiga Obrera, HO0005, ha nacido.
+2023-05-09 17:21:30.83 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:21:32.374 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:21:32.879 : la hormiga Obrera, HO0006, ha nacido.
+2023-05-09 17:21:35.061 : la hormiga Soldado, HS0001, ha nacido.
+2023-05-09 17:21:35.061 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:21:35.061 : la hormiga Obrera, HO0007, ha nacido.
+2023-05-09 17:21:35.163 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:21:37.376 : la hormiga Soldado, HS0000, está descansando.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:22:48.303 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:22:48.305 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:22:50.306 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:22:50.307 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:22:52.956 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:22:53.058 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:22:56.347 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:22:59.071 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:22:59.071 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:22:59.071 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:22:59.172 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:23:02.072 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:23:02.515 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:23:02.515 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:23:04.073 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:23:05.694 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 17:23:06.076 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:23:06.657 : la hormiga Obrera, HO0005, ha nacido.
+2023-05-09 17:23:06.758 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:23:08.076 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:23:09.959 : la hormiga Obrera, HO0006, ha nacido.
+2023-05-09 17:23:12.685 : la hormiga Soldado, HS0001, ha nacido.
+2023-05-09 17:23:12.685 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:23:12.685 : la hormiga Obrera, HO0007, ha nacido.
+2023-05-09 17:23:12.785 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:23:13.486 : la hormiga Cría, HC0002, ha nacido.
+2023-05-09 17:23:13.486 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:23:14.078 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:23:16.078 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:23:16.511 : la hormiga Obrera, HO0008, ha nacido.
+2023-05-09 17:23:16.685 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:23:18.212 : la hormiga Obrera, HO0009, ha nacido.
+2023-05-09 17:23:18.312 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:23:18.685 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:23:21.261 : la hormiga Obrera, HO0010, ha nacido.
+2023-05-09 17:23:21.686 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:23:22.079 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:23:23.259 : la hormiga Soldado, HS0002, ha nacido.
+2023-05-09 17:23:23.259 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:23:23.259 : la hormiga Obrera, HO0011, ha nacido.
+2023-05-09 17:23:23.36 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:23:23.686 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:23:24.079 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:23:24.43 : la hormiga Cría, HC0003, ha nacido.
+2023-05-09 17:23:24.43 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:23:26.08 : la hormiga Soldado, HS0000, está descansando.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:24:51.636 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:24:51.637 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:24:54.418 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:24:54.418 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:24:55.923 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:24:56.025 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:24:58.652 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:25:01.064 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:25:01.064 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:25:01.064 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:25:01.166 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:25:02.552 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:25:02.552 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:25:05.588 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 17:25:07.065 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:25:07.971 : la hormiga Obrera, HO0005, ha nacido.
+2023-05-09 17:25:08.072 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:25:09.066 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:25:09.205 : la hormiga Obrera, HO0006, ha nacido.
+2023-05-09 17:25:10.703 : la hormiga Soldado, HS0001, ha nacido.
+2023-05-09 17:25:10.703 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:25:10.703 : la hormiga Obrera, HO0007, ha nacido.
+2023-05-09 17:25:10.804 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:25:12.395 : la hormiga Cría, HC0002, ha nacido.
+2023-05-09 17:25:12.395 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:25:13.682 : la hormiga Obrera, HO0008, ha nacido.
+2023-05-09 17:25:16.568 : la hormiga Obrera, HO0009, ha nacido.
+2023-05-09 17:25:16.67 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:25:17.066 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:25:18.174 : la hormiga Obrera, HO0010, ha nacido.
+2023-05-09 17:25:18.705 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:25:19.066 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:25:20.208 : la hormiga Soldado, HS0002, ha nacido.
+2023-05-09 17:25:20.208 : la hormiga Obrera, HO0011, ha nacido.
+2023-05-09 17:25:20.208 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:25:20.31 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:25:20.707 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:25:21.877 : la hormiga Cría, HC0003, ha nacido.
+2023-05-09 17:25:21.877 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:25:23.208 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:25:24.013 : la hormiga Obrera, HO0012, ha nacido.
+2023-05-09 17:25:24.066 : la hormiga Soldado, HS0000, está descansando.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:26:03.222 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:26:03.223 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:26:04.266 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:26:04.266 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:26:05.987 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:26:06.09 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:26:08.023 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:26:10.744 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:26:10.744 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:26:10.745 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:26:10.846 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:26:12.13 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:26:12.13 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:26:13.747 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:26:15.375 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 17:26:15.748 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:26:17.556 : la hormiga Obrera, HO0005, ha nacido.
+2023-05-09 17:26:17.657 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:26:17.748 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:26:19.132 : la hormiga Obrera, HO0006, ha nacido.
+2023-05-09 17:26:19.749 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:26:21.167 : la hormiga Soldado, HS0001, ha nacido.
+2023-05-09 17:26:21.167 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:26:21.167 : la hormiga Obrera, HO0007, ha nacido.
+2023-05-09 17:26:21.268 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:26:23.692 : la hormiga Cría, HC0002, ha nacido.
+2023-05-09 17:26:23.692 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:26:24.168 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:26:25.773 : la hormiga Obrera, HO0008, ha nacido.
+2023-05-09 17:26:26.169 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:26:26.749 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:26:27.43 : la hormiga Obrera, HO0009, ha nacido.
+2023-05-09 17:26:27.531 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:26:28.17 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:26:28.75 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:26:29.983 : la hormiga Obrera, HO0010, ha nacido.
+2023-05-09 17:26:30.171 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:26:32.295 : la hormiga Soldado, HS0002, ha nacido.
+2023-05-09 17:26:32.295 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:26:32.295 : la hormiga Obrera, HO0011, ha nacido.
+2023-05-09 17:26:32.396 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:26:34.751 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:26:35.748 : la hormiga Cría, HC0003, ha nacido.
+2023-05-09 17:26:35.748 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:26:36.751 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:26:37.172 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:26:37.923 : la hormiga Obrera, HO0012, ha nacido.
+2023-05-09 17:26:39.172 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:26:39.296 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:26:40.584 : la hormiga Obrera, HO0013, ha nacido.
+2023-05-09 17:26:40.685 : la hormiga Obrera, HO0013, está recogiendo comida.
+2023-05-09 17:26:41.296 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:26:42.09 : la hormiga Obrera, HO0014, ha nacido.
+2023-05-09 17:26:43.2 : la hormiga Soldado, HS0003, ha nacido.
+2023-05-09 17:26:43.2 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:26:43.2 : la hormiga Obrera, HO0015, ha nacido.
+2023-05-09 17:26:43.301 : la hormiga Obrera, HO0015, está recogiendo comida.
+2023-05-09 17:26:43.751 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:26:45.173 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:26:45.751 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:26:45.896 : la hormiga Cría, HC0004, ha nacido.
+2023-05-09 17:26:45.896 : la hormiga Cría, HC0004, está comiendo.
+2023-05-09 17:26:46.297 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:26:46.937 : la hormiga Obrera, HO0016, ha nacido.
+2023-05-09 17:26:47.173 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:26:48.297 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:26:48.525 : la hormiga Obrera, HO0017, ha nacido.
+2023-05-09 17:26:48.625 : la hormiga Obrera, HO0017, está recogiendo comida.
+2023-05-09 17:26:49.201 : la hormiga Soldado, HS0003, está descansando.
+2023-05-09 17:26:49.916 : la hormiga Obrera, HO0018, ha nacido.
+2023-05-09 17:26:51.202 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:26:51.3 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:26:51.752 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:26:52.011 : la hormiga Soldado, HS0004, ha nacido.
+2023-05-09 17:26:52.011 : la hormiga Soldado, HS0004, está instruyéndose.
+2023-05-09 17:26:52.011 : la hormiga Obrera, HO0019, ha nacido.
+2023-05-09 17:26:52.112 : la hormiga Obrera, HO0019, está recogiendo comida.
+2023-05-09 17:26:53.173 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:26:53.301 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:26:53.752 : la hormiga Soldado, HS0000, está comiendo.
+2023-05-09 17:26:53.765 : la hormiga Cría, HC0005, ha nacido.
+2023-05-09 17:26:53.765 : la hormiga Cría, HC0005, está comiendo.
+2023-05-09 17:26:54.012 : la hormiga Soldado, HS0004, está descansando.
+2023-05-09 17:26:55.174 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:26:56.013 : la hormiga Soldado, HS0004, está instruyéndose.
+2023-05-09 17:26:56.203 : la hormiga Soldado, HS0003, está descansando.
+2023-05-09 17:26:57.142 : la hormiga Obrera, HO0020, ha nacido.
+2023-05-09 17:26:57.301 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:26:58.203 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:26:58.774 : la hormiga Obrera, HO0021, ha nacido.
+2023-05-09 17:26:58.874 : la hormiga Obrera, HO0021, está recogiendo comida.
+2023-05-09 17:26:59.017 : la hormiga Soldado, HS0004, está descansando.
+2023-05-09 17:26:59.302 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:27:00.443 : la hormiga Obrera, HO0022, ha nacido.
+2023-05-09 17:27:01.017 : la hormiga Soldado, HS0004, está instruyéndose.
+2023-05-09 17:27:01.174 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:27:01.387 : la hormiga Soldado, HS0005, ha nacido.
+2023-05-09 17:27:01.387 : la hormiga Soldado, HS0005, está instruyéndose.
+2023-05-09 17:27:01.387 : la hormiga Obrera, HO0023, ha nacido.
+2023-05-09 17:27:01.489 : la hormiga Obrera, HO0023, está recogiendo comida.
+2023-05-09 17:27:03.174 : la hormiga Soldado, HS0001, está comiendo.
+2023-05-09 17:27:03.388 : la hormiga Soldado, HS0005, está descansando.
+2023-05-09 17:27:03.678 : la hormiga Cría, HC0006, ha nacido.
+2023-05-09 17:27:03.678 : la hormiga Cría, HC0006, está comiendo.
+2023-05-09 17:27:04.204 : la hormiga Soldado, HS0003, está descansando.
+2023-05-09 17:27:05.304 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:27:05.388 : la hormiga Soldado, HS0005, está instruyéndose.
+2023-05-09 17:27:05.843 : la hormiga Obrera, HO0024, ha nacido.
+2023-05-09 17:27:06.204 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:27:07.019 : la hormiga Soldado, HS0004, está descansando.
+2023-05-09 17:27:07.304 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:27:07.818 : la hormiga Obrera, HO0025, ha nacido.
+2023-05-09 17:27:07.921 : la hormiga Obrera, HO0025, está recogiendo comida.
+2023-05-09 17:27:09.019 : la hormiga Soldado, HS0004, está instruyéndose.
+2023-05-09 17:27:10.039 : la hormiga Obrera, HO0026, ha nacido.
+2023-05-09 17:27:10.204 : la hormiga Soldado, HS0003, está descansando.
+2023-05-09 17:27:10.388 : la hormiga Soldado, HS0005, está descansando.
+2023-05-09 17:27:12.208 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:27:12.389 : la hormiga Soldado, HS0005, está instruyéndose.
+2023-05-09 17:27:13.019 : la hormiga Soldado, HS0004, está descansando.
+2023-05-09 17:27:13.177 : la hormiga Soldado, HS0006, ha nacido.
+2023-05-09 17:27:13.177 : la hormiga Soldado, HS0006, está instruyéndose.
+2023-05-09 17:27:13.177 : la hormiga Obrera, HO0027, ha nacido.
+2023-05-09 17:27:13.28 : la hormiga Obrera, HO0027, está recogiendo comida.
+2023-05-09 17:27:13.304 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:27:15.02 : la hormiga Soldado, HS0004, está instruyéndose.
+2023-05-09 17:27:15.304 : la hormiga Soldado, HS0002, está comiendo.
+2023-05-09 17:27:16.167 : la hormiga Cría, HC0007, ha nacido.
+2023-05-09 17:27:16.167 : la hormiga Cría, HC0007, está comiendo.
+2023-05-09 17:27:18.179 : la hormiga Soldado, HS0006, está descansando.
+2023-05-09 17:27:18.208 : la hormiga Soldado, HS0003, está descansando.
+2023-05-09 17:27:18.791 : la hormiga Obrera, HO0028, ha nacido.
+2023-05-09 17:27:20.18 : la hormiga Soldado, HS0006, está instruyéndose.
+2023-05-09 17:27:20.208 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:27:20.357 : la hormiga Obrera, HO0029, ha nacido.
+2023-05-09 17:27:20.389 : la hormiga Soldado, HS0005, está descansando.
+2023-05-09 17:27:20.457 : la hormiga Obrera, HO0029, está recogiendo comida.
+2023-05-09 17:27:21.021 : la hormiga Soldado, HS0004, está descansando.
+2023-05-09 17:27:22.39 : la hormiga Soldado, HS0005, está instruyéndose.
+2023-05-09 17:27:23.021 : la hormiga Soldado, HS0004, está instruyéndose.
+2023-05-09 17:27:23.647 : la hormiga Obrera, HO0030, ha nacido.
+2023-05-09 17:27:24.649 : la hormiga Soldado, HS0007, ha nacido.
+2023-05-09 17:27:24.649 : la hormiga Soldado, HS0007, está instruyéndose.
+2023-05-09 17:27:24.649 : la hormiga Obrera, HO0031, ha nacido.
+2023-05-09 17:27:24.751 : la hormiga Obrera, HO0031, está recogiendo comida.
+2023-05-09 17:27:25.391 : la hormiga Soldado, HS0005, está descansando.
+2023-05-09 17:27:27.022 : la hormiga Soldado, HS0004, está descansando.
+2023-05-09 17:27:27.181 : la hormiga Soldado, HS0006, está descansando.
+2023-05-09 17:27:27.392 : la hormiga Soldado, HS0005, está instruyéndose.
+2023-05-09 17:27:27.969 : la hormiga Cría, HC0008, ha nacido.
+2023-05-09 17:27:27.969 : la hormiga Cría, HC0008, está comiendo.
+2023-05-09 17:27:28.211 : la hormiga Soldado, HS0003, está descansando.
+2023-05-09 17:27:28.651 : la hormiga Soldado, HS0007, está descansando.
+2023-05-09 17:27:29.022 : la hormiga Soldado, HS0004, está comiendo.
+2023-05-09 17:27:29.181 : la hormiga Soldado, HS0006, está instruyéndose.
+2023-05-09 17:27:30.212 : la hormiga Soldado, HS0003, está comiendo.
+2023-05-09 17:27:30.652 : la hormiga Soldado, HS0007, está instruyéndose.
+2023-05-09 17:27:31.127 : la hormiga Obrera, HO0032, ha nacido.
+2023-05-09 17:27:33.652 : la hormiga Soldado, HS0007, está descansando.
+2023-05-09 17:27:34.6 : la hormiga Obrera, HO0033, ha nacido.
+2023-05-09 17:27:34.701 : la hormiga Obrera, HO0033, está recogiendo comida.
+2023-05-09 17:27:35.392 : la hormiga Soldado, HS0005, está descansando.
+2023-05-09 17:27:35.652 : la hormiga Soldado, HS0007, está instruyéndose.
+2023-05-09 17:27:36.181 : la hormiga Soldado, HS0006, está descansando.
+2023-05-09 17:27:37.081 : la hormiga Obrera, HO0034, ha nacido.
+2023-05-09 17:27:37.392 : la hormiga Soldado, HS0005, está instruyéndose.
+2023-05-09 17:27:38.182 : la hormiga Soldado, HS0006, está instruyéndose.
+2023-05-09 17:27:38.242 : la hormiga Soldado, HS0008, ha nacido.
+2023-05-09 17:27:38.242 : la hormiga Soldado, HS0008, está instruyéndose.
+2023-05-09 17:27:38.242 : la hormiga Obrera, HO0035, ha nacido.
+2023-05-09 17:27:38.345 : la hormiga Obrera, HO0035, está recogiendo comida.
+2023-05-09 17:27:39.394 : la hormiga Soldado, HS0005, está descansando.
+2023-05-09 17:27:39.945 : la hormiga Cría, HC0009, ha nacido.
+2023-05-09 17:27:39.945 : la hormiga Cría, HC0009, está comiendo.
+2023-05-09 17:27:41.394 : la hormiga Soldado, HS0005, está comiendo.
+2023-05-09 17:27:41.654 : la hormiga Soldado, HS0007, está descansando.
+2023-05-09 17:27:42.243 : la hormiga Soldado, HS0008, está descansando.
+2023-05-09 17:27:42.896 : la hormiga Obrera, HO0036, ha nacido.
+2023-05-09 17:27:43.654 : la hormiga Soldado, HS0007, está instruyéndose.
+2023-05-09 17:27:44.243 : la hormiga Soldado, HS0008, está instruyéndose.
+2023-05-09 17:27:45.182 : la hormiga Soldado, HS0006, está descansando.
+2023-05-09 17:27:45.397 : la hormiga Obrera, HO0037, ha nacido.
+2023-05-09 17:27:45.498 : la hormiga Obrera, HO0037, está recogiendo comida.
+2023-05-09 17:27:47.182 : la hormiga Soldado, HS0006, está instruyéndose.
+2023-05-09 17:27:47.243 : la hormiga Soldado, HS0008, está descansando.
+2023-05-09 17:27:47.295 : la hormiga Obrera, HO0038, ha nacido.
+2023-05-09 17:27:48.655 : la hormiga Soldado, HS0007, está descansando.
+2023-05-09 17:27:49.244 : la hormiga Soldado, HS0008, está instruyéndose.
+2023-05-09 17:27:50.028 : la hormiga Soldado, HS0009, ha nacido.
+2023-05-09 17:27:50.028 : la hormiga Soldado, HS0009, está instruyéndose.
+2023-05-09 17:27:50.028 : la hormiga Obrera, HO0039, ha nacido.
+2023-05-09 17:27:50.129 : la hormiga Obrera, HO0039, está recogiendo comida.
+2023-05-09 17:27:50.655 : la hormiga Soldado, HS0007, está instruyéndose.
+2023-05-09 17:27:51.912 : la hormiga Cría, HC0010, ha nacido.
+2023-05-09 17:27:51.913 : la hormiga Cría, HC0010, está comiendo.
+2023-05-09 17:27:52.182 : la hormiga Soldado, HS0006, está descansando.
+2023-05-09 17:27:52.246 : la hormiga Soldado, HS0008, está descansando.
+2023-05-09 17:27:53.269 : la hormiga Obrera, HO0040, ha nacido.
+2023-05-09 17:27:54.184 : la hormiga Soldado, HS0006, está instruyéndose.
+2023-05-09 17:27:54.246 : la hormiga Soldado, HS0008, está instruyéndose.
+2023-05-09 17:27:54.691 : la hormiga Obrera, HO0041, ha nacido.
+2023-05-09 17:27:54.791 : la hormiga Obrera, HO0041, está recogiendo comida.
+2023-05-09 17:27:56.029 : la hormiga Soldado, HS0009, está descansando.
+2023-05-09 17:27:56.655 : la hormiga Soldado, HS0007, está descansando.
+2023-05-09 17:27:57.185 : la hormiga Soldado, HS0006, está descansando.
+2023-05-09 17:27:58.029 : la hormiga Soldado, HS0009, está instruyéndose.
+2023-05-09 17:27:58.039 : la hormiga Obrera, HO0042, ha nacido.
+2023-05-09 17:27:58.656 : la hormiga Soldado, HS0007, está instruyéndose.
+2023-05-09 17:27:59.185 : la hormiga Soldado, HS0006, está comiendo.
+2023-05-09 17:27:59.246 : la hormiga Soldado, HS0008, está descansando.
+2023-05-09 17:28:00.029 : la hormiga Soldado, HS0009, está descansando.
+2023-05-09 17:28:00.617 : la hormiga Soldado, HS0010, ha nacido.
+2023-05-09 17:28:00.617 : la hormiga Soldado, HS0010, está instruyéndose.
+2023-05-09 17:28:00.617 : la hormiga Obrera, HO0043, ha nacido.
+2023-05-09 17:28:00.721 : la hormiga Obrera, HO0043, está recogiendo comida.
+2023-05-09 17:28:01.248 : la hormiga Soldado, HS0008, está instruyéndose.
+2023-05-09 17:28:02.03 : la hormiga Soldado, HS0009, está instruyéndose.
+2023-05-09 17:28:03.68 : la hormiga Cría, HC0011, ha nacido.
+2023-05-09 17:28:03.68 : la hormiga Cría, HC0011, está comiendo.
+2023-05-09 17:28:05.249 : la hormiga Soldado, HS0008, está descansando.
+2023-05-09 17:28:06.656 : la hormiga Soldado, HS0007, está descansando.
+2023-05-09 17:28:06.787 : la hormiga Obrera, HO0044, ha nacido.
+2023-05-09 17:28:07.249 : la hormiga Soldado, HS0008, está instruyéndose.
+2023-05-09 17:28:07.619 : la hormiga Soldado, HS0010, está descansando.
+2023-05-09 17:28:08.517 : la hormiga Obrera, HO0045, ha nacido.
+2023-05-09 17:28:08.618 : la hormiga Obrera, HO0045, está recogiendo comida.
+2023-05-09 17:28:08.657 : la hormiga Soldado, HS0007, está comiendo.
+2023-05-09 17:28:09.619 : la hormiga Soldado, HS0010, está instruyéndose.
+2023-05-09 17:28:10.031 : la hormiga Soldado, HS0009, está descansando.
+2023-05-09 17:28:10.767 : la hormiga Obrera, HO0046, ha nacido.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:31:27.587 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:31:27.588 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:31:29.777 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:31:29.781 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:31:33.244 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:31:33.347 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:31:34.73 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:31:36.482 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:31:36.482 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:31:36.482 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:31:36.583 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:31:37.919 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:31:37.919 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:31:38.921 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 17:31:39.483 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:31:40.25 : la hormiga Obrera, HO0005, ha nacido.
+2023-05-09 17:31:40.351 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:31:41.435 : la hormiga Obrera, HO0006, ha nacido.
+2023-05-09 17:31:41.484 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:31:44.389 : la hormiga Soldado, HS0001, ha nacido.
+2023-05-09 17:31:44.389 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:31:44.389 : la hormiga Obrera, HO0007, ha nacido.
+2023-05-09 17:31:44.491 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:31:46.163 : la hormiga Cría, HC0002, ha nacido.
+2023-05-09 17:31:46.163 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:31:47.485 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:31:47.629 : la hormiga Obrera, HO0008, ha nacido.
+2023-05-09 17:31:49.485 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:31:50.539 : la hormiga Obrera, HO0009, ha nacido.
+2023-05-09 17:31:50.639 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:31:51.39 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:31:51.831 : la hormiga Obrera, HO0010, ha nacido.
+2023-05-09 17:31:52.881 : la hormiga Soldado, HS0002, ha nacido.
+2023-05-09 17:31:52.881 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:31:52.881 : la hormiga Obrera, HO0011, ha nacido.
+2023-05-09 17:31:52.982 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:31:53.39 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:31:55.5 : la hormiga Cría, HC0003, ha nacido.
+2023-05-09 17:31:55.5 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:31:56.485 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:31:57.31 : la hormiga Obrera, HO0012, ha nacido.
+2023-05-09 17:31:57.882 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:31:58.173 : la hormiga Obrera, HO0013, ha nacido.
+2023-05-09 17:31:58.273 : la hormiga Obrera, HO0013, está recogiendo comida.
+2023-05-09 17:31:58.485 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:31:59.884 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:32:00.391 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:32:00.924 : la hormiga Obrera, HO0014, ha nacido.
+2023-05-09 17:32:01.486 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:32:02.392 : la hormiga Soldado, HS0001, está instruyéndose.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:32:47.036 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:32:47.038 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:32:48.689 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:32:48.692 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:32:50.217 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:32:50.319 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:32:52.091 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:32:55.139 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:32:55.139 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:32:55.14 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:32:55.24 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:32:56.876 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:32:56.876 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:32:59.14 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 17:33:01.218 : la hormiga Obrera, HO0005, ha nacido.
+2023-05-09 17:33:01.319 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:33:02.035 : la hormiga Obrera, HO0006, ha nacido.
+2023-05-09 17:33:02.142 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:33:03.021 : la hormiga Soldado, HS0001, ha nacido.
+2023-05-09 17:33:03.021 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:33:03.021 : la hormiga Obrera, HO0007, ha nacido.
+2023-05-09 17:33:03.123 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:33:04.143 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:33:04.722 : la hormiga Cría, HC0002, ha nacido.
+2023-05-09 17:33:04.722 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:33:05.62 : la hormiga Obrera, HO0008, ha nacido.
+2023-05-09 17:33:07.541 : la hormiga Obrera, HO0009, ha nacido.
+2023-05-09 17:33:07.642 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:33:08.143 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:33:10.023 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:33:10.143 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:33:10.711 : la hormiga Obrera, HO0010, ha nacido.
+2023-05-09 17:33:12.025 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:33:12.467 : la hormiga Soldado, HS0002, ha nacido.
+2023-05-09 17:33:12.467 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:33:12.467 : la hormiga Obrera, HO0011, ha nacido.
+2023-05-09 17:33:12.567 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:33:14.025 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:33:14.49 : la hormiga Cría, HC0003, ha nacido.
+2023-05-09 17:33:14.49 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:33:15.144 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:33:15.467 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:33:16.027 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:33:16.709 : la hormiga Obrera, HO0012, ha nacido.
+2023-05-09 17:33:17.144 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:33:17.467 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:33:18.497 : la hormiga Obrera, HO0013, ha nacido.
+2023-05-09 17:33:18.598 : la hormiga Obrera, HO0013, está recogiendo comida.
+2023-05-09 17:33:20.677 : la hormiga Obrera, HO0014, ha nacido.
+2023-05-09 17:33:22.144 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:33:22.371 : la hormiga Soldado, HS0003, ha nacido.
+2023-05-09 17:33:22.371 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:33:22.371 : la hormiga Obrera, HO0015, ha nacido.
+2023-05-09 17:33:22.468 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:33:22.472 : la hormiga Obrera, HO0015, está recogiendo comida.
+2023-05-09 17:33:24.028 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:33:24.146 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:33:24.469 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:33:24.651 : la hormiga Cría, HC0004, ha nacido.
+2023-05-09 17:33:24.651 : la hormiga Cría, HC0004, está comiendo.
+2023-05-09 17:33:26.022 : la hormiga Obrera, HO0016, ha nacido.
+2023-05-09 17:33:26.03 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:33:26.146 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:33:27.373 : la hormiga Soldado, HS0003, está descansando.
+2023-05-09 17:33:27.471 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:33:27.668 : la hormiga Obrera, HO0017, ha nacido.
+2023-05-09 17:33:27.77 : la hormiga Obrera, HO0017, está recogiendo comida.
+2023-05-09 17:33:28.147 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:33:29.031 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:33:29.375 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:33:29.473 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:33:29.939 : la hormiga Obrera, HO0018, ha nacido.
+2023-05-09 17:33:31.033 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:33:31.147 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:33:33.148 : la hormiga Soldado, HS0000, está comiendo.
+2023-05-09 17:33:33.337 : la hormiga Soldado, HS0004, ha nacido.
+2023-05-09 17:33:33.337 : la hormiga Soldado, HS0004, está instruyéndose.
+2023-05-09 17:33:33.337 : la hormiga Obrera, HO0019, ha nacido.
+2023-05-09 17:33:33.377 : la hormiga Soldado, HS0003, está descansando.
+2023-05-09 17:33:33.439 : la hormiga Obrera, HO0019, está recogiendo comida.
+2023-05-09 17:33:33.473 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:33:35.377 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:33:35.473 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:33:35.534 : la hormiga Cría, HC0005, ha nacido.
+2023-05-09 17:33:35.534 : la hormiga Cría, HC0005, está comiendo.
+2023-05-09 17:33:37.036 : la hormiga Soldado, HS0001, está descansando.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:34:01.799 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:34:01.8 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:34:04.929 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:34:04.935 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:34:08.289 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:34:08.391 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:34:11.536 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:34:14.029 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:34:14.029 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:34:14.029 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:34:14.13 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:34:16.02 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:34:16.02 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:34:19.493 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 17:34:20.03 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:34:22.031 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:34:22.362 : la hormiga Obrera, HO0005, ha nacido.
+2023-05-09 17:34:22.462 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:34:25.346 : la hormiga Obrera, HO0006, ha nacido.
+2023-05-09 17:34:26.675 : la hormiga Soldado, HS0001, ha nacido.
+2023-05-09 17:34:26.675 : la hormiga Obrera, HO0007, ha nacido.
+2023-05-09 17:34:26.675 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:34:26.776 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:34:27.031 : la hormiga Soldado, HS0000, está descansando.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:34:53.723 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:34:53.724 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:34:55.389 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:34:55.392 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:34:57.651 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:34:57.752 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:34:59.43 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:35:00.834 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:35:00.834 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:35:00.835 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:35:00.937 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:35:02.125 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:35:02.125 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:35:02.836 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:35:03.666 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 17:35:04.837 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:35:04.901 : la hormiga Obrera, HO0005, ha nacido.
+2023-05-09 17:35:05.003 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:35:07.737 : la hormiga Obrera, HO0006, ha nacido.
+2023-05-09 17:35:09.505 : la hormiga Soldado, HS0001, ha nacido.
+2023-05-09 17:35:09.505 : la hormiga Obrera, HO0007, ha nacido.
+2023-05-09 17:35:09.505 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:35:09.607 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:35:11.837 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:35:11.856 : la hormiga Cría, HC0002, ha nacido.
+2023-05-09 17:35:11.856 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:35:13.619 : la hormiga Obrera, HO0008, ha nacido.
+2023-05-09 17:35:13.838 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:35:14.507 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:35:14.928 : la hormiga Obrera, HO0009, ha nacido.
+2023-05-09 17:35:15.03 : la hormiga Obrera, HO0009, está recogiendo comida.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:35:58.631 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:35:58.633 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:36:02.078 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:36:02.082 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:36:02.973 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:36:03.075 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:36:05.392 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:36:08.849 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:36:08.849 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:36:08.849 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:36:08.951 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:36:11.89 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:36:11.89 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:36:12.959 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 17:36:13.851 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:36:15.728 : la hormiga Obrera, HO0005, ha nacido.
+2023-05-09 17:36:15.83 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:36:15.852 : la hormiga Soldado, HS0000, está instruyéndose.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:36:35.331 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:36:35.332 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:36:36.947 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:36:39.196 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:36:39.297 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:36:40.305 : la hormiga Obrera, HO0002, ha nacido.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:36:50.368 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:36:50.369 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:36:52.357 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:36:52.358 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:36:54.92 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:36:55.022 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:36:58.246 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:36:59.022 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:37:00.96 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:37:00.96 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:37:00.961 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:37:01.062 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:37:02.099 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:37:02.099 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:37:02.962 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:37:03.124 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:37:04.522 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 17:37:04.963 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:37:05.023 : la hormiga Obrera, HO0000, está llevando comida del almacén al comedor.
+2023-05-09 17:37:05.023 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:37:05.062 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:37:06.122 : la hormiga Obrera, HO0005, ha nacido.
+2023-05-09 17:37:06.223 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:37:07.125 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:37:07.164 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:37:07.778 : la hormiga Obrera, HO0006, ha nacido.
+2023-05-09 17:37:08.024 : la hormiga Obrera, HO0000, está dejando comida en el comedor.
+2023-05-09 17:37:08.062 : la hormiga Obrera, HO0004, está llevando comida del almacén al comedor.
+2023-05-09 17:37:08.062 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:37:08.899 : la hormiga Soldado, HS0001, ha nacido.
+2023-05-09 17:37:08.899 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:37:08.899 : la hormiga Obrera, HO0007, ha nacido.
+2023-05-09 17:37:09.0 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:37:10.224 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:37:10.226 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:37:10.964 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:37:11.063 : la hormiga Obrera, HO0004, está dejando comida en el comedor.
+2023-05-09 17:37:11.127 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:37:11.127 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:37:11.164 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:37:45.884 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:37:45.885 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:37:48.803 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:37:48.804 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:37:51.891 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:37:51.993 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:37:54.708 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:37:55.558 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:37:55.558 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:37:55.559 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:37:55.662 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:37:55.996 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:37:56.789 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:37:56.789 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:37:58.559 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:37:59.102 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:37:59.662 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:37:59.873 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 17:37:59.999 : la hormiga Obrera, HO0000, está llevando comida del almacén al comedor.
+2023-05-09 17:37:59.999 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:38:00.56 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:38:01.763 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:38:02.663 : la hormiga Obrera, HO0004, está llevando comida del almacén al comedor.
+2023-05-09 17:38:02.663 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:38:03.002 : la hormiga Obrera, HO0000, está dejando comida en el comedor.
+2023-05-09 17:38:03.045 : la hormiga Obrera, HO0005, ha nacido.
+2023-05-09 17:38:03.103 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:38:03.147 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:38:03.664 : la hormiga Obrera, HO0004, está dejando comida en el comedor.
+2023-05-09 17:38:04.203 : la hormiga Obrera, HO0006, ha nacido.
+2023-05-09 17:38:05.094 : la hormiga Soldado, HS0001, ha nacido.
+2023-05-09 17:38:05.094 : la hormiga Obrera, HO0007, ha nacido.
+2023-05-09 17:38:05.094 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:38:05.194 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:38:05.763 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:38:06.204 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:38:07.005 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:38:07.147 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:38:08.003 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:38:08.107 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:38:08.107 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:38:08.207 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:38:08.429 : la hormiga Cría, HC0002, ha nacido.
+2023-05-09 17:38:08.429 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:38:08.56 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:38:09.109 : la hormiga Obrera, HO0002, está dejando comida en el comedor.
+2023-05-09 17:38:09.109 : la hormiga Obrera, HO0004, está llevando comida del almacén al comedor.
+2023-05-09 17:38:09.109 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:38:09.194 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:38:10.204 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:38:10.249 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:38:10.561 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:38:11.006 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:38:11.095 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:38:11.162 : la hormiga Obrera, HO0008, ha nacido.
+2023-05-09 17:38:11.43 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:38:12.003 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:38:12.111 : la hormiga Obrera, HO0004, está dejando comida en el comedor.
+2023-05-09 17:38:12.15 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:38:12.15 : la hormiga Obrera, HO0006, está llevando comida del almacén al comedor.
+2023-05-09 17:38:12.209 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:38:12.25 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:38:12.562 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:38:13.099 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:38:13.7 : la hormiga Obrera, HO0009, ha nacido.
+2023-05-09 17:38:13.8 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:38:14.009 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:38:14.15 : la hormiga Obrera, HO0006, está dejando comida en el comedor.
+2023-05-09 17:38:14.151 : la hormiga Obrera, HO0000, está llevando comida del almacén al comedor.
+2023-05-09 17:38:14.151 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:38:14.249 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:38:14.252 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:38:14.562 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:38:14.93 : la hormiga Obrera, HO0010, ha nacido.
+2023-05-09 17:38:15.152 : la hormiga Obrera, HO0004, está llevando comida del almacén al comedor.
+2023-05-09 17:38:15.152 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:38:15.152 : la hormiga Obrera, HO0000, está dejando comida en el comedor.
+2023-05-09 17:38:15.252 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:38:15.43 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:38:16.004 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:38:16.152 : la hormiga Obrera, HO0006, está llevando comida del almacén al comedor.
+2023-05-09 17:38:16.152 : la hormiga Obrera, HO0008, está sacando comida del almacén.
+2023-05-09 17:38:16.152 : la hormiga Obrera, HO0004, está dejando comida en el comedor.
+2023-05-09 17:38:16.25 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:38:16.563 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:38:17.353 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:38:17.59 : la hormiga Soldado, HS0002, ha nacido.
+2023-05-09 17:38:17.59 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:38:17.59 : la hormiga Obrera, HO0011, ha nacido.
+2023-05-09 17:38:17.69 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:38:17.802 : la hormiga Obrera, HO0009, está guardando comida en el almacén.
+2023-05-09 17:38:18.009 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:38:18.153 : la hormiga Obrera, HO0006, está dejando comida en el comedor.
+2023-05-09 17:38:18.252 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:38:18.564 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:38:19.252 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:38:19.253 : la hormiga Obrera, HO0008, está llevando comida del almacén al comedor.
+2023-05-09 17:38:19.253 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:38:19.354 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:38:19.43 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:38:19.955 : la hormiga Cría, HC0003, ha nacido.
+2023-05-09 17:38:19.955 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:38:20.006 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:38:20.099 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:38:20.255 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:38:20.255 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:38:20.356 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:38:21.256 : la hormiga Obrera, HO0006, está llevando comida del almacén al comedor.
+2023-05-09 17:38:21.256 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:38:21.256 : la hormiga Obrera, HO0008, está dejando comida en el comedor.
+2023-05-09 17:38:21.297 : la hormiga Obrera, HO0012, ha nacido.
+2023-05-09 17:38:21.353 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:38:21.356 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:38:21.592 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:38:21.69 : la hormiga Obrera, HO0011, está guardando comida en el almacén.
+2023-05-09 17:38:22.012 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:38:22.1 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:38:22.232 : la hormiga Obrera, HO0013, ha nacido.
+2023-05-09 17:38:22.333 : la hormiga Obrera, HO0013, está recogiendo comida.
+2023-05-09 17:38:23.006 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:38:23.256 : la hormiga Obrera, HO0002, está dejando comida en el comedor.
+2023-05-09 17:38:23.256 : la hormiga Obrera, HO0006, está dejando comida en el comedor.
+2023-05-09 17:38:23.256 : la hormiga Obrera, HO0004, está llevando comida del almacén al comedor.
+2023-05-09 17:38:23.256 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:38:23.354 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:38:23.356 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:38:23.432 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:38:23.592 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:38:23.955 : la hormiga Cría, HC0003, está descansando.
+2023-05-09 17:38:24.256 : la hormiga Obrera, HO0004, está dejando comida en el comedor.
+2023-05-09 17:38:24.356 : la hormiga Obrera, HO0009, está guardando comida en el almacén.
+2023-05-09 17:38:25.1 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:38:25.258 : la hormiga Obrera, HO0000, está llevando comida del almacén al comedor.
+2023-05-09 17:38:25.258 : la hormiga Obrera, HO0010, está sacando comida del almacén.
+2023-05-09 17:38:25.356 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:38:25.359 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:38:25.566 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:38:25.718 : la hormiga Obrera, HO0014, ha nacido.
+2023-05-09 17:38:26.012 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:38:26.259 : la hormiga Obrera, HO0010, está llevando comida del almacén al comedor.
+2023-05-09 17:38:26.259 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:38:26.333 : la hormiga Obrera, HO0013, está guardando comida en el almacén.
+2023-05-09 17:38:26.359 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:38:26.359 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:38:26.704 : la hormiga Soldado, HS0003, ha nacido.
+2023-05-09 17:38:26.704 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:38:26.704 : la hormiga Obrera, HO0015, ha nacido.
+2023-05-09 17:38:26.805 : la hormiga Obrera, HO0015, está recogiendo comida.
+2023-05-09 17:38:27.007 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:38:27.1 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:38:27.261 : la hormiga Obrera, HO0004, está llevando comida del almacén al comedor.
+2023-05-09 17:38:27.261 : la hormiga Obrera, HO0014, está sacando comida del almacén.
+2023-05-09 17:38:27.262 : la hormiga Obrera, HO0000, está dejando comida en el comedor.
+2023-05-09 17:38:27.357 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:38:27.362 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:38:27.432 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:38:27.567 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:38:27.593 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:38:27.955 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:38:28.262 : la hormiga Obrera, HO0014, está llevando comida del almacén al comedor.
+2023-05-09 17:38:28.262 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:38:28.262 : la hormiga Obrera, HO0004, está dejando comida en el comedor.
+2023-05-09 17:38:28.362 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:38:29.208 : la hormiga Cría, HC0004, ha nacido.
+2023-05-09 17:38:29.208 : la hormiga Cría, HC0004, está comiendo.
+2023-05-09 17:38:29.26 : la hormiga Obrera, HO0010, está dejando comida en el comedor.
+2023-05-09 17:38:29.263 : la hormiga Obrera, HO0014, está dejando comida en el comedor.
+2023-05-09 17:38:29.263 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:38:29.263 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:38:29.359 : la hormiga Obrera, HO0011, está guardando comida en el almacén.
+2023-05-09 17:38:29.595 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:38:30.012 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:38:30.1 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:38:30.264 : la hormiga Obrera, HO0004, está llevando comida del almacén al comedor.
+2023-05-09 17:38:30.264 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:38:30.264 : la hormiga Obrera, HO0002, está dejando comida en el comedor.
+2023-05-09 17:38:30.36 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:38:30.36 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:38:30.364 : la hormiga Obrera, HO0013, está recogiendo comida.
+2023-05-09 17:38:30.366 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:38:30.807 : la hormiga Obrera, HO0015, está guardando comida en el almacén.
+2023-05-09 17:38:30.977 : la hormiga Obrera, HO0016, ha nacido.
+2023-05-09 17:38:31.009 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:38:31.264 : la hormiga Obrera, HO0006, está llevando comida del almacén al comedor.
+2023-05-09 17:38:31.264 : la hormiga Obrera, HO0004, está dejando comida en el comedor.
+2023-05-09 17:38:31.264 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:38:31.362 : la hormiga Obrera, HO0009, está guardando comida en el almacén.
+2023-05-09 17:38:31.434 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:38:31.705 : la hormiga Soldado, HS0003, está descansando.
+2023-05-09 17:38:31.956 : la hormiga Cría, HC0003, está descansando.
+2023-05-09 17:38:32.101 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:38:32.209 : la hormiga Cría, HC0004, está descansando.
+2023-05-09 17:38:32.266 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:38:32.266 : la hormiga Obrera, HO0008, está sacando comida del almacén.
+2023-05-09 17:38:32.364 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:38:32.366 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:38:32.596 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:38:33.266 : la hormiga Obrera, HO0002, está dejando comida en el comedor.
+2023-05-09 17:38:33.707 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:38:33.9 : la hormiga Obrera, HO0017, ha nacido.
+2023-05-09 17:38:34.001 : la hormiga Obrera, HO0017, está recogiendo comida.
+2023-05-09 17:38:34.012 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:38:34.101 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:38:34.264 : la hormiga Obrera, HO0006, está dejando comida en el comedor.
+2023-05-09 17:38:34.266 : la hormiga Obrera, HO0008, está llevando comida del almacén al comedor.
+2023-05-09 17:38:34.266 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:38:34.364 : la hormiga Obrera, HO0013, está guardando comida en el almacén.
+2023-05-09 17:38:34.366 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:38:34.367 : la hormiga Obrera, HO0015, está recogiendo comida.
+2023-05-09 17:38:34.567 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:38:34.597 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:38:35.009 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:38:35.267 : la hormiga Obrera, HO0008, está dejando comida en el comedor.
+2023-05-09 17:38:35.434 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:38:35.707 : la hormiga Soldado, HS0003, está descansando.
+2023-05-09 17:38:35.956 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:38:36.102 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:38:36.209 : la hormiga Cría, HC0004, está comiendo.
+2023-05-09 17:38:36.27 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:38:36.27 : la hormiga Obrera, HO0008, está sacando comida del almacén.
+2023-05-09 17:38:36.366 : la hormiga Obrera, HO0011, está guardando comida en el almacén.
+2023-05-09 17:38:36.369 : la hormiga Obrera, HO0018, ha nacido.
+2023-05-09 17:38:36.37 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:38:36.37 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:38:36.471 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:38:36.471 : la hormiga Obrera, HO0009, está recogiendo comida.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:39:06.514 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:39:06.515 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:39:09.039 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:39:09.04 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:39:11.173 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:39:11.275 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:39:14.534 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:39:15.275 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:39:15.593 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:39:15.593 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:39:15.594 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:39:15.694 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:39:17.36 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:39:17.36 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:39:18.379 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:39:19.28 : la hormiga Obrera, HO0000, está llevando comida del almacén al comedor.
+2023-05-09 17:39:19.28 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:39:19.694 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:39:20.508 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 17:39:20.594 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:39:21.28 : la hormiga Obrera, HO0000, está dejando comida en el comedor.
+2023-05-09 17:39:22.379 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:39:22.595 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:39:22.799 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:39:23.698 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:39:23.698 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:39:23.73 : la hormiga Obrera, HO0005, ha nacido.
+2023-05-09 17:39:23.832 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:39:24.698 : la hormiga Obrera, HO0002, está dejando comida en el comedor.
+2023-05-09 17:39:25.482 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:39:26.027 : la hormiga Obrera, HO0006, ha nacido.
+2023-05-09 17:39:26.282 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:39:26.282 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:39:26.382 : la hormiga Obrera, HO0000, está llevando comida del almacén al comedor.
+2023-05-09 17:39:26.382 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:39:26.799 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:39:27.833 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:39:28.382 : la hormiga Obrera, HO0000, está dejando comida en el comedor.
+2023-05-09 17:39:28.597 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:39:28.873 : la hormiga Soldado, HS0001, ha nacido.
+2023-05-09 17:39:28.873 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:39:28.873 : la hormiga Obrera, HO0007, ha nacido.
+2023-05-09 17:39:28.9 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:39:28.974 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:39:29.482 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:39:29.8 : la hormiga Obrera, HO0004, está llevando comida del almacén al comedor.
+2023-05-09 17:39:29.8 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:39:30.283 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:39:30.283 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:39:30.597 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:39:30.642 : la hormiga Cría, HC0002, ha nacido.
+2023-05-09 17:39:30.642 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:39:31.584 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:39:31.801 : la hormiga Obrera, HO0004, está dejando comida en el comedor.
+2023-05-09 17:39:32.485 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:39:32.485 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:39:32.585 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:39:32.599 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:39:32.901 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:39:32.976 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:39:33.644 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:39:33.648 : la hormiga Obrera, HO0008, ha nacido.
+2023-05-09 17:39:34.283 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:39:34.283 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:39:34.485 : la hormiga Obrera, HO0006, está llevando comida del almacén al comedor.
+2023-05-09 17:39:34.485 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:39:34.509 : la hormiga Obrera, HO0009, ha nacido.
+2023-05-09 17:39:34.6 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:39:34.611 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:39:35.485 : la hormiga Obrera, HO0002, está dejando comida en el comedor.
+2023-05-09 17:39:35.584 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:39:36.078 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:39:36.586 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:39:36.874 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:39:36.978 : la hormiga Obrera, HO0008, está sacando comida del almacén.
+2023-05-09 17:39:36.978 : la hormiga Obrera, HO0004, está llevando comida del almacén al comedor.
+2023-05-09 17:39:37.075 : la hormiga Obrera, HO0010, ha nacido.
+2023-05-09 17:39:37.08 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:39:37.488 : la hormiga Obrera, HO0006, está dejando comida en el comedor.
+2023-05-09 17:39:37.601 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:39:37.644 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:39:37.98 : la hormiga Obrera, HO0008, está llevando comida del almacén al comedor.
+2023-05-09 17:39:37.98 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:39:38.08 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:39:38.283 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:39:38.283 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:39:38.611 : la hormiga Obrera, HO0009, está guardando comida en el almacén.
+2023-05-09 17:39:38.875 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:39:38.98 : la hormiga Soldado, HS0002, ha nacido.
+2023-05-09 17:39:38.98 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:39:38.98 : la hormiga Obrera, HO0011, ha nacido.
+2023-05-09 17:39:38.982 : la hormiga Obrera, HO0008, está dejando comida en el comedor.
+2023-05-09 17:39:39.081 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:39:39.602 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:39:39.978 : la hormiga Obrera, HO0004, está dejando comida en el comedor.
+2023-05-09 17:39:39.98 : la hormiga Obrera, HO0000, está llevando comida del almacén al comedor.
+2023-05-09 17:39:39.98 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:39:40.078 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:39:40.081 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:39:40.646 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:39:41.08 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:39:41.87 : la hormiga Cría, HC0003, ha nacido.
+2023-05-09 17:39:41.87 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:39:41.98 : la hormiga Obrera, HO0006, está llevando comida del almacén al comedor.
+2023-05-09 17:39:41.98 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:39:41.98 : la hormiga Obrera, HO0000, está dejando comida en el comedor.
+2023-05-09 17:39:42.081 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:39:42.082 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:39:42.284 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:39:42.284 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:39:42.981 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:39:42.981 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:39:42.981 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:39:43.081 : la hormiga Obrera, HO0011, está guardando comida en el almacén.
+2023-05-09 17:39:43.082 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:39:43.403 : la hormiga Obrera, HO0012, ha nacido.
+2023-05-09 17:39:43.982 : la hormiga Obrera, HO0000, está llevando comida del almacén al comedor.
+2023-05-09 17:39:43.982 : la hormiga Obrera, HO0010, está sacando comida del almacén.
+2023-05-09 17:39:44.081 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:39:44.182 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:39:44.602 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:39:44.646 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:39:44.872 : la hormiga Cría, HC0003, está descansando.
+2023-05-09 17:39:44.981 : la hormiga Obrera, HO0006, está dejando comida en el comedor.
+2023-05-09 17:39:44.982 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:39:45.082 : la hormiga Obrera, HO0010, está llevando comida del almacén al comedor.
+2023-05-09 17:39:45.082 : la hormiga Obrera, HO0012, está sacando comida del almacén.
+2023-05-09 17:39:45.184 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:39:45.296 : la hormiga Obrera, HO0013, ha nacido.
+2023-05-09 17:39:45.397 : la hormiga Obrera, HO0013, está recogiendo comida.
+2023-05-09 17:39:45.982 : la hormiga Obrera, HO0002, está dejando comida en el comedor.
+2023-05-09 17:39:46.081 : la hormiga Obrera, HO0009, está guardando comida en el almacén.
+2023-05-09 17:39:46.284 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:39:46.284 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:39:46.603 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:39:46.875 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:39:46.983 : la hormiga Obrera, HO0000, está dejando comida en el comedor.
+2023-05-09 17:39:47.083 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:39:47.084 : la hormiga Obrera, HO0012, está llevando comida del almacén al comedor.
+2023-05-09 17:39:47.084 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:39:47.184 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:39:47.648 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:39:48.013 : la hormiga Obrera, HO0014, ha nacido.
+2023-05-09 17:39:48.083 : la hormiga Obrera, HO0010, está dejando comida en el comedor.
+2023-05-09 17:39:48.183 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:39:48.872 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:39:48.877 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:39:49.084 : la hormiga Obrera, HO0004, está llevando comida del almacén al comedor.
+2023-05-09 17:39:49.084 : la hormiga Obrera, HO0008, está sacando comida del almacén.
+2023-05-09 17:39:49.184 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:39:49.184 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:39:49.186 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:39:49.286 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:39:49.398 : la hormiga Obrera, HO0013, está guardando comida en el almacén.
+2023-05-09 17:39:49.916 : la hormiga Soldado, HS0003, ha nacido.
+2023-05-09 17:39:49.916 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:39:49.916 : la hormiga Obrera, HO0015, ha nacido.
+2023-05-09 17:39:49.983 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:39:50.018 : la hormiga Obrera, HO0015, está recogiendo comida.
+2023-05-09 17:39:50.084 : la hormiga Obrera, HO0012, está dejando comida en el comedor.
+2023-05-09 17:39:50.284 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:39:50.284 : la hormiga Cría, HC0001, está descansando.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:43:03.174 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:43:03.177 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:43:05.939 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:43:05.939 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:43:06.863 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:43:06.963 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:43:10.173 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:43:10.964 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:43:12.445 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:43:12.445 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:43:12.446 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:43:12.546 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:43:14.065 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:43:14.448 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:43:15.173 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:43:15.173 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:43:15.965 : la hormiga Obrera, HO0000, está llevando comida del almacén al comedor.
+2023-05-09 17:43:15.965 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:43:16.449 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:43:16.546 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:43:17.164 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 17:43:18.066 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:43:18.143 : la hormiga Obrera, HO0005, ha nacido.
+2023-05-09 17:43:18.243 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:43:18.649 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:43:18.966 : la hormiga Obrera, HO0000, está dejando comida en el comedor.
+2023-05-09 17:43:19.55 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:43:19.55 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:43:20.17 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:43:20.551 : la hormiga Obrera, HO0002, está dejando comida en el comedor.
+2023-05-09 17:43:20.564 : la hormiga Obrera, HO0006, ha nacido.
+2023-05-09 17:43:21.449 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:43:22.07 : la hormiga Obrera, HO0004, está llevando comida del almacén al comedor.
+2023-05-09 17:43:22.07 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:43:22.244 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:43:22.649 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:43:22.966 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:43:22.966 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:43:23.072 : la hormiga Obrera, HO0004, está dejando comida en el comedor.
+2023-05-09 17:43:23.449 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:43:23.613 : la hormiga Soldado, HS0001, ha nacido.
+2023-05-09 17:43:23.613 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:43:23.613 : la hormiga Obrera, HO0007, ha nacido.
+2023-05-09 17:43:23.713 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:43:24.171 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:43:25.347 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:43:25.451 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:43:25.563 : la hormiga Cría, HC0002, ha nacido.
+2023-05-09 17:43:25.563 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:43:26.248 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:43:26.248 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:43:26.349 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:43:26.967 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:43:26.967 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:43:27.453 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:43:27.613 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:43:27.713 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:43:27.75 : la hormiga Obrera, HO0008, ha nacido.
+2023-05-09 17:43:28.25 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:43:28.25 : la hormiga Obrera, HO0006, está llevando comida del almacén al comedor.
+2023-05-09 17:43:28.351 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:43:28.566 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:43:29.248 : la hormiga Obrera, HO0002, está dejando comida en el comedor.
+2023-05-09 17:43:29.253 : la hormiga Obrera, HO0000, está llevando comida del almacén al comedor.
+2023-05-09 17:43:29.253 : la hormiga Obrera, HO0008, está sacando comida del almacén.
+2023-05-09 17:43:29.347 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:43:29.613 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:43:29.967 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:43:29.967 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:43:30.253 : la hormiga Obrera, HO0000, está dejando comida en el comedor.
+2023-05-09 17:43:30.35 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:43:30.654 : la hormiga Obrera, HO0009, ha nacido.
+2023-05-09 17:43:30.756 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:43:30.814 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:43:31.251 : la hormiga Obrera, HO0006, está dejando comida en el comedor.
+2023-05-09 17:43:31.714 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:43:31.714 : la hormiga Obrera, HO0008, está llevando comida del almacén al comedor.
+2023-05-09 17:43:32.299 : la hormiga Obrera, HO0010, ha nacido.
+2023-05-09 17:43:32.351 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:43:32.45 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:43:32.566 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:43:32.716 : la hormiga Obrera, HO0008, está dejando comida en el comedor.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:45:09.492 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:45:09.493 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:45:11.404 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:45:11.404 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:45:12.596 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:45:12.697 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:45:14.105 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:45:16.468 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:45:16.468 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:45:16.469 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:45:16.57 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:45:16.697 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:45:19.554 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:45:19.554 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:45:19.799 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:45:20.47 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:45:20.571 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:45:21.698 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:45:21.698 : la hormiga Obrera, HO0000, está llevando comida del almacén al comedor.
+2023-05-09 17:45:22.47 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:45:22.549 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 17:45:22.698 : la hormiga Obrera, HO0000, está dejando comida en el comedor.
+2023-05-09 17:45:23.8 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:45:24.071 : la hormiga Obrera, HO0005, ha nacido.
+2023-05-09 17:45:24.172 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:45:24.672 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:45:26.093 : la hormiga Obrera, HO0006, ha nacido.
+2023-05-09 17:45:26.573 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:45:26.573 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:45:27.903 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:45:27.995 : la hormiga Soldado, HS0001, ha nacido.
+2023-05-09 17:45:27.995 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:45:27.995 : la hormiga Obrera, HO0007, ha nacido.
+2023-05-09 17:45:28.096 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:45:28.172 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:45:28.573 : la hormiga Obrera, HO0002, está dejando comida en el comedor.
+2023-05-09 17:45:28.672 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:45:28.7 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:45:28.7 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:45:28.803 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:45:28.803 : la hormiga Obrera, HO0006, está llevando comida del almacén al comedor.
+2023-05-09 17:45:29.471 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:45:30.803 : la hormiga Obrera, HO0006, está dejando comida en el comedor.
+2023-05-09 17:45:31.204 : la hormiga Cría, HC0002, ha nacido.
+2023-05-09 17:45:31.204 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:45:31.471 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:45:31.773 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:45:31.903 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:45:32.096 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:45:32.673 : la hormiga Obrera, HO0000, está llevando comida del almacén al comedor.
+2023-05-09 17:45:32.673 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:45:32.701 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:45:32.701 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:45:32.775 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:45:33.674 : la hormiga Obrera, HO0004, está llevando comida del almacén al comedor.
+2023-05-09 17:45:33.674 : la hormiga Obrera, HO0000, está dejando comida en el comedor.
+2023-05-09 17:45:33.674 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:45:34.003 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:45:34.032 : la hormiga Obrera, HO0008, ha nacido.
+2023-05-09 17:45:34.207 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:45:34.905 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:45:34.905 : la hormiga Obrera, HO0006, está llevando comida del almacén al comedor.
+2023-05-09 17:45:35.006 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:45:35.561 : la hormiga Obrera, HO0009, ha nacido.
+2023-05-09 17:45:35.663 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:45:35.677 : la hormiga Obrera, HO0004, está dejando comida en el comedor.
+2023-05-09 17:45:35.701 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:45:35.773 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:45:35.996 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:45:36.702 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:45:36.777 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:45:36.907 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:45:36.907 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:45:37.905 : la hormiga Obrera, HO0006, está dejando comida en el comedor.
+2023-05-09 17:45:37.996 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:45:38.004 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:45:38.207 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:45:38.779 : la hormiga Obrera, HO0010, ha nacido.
+2023-05-09 17:45:39.008 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:45:39.473 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:45:39.664 : la hormiga Obrera, HO0009, está guardando comida en el almacén.
+2023-05-09 17:45:39.701 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:45:39.726 : la hormiga Soldado, HS0002, ha nacido.
+2023-05-09 17:45:39.726 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:45:39.726 : la hormiga Obrera, HO0011, ha nacido.
+2023-05-09 17:45:39.827 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:45:39.877 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:45:39.907 : la hormiga Obrera, HO0002, está dejando comida en el comedor.
+2023-05-09 17:45:40.703 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:45:40.776 : la hormiga Obrera, HO0000, está llevando comida del almacén al comedor.
+2023-05-09 17:45:40.776 : la hormiga Obrera, HO0008, está sacando comida del almacén.
+2023-05-09 17:45:40.876 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:45:40.996 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:45:41.207 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:45:41.473 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:45:41.853 : la hormiga Cría, HC0003, ha nacido.
+2023-05-09 17:45:41.853 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:45:42.776 : la hormiga Obrera, HO0000, está dejando comida en el comedor.
+2023-05-09 17:45:42.776 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:45:42.776 : la hormiga Obrera, HO0008, está llevando comida del almacén al comedor.
+2023-05-09 17:45:42.878 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:45:42.878 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:45:42.996 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:45:43.702 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:45:43.829 : la hormiga Obrera, HO0011, está guardando comida en el almacén.
+2023-05-09 17:45:43.877 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:45:44.573 : la hormiga Obrera, HO0012, ha nacido.
+2023-05-09 17:45:44.703 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:45:44.777 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:45:44.777 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:45:44.876 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:45:44.878 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:45:45.209 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:45:45.777 : la hormiga Obrera, HO0008, está dejando comida en el comedor.
+2023-05-09 17:45:45.778 : la hormiga Obrera, HO0002, está dejando comida en el comedor.
+2023-05-09 17:45:45.778 : la hormiga Obrera, HO0006, está llevando comida del almacén al comedor.
+2023-05-09 17:45:45.778 : la hormiga Obrera, HO0010, está sacando comida del almacén.
+2023-05-09 17:45:45.854 : la hormiga Cría, HC0003, está descansando.
+2023-05-09 17:45:46.474 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:45:46.878 : la hormiga Obrera, HO0009, está guardando comida en el almacén.
+2023-05-09 17:45:46.878 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:45:46.998 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:45:47.153 : la hormiga Obrera, HO0013, ha nacido.
+2023-05-09 17:45:47.253 : la hormiga Obrera, HO0013, está recogiendo comida.
+2023-05-09 17:45:47.703 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:45:47.728 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:45:47.778 : la hormiga Obrera, HO0006, está dejando comida en el comedor.
+2023-05-09 17:45:47.778 : la hormiga Obrera, HO0010, está llevando comida del almacén al comedor.
+2023-05-09 17:45:47.778 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:45:47.878 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:45:47.878 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:45:47.979 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:45:48.475 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:45:48.703 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:45:48.778 : la hormiga Obrera, HO0010, está dejando comida en el comedor.
+2023-05-09 17:45:48.784 : la hormiga Obrera, HO0014, ha nacido.
+2023-05-09 17:45:48.88 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:45:48.999 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:45:49.209 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:45:49.729 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:45:49.779 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:45:49.779 : la hormiga Obrera, HO0004, está llevando comida del almacén al comedor.
+2023-05-09 17:45:49.854 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:45:50.779 : la hormiga Obrera, HO0004, está dejando comida en el comedor.
+2023-05-09 17:45:50.779 : la hormiga Obrera, HO0014, está sacando comida del almacén.
+2023-05-09 17:45:50.779 : la hormiga Obrera, HO0006, está llevando comida del almacén al comedor.
+2023-05-09 17:45:51.253 : la hormiga Obrera, HO0013, está guardando comida en el almacén.
+2023-05-09 17:45:51.703 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:45:51.704 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:45:51.78 : la hormiga Obrera, HO0006, está dejando comida en el comedor.
+2023-05-09 17:45:51.88 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:45:51.88 : la hormiga Obrera, HO0011, está guardando comida en el almacén.
+2023-05-09 17:45:51.981 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:45:52.185 : la hormiga Soldado, HS0003, ha nacido.
+2023-05-09 17:45:52.185 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:45:52.185 : la hormiga Obrera, HO0015, ha nacido.
+2023-05-09 17:45:52.287 : la hormiga Obrera, HO0015, está recogiendo comida.
+2023-05-09 17:45:52.779 : la hormiga Obrera, HO0014, está llevando comida del almacén al comedor.
+2023-05-09 17:45:52.779 : la hormiga Obrera, HO0008, está sacando comida del almacén.
+2023-05-09 17:45:52.854 : la hormiga Cría, HC0003, está descansando.
+2023-05-09 17:45:52.88 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:45:52.88 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:45:52.981 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:45:53.21 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:45:54.729 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:45:54.78 : la hormiga Obrera, HO0014, está dejando comida en el comedor.
+2023-05-09 17:45:54.78 : la hormiga Obrera, HO0008, está llevando comida del almacén al comedor.
+2023-05-09 17:45:54.78 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:45:54.881 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:45:54.881 : la hormiga Obrera, HO0013, está recogiendo comida.
+2023-05-09 17:45:54.981 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:45:55.638 : la hormiga Cría, HC0004, ha nacido.
+2023-05-09 17:45:55.638 : la hormiga Cría, HC0004, está comiendo.
+2023-05-09 17:45:55.703 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:45:55.705 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:45:55.781 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:45:55.781 : la hormiga Obrera, HO0014, está sacando comida del almacén.
+2023-05-09 17:45:56.287 : la hormiga Obrera, HO0015, está guardando comida en el almacén.
+2023-05-09 17:45:56.477 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:45:56.731 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:45:56.781 : la hormiga Obrera, HO0008, está dejando comida en el comedor.
+2023-05-09 17:45:56.857 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:45:56.881 : la hormiga Obrera, HO0009, está guardando comida en el almacén.
+2023-05-09 17:45:56.881 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:45:56.923 : la hormiga Obrera, HO0016, ha nacido.
+2023-05-09 17:45:56.982 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:45:56.999 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:45:57.187 : la hormiga Soldado, HS0003, está descansando.
+2023-05-09 17:45:57.212 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:45:57.781 : la hormiga Obrera, HO0002, está dejando comida en el comedor.
+2023-05-09 17:45:57.781 : la hormiga Obrera, HO0012, está sacando comida del almacén.
+2023-05-09 17:45:57.781 : la hormiga Obrera, HO0014, está llevando comida del almacén al comedor.
+2023-05-09 17:45:57.881 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:45:58.285 : la hormiga Obrera, HO0017, ha nacido.
+2023-05-09 17:45:58.385 : la hormiga Obrera, HO0017, está recogiendo comida.
+2023-05-09 17:45:58.477 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:45:58.64 : la hormiga Cría, HC0004, está descansando.
+2023-05-09 17:45:58.783 : la hormiga Obrera, HO0014, está dejando comida en el comedor.
+2023-05-09 17:45:58.881 : la hormiga Obrera, HO0013, está guardando comida en el almacén.
+2023-05-09 17:45:58.881 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:45:58.983 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:45:59.003 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:45:59.187 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:45:59.704 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:45:59.705 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:45:59.782 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:45:59.782 : la hormiga Obrera, HO0012, está llevando comida del almacén al comedor.
+2023-05-09 17:45:59.859 : la hormiga Cría, HC0003, está descansando.
+2023-05-09 17:45:59.882 : la hormiga Obrera, HO0015, está recogiendo comida.
+2023-05-09 17:46:00.757 : la hormiga Obrera, HO0018, ha nacido.
+2023-05-09 17:46:01.003 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:46:01.188 : la hormiga Soldado, HS0003, está descansando.
+2023-05-09 17:46:01.213 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:46:01.782 : la hormiga Obrera, HO0000, está llevando comida del almacén al comedor.
+2023-05-09 17:46:01.782 : la hormiga Obrera, HO0014, está sacando comida del almacén.
+2023-05-09 17:46:01.882 : la hormiga Obrera, HO0011, está guardando comida en el almacén.
+2023-05-09 17:46:01.883 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:46:01.883 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:46:01.984 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:46:02.387 : la hormiga Obrera, HO0017, está guardando comida en el almacén.
+2023-05-09 17:46:02.64 : la hormiga Cría, HC0004, está comiendo.
+2023-05-09 17:46:02.732 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:46:02.782 : la hormiga Obrera, HO0012, está dejando comida en el comedor.
+2023-05-09 17:46:02.783 : la hormiga Obrera, HO0000, está dejando comida en el comedor.
+2023-05-09 17:46:03.005 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:46:03.015 : la hormiga Soldado, HS0004, ha nacido.
+2023-05-09 17:46:03.015 : la hormiga Soldado, HS0004, está instruyéndose.
+2023-05-09 17:46:03.015 : la hormiga Obrera, HO0019, ha nacido.
+2023-05-09 17:46:03.118 : la hormiga Obrera, HO0019, está recogiendo comida.
+2023-05-09 17:46:03.188 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:46:03.705 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:46:03.705 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:46:03.783 : la hormiga Obrera, HO0014, está llevando comida del almacén al comedor.
+2023-05-09 17:46:03.783 : la hormiga Obrera, HO0018, está sacando comida del almacén.
+2023-05-09 17:46:03.859 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:46:03.883 : la hormiga Obrera, HO0015, está guardando comida en el almacén.
+2023-05-09 17:46:03.884 : la hormiga Obrera, HO0013, está recogiendo comida.
+2023-05-09 17:46:04.334 : la hormiga Cría, HC0005, ha nacido.
+2023-05-09 17:46:04.334 : la hormiga Cría, HC0005, está comiendo.
+2023-05-09 17:46:04.477 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:46:04.733 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:46:05.005 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:46:05.017 : la hormiga Soldado, HS0004, está descansando.
+2023-05-09 17:46:05.213 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:46:05.64 : la hormiga Cría, HC0004, está descansando.
+2023-05-09 17:46:05.783 : la hormiga Obrera, HO0014, está dejando comida en el comedor.
+2023-05-09 17:46:05.784 : la hormiga Obrera, HO0018, está llevando comida del almacén al comedor.
+2023-05-09 17:46:05.784 : la hormiga Obrera, HO0008, está sacando comida del almacén.
+2023-05-09 17:46:05.883 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:46:05.883 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:46:05.884 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:46:05.884 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:46:05.984 : la hormiga Obrera, HO0009, está guardando comida en el almacén.
+2023-05-09 17:46:05.987 : la hormiga Obrera, HO0017, está recogiendo comida.
+2023-05-09 17:46:06.478 : la hormiga Soldado, HS0000, está comiendo.
+2023-05-09 17:46:06.705 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:46:06.705 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:46:06.784 : la hormiga Obrera, HO0018, está dejando comida en el comedor.
+2023-05-09 17:46:06.859 : la hormiga Cría, HC0003, está descansando.
+2023-05-09 17:46:06.884 : la hormiga Obrera, HO0020, ha nacido.
+2023-05-09 17:46:07.005 : la hormiga Soldado, HS0001, está comiendo.
+2023-05-09 17:46:07.017 : la hormiga Soldado, HS0004, está instruyéndose.
+2023-05-09 17:46:07.119 : la hormiga Obrera, HO0019, está guardando comida en el almacén.
+2023-05-09 17:46:07.784 : la hormiga Obrera, HO0008, está llevando comida del almacén al comedor.
+2023-05-09 17:46:07.784 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:46:07.884 : la hormiga Obrera, HO0013, está guardando comida en el almacén.
+2023-05-09 17:46:07.886 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:46:08.335 : la hormiga Cría, HC0005, está descansando.
+2023-05-09 17:46:08.787 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:46:08.787 : la hormiga Obrera, HO0016, está sacando comida del almacén.
+2023-05-09 17:46:08.889 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:46:08.889 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:46:08.99 : la hormiga Obrera, HO0015, está recogiendo comida.
+2023-05-09 17:46:09.213 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:46:09.277 : la hormiga Obrera, HO0021, ha nacido.
+2023-05-09 17:46:09.379 : la hormiga Obrera, HO0021, está recogiendo comida.
+2023-05-09 17:46:09.479 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:46:09.641 : la hormiga Cría, HC0004, está comiendo.
+2023-05-09 17:46:09.788 : la hormiga Obrera, HO0002, está dejando comida en el comedor.
+2023-05-09 17:46:09.788 : la hormiga Obrera, HO0016, está llevando comida del almacén al comedor.
+2023-05-09 17:46:09.788 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:46:09.884 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:46:09.884 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:46:09.89 : la hormiga Obrera, HO0019, está recogiendo comida.
+2023-05-09 17:46:09.892 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:46:09.988 : la hormiga Obrera, HO0017, está guardando comida en el almacén.
+2023-05-09 17:46:10.006 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:46:10.017 : la hormiga Soldado, HS0004, está descansando.
+2023-05-09 17:46:10.705 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:46:10.706 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:46:10.785 : la hormiga Obrera, HO0008, está dejando comida en el comedor.
+2023-05-09 17:46:10.789 : la hormiga Obrera, HO0016, está dejando comida en el comedor.
+2023-05-09 17:46:10.86 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:46:11.188 : la hormiga Soldado, HS0003, está descansando.
+2023-05-09 17:46:11.733 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:46:11.789 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:46:11.789 : la hormiga Obrera, HO0006, está llevando comida del almacén al comedor.
+2023-05-09 17:46:11.887 : la hormiga Obrera, HO0011, está guardando comida en el almacén.
+2023-05-09 17:46:11.889 : la hormiga Obrera, HO0013, está recogiendo comida.
+2023-05-09 17:46:12.018 : la hormiga Soldado, HS0004, está instruyéndose.
+2023-05-09 17:46:12.213 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:46:12.336 : la hormiga Cría, HC0005, está comiendo.
+2023-05-09 17:46:12.579 : la hormiga Obrera, HO0022, ha nacido.
+2023-05-09 17:46:12.641 : la hormiga Cría, HC0004, está descansando.
+2023-05-09 17:46:12.789 : la hormiga Obrera, HO0006, está dejando comida en el comedor.
+2023-05-09 17:46:12.789 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:46:12.789 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:46:12.89 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:46:12.89 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:46:12.89 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:46:12.99 : la hormiga Obrera, HO0015, está guardando comida en el almacén.
+2023-05-09 17:46:13.192 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:46:13.38 : la hormiga Obrera, HO0021, está guardando comida en el almacén.
+2023-05-09 17:46:13.706 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:46:13.707 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:46:13.733 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:46:13.792 : la hormiga Obrera, HO0004, está llevando comida del almacén al comedor.
+2023-05-09 17:46:13.792 : la hormiga Obrera, HO0010, está sacando comida del almacén.
+2023-05-09 17:46:13.891 : la hormiga Obrera, HO0019, está guardando comida en el almacén.
+2023-05-09 17:46:13.893 : la hormiga Obrera, HO0017, está recogiendo comida.
+2023-05-09 17:46:13.893 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:46:13.893 : la hormiga Obrera, HO0009, está guardando comida en el almacén.
+2023-05-09 17:46:14.793 : la hormiga Obrera, HO0004, está dejando comida en el comedor.
+2023-05-09 17:46:14.793 : la hormiga Obrera, HO0010, está llevando comida del almacén al comedor.
+2023-05-09 17:46:14.793 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:46:14.86 : la hormiga Cría, HC0003, está descansando.
+2023-05-09 17:46:15.193 : la hormiga Soldado, HS0003, está descansando.
+2023-05-09 17:46:15.338 : la hormiga Cría, HC0005, está descansando.
+2023-05-09 17:46:15.534 : la hormiga Soldado, HS0005, ha nacido.
+2023-05-09 17:46:15.534 : la hormiga Soldado, HS0005, está instruyéndose.
+2023-05-09 17:46:15.534 : la hormiga Obrera, HO0023, ha nacido.
+2023-05-09 17:46:15.635 : la hormiga Obrera, HO0023, está recogiendo comida.
+2023-05-09 17:46:15.789 : la hormiga Obrera, HO0002, está dejando comida en el comedor.
+2023-05-09 17:46:15.793 : la hormiga Obrera, HO0010, está dejando comida en el comedor.
+2023-05-09 17:46:15.793 : la hormiga Obrera, HO0006, está llevando comida del almacén al comedor.
+2023-05-09 17:46:15.793 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:46:15.889 : la hormiga Obrera, HO0013, está guardando comida en el almacén.
+2023-05-09 17:46:16.007 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:46:16.018 : la hormiga Soldado, HS0004, está descansando.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:47:56.83 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:47:56.832 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:47:58.345 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:47:58.345 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:47:59.398 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:47:59.5 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:48:01.873 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:48:03.5 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:48:03.839 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:48:03.839 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:48:03.839 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:48:03.939 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:48:05.775 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:48:05.775 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:48:07.601 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:48:07.939 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:48:08.272 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 17:48:08.84 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:48:09.503 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:48:09.503 : la hormiga Obrera, HO0000, está llevando comida del almacén al comedor.
+2023-05-09 17:48:10.484 : la hormiga Obrera, HO0005, ha nacido.
+2023-05-09 17:48:10.586 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:48:10.841 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:48:11.043 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:48:11.504 : la hormiga Obrera, HO0000, está dejando comida en el comedor.
+2023-05-09 17:48:11.601 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:48:12.945 : la hormiga Obrera, HO0004, está llevando comida del almacén al comedor.
+2023-05-09 17:48:12.945 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:48:13.777 : la hormiga Obrera, HO0006, ha nacido.
+2023-05-09 17:48:13.842 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:48:14.586 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:48:14.945 : la hormiga Obrera, HO0004, está dejando comida en el comedor.
+2023-05-09 17:48:15.044 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:48:15.702 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:48:15.842 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:48:16.506 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:48:16.988 : la hormiga Soldado, HS0001, ha nacido.
+2023-05-09 17:48:16.988 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:48:16.988 : la hormiga Obrera, HO0007, ha nacido.
+2023-05-09 17:48:17.088 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:48:17.506 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:48:17.602 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:48:17.602 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:48:17.703 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:48:18.843 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:48:19.603 : la hormiga Obrera, HO0004, está llevando comida del almacén al comedor.
+2023-05-09 17:48:19.603 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:48:19.683 : la hormiga Cría, HC0002, ha nacido.
+2023-05-09 17:48:19.683 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:48:19.702 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:48:19.703 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:48:20.508 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:48:20.603 : la hormiga Obrera, HO0002, está dejando comida en el comedor.
+2023-05-09 17:48:20.844 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:48:21.091 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:48:21.507 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:48:21.595 : la hormiga Obrera, HO0008, ha nacido.
+2023-05-09 17:48:21.605 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:48:21.605 : la hormiga Obrera, HO0004, está dejando comida en el comedor.
+2023-05-09 17:48:21.605 : la hormiga Obrera, HO0006, está llevando comida del almacén al comedor.
+2023-05-09 17:48:21.705 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:48:21.804 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:48:22.793 : la hormiga Obrera, HO0009, ha nacido.
+2023-05-09 17:48:22.895 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:48:23.508 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:48:23.685 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:48:23.704 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:48:23.705 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:48:23.705 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:48:23.806 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:48:23.854 : la hormiga Obrera, HO0010, ha nacido.
+2023-05-09 17:48:24.607 : la hormiga Obrera, HO0006, está dejando comida en el comedor.
+2023-05-09 17:48:24.99 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:48:25.508 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:48:25.705 : la hormiga Obrera, HO0000, está llevando comida del almacén al comedor.
+2023-05-09 17:48:25.705 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:48:25.705 : la hormiga Obrera, HO0002, está dejando comida en el comedor.
+2023-05-09 17:48:25.804 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:48:25.807 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:48:25.844 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:48:26.706 : la hormiga Obrera, HO0006, está llevando comida del almacén al comedor.
+2023-05-09 17:48:26.706 : la hormiga Obrera, HO0010, está sacando comida del almacén.
+2023-05-09 17:48:26.808 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:48:26.895 : la hormiga Obrera, HO0009, está guardando comida en el almacén.
+2023-05-09 17:48:26.99 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:48:27.055 : la hormiga Soldado, HS0002, ha nacido.
+2023-05-09 17:48:27.055 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:48:27.055 : la hormiga Obrera, HO0011, ha nacido.
+2023-05-09 17:48:27.156 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:48:27.509 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:48:27.686 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:48:27.706 : la hormiga Obrera, HO0006, está dejando comida en el comedor.
+2023-05-09 17:48:27.706 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:48:27.706 : la hormiga Obrera, HO0010, está llevando comida del almacén al comedor.
+2023-05-09 17:48:27.809 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:48:27.845 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:48:27.907 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:48:27.933 : la hormiga Cría, HC0003, ha nacido.
+2023-05-09 17:48:27.933 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:48:28.707 : la hormiga Obrera, HO0000, está dejando comida en el comedor.
+2023-05-09 17:48:28.805 : la hormiga Obrera, HO0004, está llevando comida del almacén al comedor.
+2023-05-09 17:48:28.805 : la hormiga Obrera, HO0008, está sacando comida del almacén.
+2023-05-09 17:48:29.46 : la hormiga Obrera, HO0012, ha nacido.
+2023-05-09 17:48:29.508 : la hormiga Cría, HC0001, está comiendo.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:51:28.22 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:51:28.226 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:51:29.229 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:51:29.229 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:51:30.078 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:51:30.178 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:51:31.664 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:51:34.178 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:51:35.121 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:51:35.121 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:51:35.124 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:51:35.222 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:51:37.127 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:51:37.281 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:51:38.181 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:51:38.181 : la hormiga Obrera, HO0000, está llevando comida del almacén al comedor.
+2023-05-09 17:51:38.296 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:51:38.296 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:51:39.127 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:51:39.222 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:51:40.027 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 17:51:41.181 : la hormiga Obrera, HO0000, está dejando comida en el comedor.
+2023-05-09 17:51:41.281 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:51:41.42 : la hormiga Obrera, HO0005, ha nacido.
+2023-05-09 17:51:41.521 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:51:42.324 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:51:42.984 : la hormiga Obrera, HO0006, ha nacido.
+2023-05-09 17:51:43.224 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:51:43.224 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:51:44.127 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:51:44.224 : la hormiga Obrera, HO0002, está dejando comida en el comedor.
+2023-05-09 17:51:44.384 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:51:45.182 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:51:45.338 : la hormiga Soldado, HS0001, ha nacido.
+2023-05-09 17:51:45.338 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:51:45.338 : la hormiga Obrera, HO0007, ha nacido.
+2023-05-09 17:51:45.439 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:51:45.521 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:51:46.13 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:51:46.184 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:51:46.284 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:51:46.284 : la hormiga Obrera, HO0006, está llevando comida del almacén al comedor.
+2023-05-09 17:51:46.324 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:51:47.284 : la hormiga Obrera, HO0006, está dejando comida en el comedor.
+2023-05-09 17:51:48.274 : la hormiga Cría, HC0002, ha nacido.
+2023-05-09 17:51:48.274 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:51:48.339 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:51:48.384 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:51:49.183 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:51:49.427 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:51:49.44 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:51:50.028 : la hormiga Obrera, HO0008, ha nacido.
+2023-05-09 17:51:50.184 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:51:50.327 : la hormiga Obrera, HO0000, está llevando comida del almacén al comedor.
+2023-05-09 17:51:50.327 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:51:50.342 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:51:50.427 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:51:51.131 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:51:51.274 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:51:51.327 : la hormiga Obrera, HO0000, está dejando comida en el comedor.
+2023-05-09 17:51:51.327 : la hormiga Obrera, HO0004, está llevando comida del almacén al comedor.
+2023-05-09 17:51:51.327 : la hormiga Obrera, HO0008, está sacando comida del almacén.
+2023-05-09 17:51:51.429 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:51:52.184 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:51:52.328 : la hormiga Obrera, HO0004, está dejando comida en el comedor.
+2023-05-09 17:51:52.328 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:51:52.328 : la hormiga Obrera, HO0008, está llevando comida del almacén al comedor.
+2023-05-09 17:51:52.428 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:51:52.532 : la hormiga Obrera, HO0009, ha nacido.
+2023-05-09 17:51:52.633 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:51:53.131 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:51:53.185 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:51:53.328 : la hormiga Obrera, HO0008, está dejando comida en el comedor.
+2023-05-09 17:51:53.33 : la hormiga Obrera, HO0006, está llevando comida del almacén al comedor.
+2023-05-09 17:51:53.33 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:51:53.427 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:51:54.133 : la hormiga Obrera, HO0010, ha nacido.
+2023-05-09 17:51:54.331 : la hormiga Obrera, HO0006, está dejando comida en el comedor.
+2023-05-09 17:51:54.427 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:51:55.274 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:51:55.342 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:51:55.43 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:51:55.495 : la hormiga Soldado, HS0002, ha nacido.
+2023-05-09 17:51:55.495 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:51:55.495 : la hormiga Obrera, HO0011, ha nacido.
+2023-05-09 17:51:55.528 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:51:55.597 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:51:56.184 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:51:56.428 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:51:56.633 : la hormiga Obrera, HO0009, está guardando comida en el almacén.
+2023-05-09 17:51:57.134 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:51:57.187 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:51:57.224 : la hormiga Cría, HC0003, ha nacido.
+2023-05-09 17:51:57.224 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:51:57.344 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:51:57.428 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:51:57.428 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:51:57.529 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:51:58.496 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:51:59.134 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:51:59.184 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:51:59.275 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:51:59.43 : la hormiga Obrera, HO0006, está llevando comida del almacén al comedor.
+2023-05-09 17:51:59.43 : la hormiga Obrera, HO0008, está sacando comida del almacén.
+2023-05-09 17:51:59.431 : la hormiga Obrera, HO0002, está dejando comida en el comedor.
+2023-05-09 17:51:59.528 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:51:59.531 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:51:59.597 : la hormiga Obrera, HO0011, está guardando comida en el almacén.
+2023-05-09 17:51:59.865 : la hormiga Obrera, HO0012, ha nacido.
+2023-05-09 17:52:00.431 : la hormiga Obrera, HO0006, está dejando comida en el comedor.
+2023-05-09 17:52:00.499 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:52:01.188 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:52:01.225 : la hormiga Cría, HC0003, está descansando.
+2023-05-09 17:52:01.431 : la hormiga Obrera, HO0008, está llevando comida del almacén al comedor.
+2023-05-09 17:52:01.431 : la hormiga Obrera, HO0010, está sacando comida del almacén.
+2023-05-09 17:52:01.529 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:52:01.531 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:52:01.533 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:52:02.433 : la hormiga Obrera, HO0008, está dejando comida en el comedor.
+2023-05-09 17:52:02.56 : la hormiga Obrera, HO0013, ha nacido.
+2023-05-09 17:52:02.661 : la hormiga Obrera, HO0013, está recogiendo comida.
+2023-05-09 17:52:03.134 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:52:03.185 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:52:03.275 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:52:03.345 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:52:03.433 : la hormiga Obrera, HO0010, está llevando comida del almacén al comedor.
+2023-05-09 17:52:03.433 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:52:03.531 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:52:03.534 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:52:03.534 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:52:04.058 : la hormiga Obrera, HO0014, ha nacido.
+2023-05-09 17:52:04.434 : la hormiga Obrera, HO0010, está dejando comida en el comedor.
+2023-05-09 17:52:04.501 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:52:05.134 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:52:05.191 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:52:05.225 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:52:05.347 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:52:05.434 : la hormiga Obrera, HO0000, está llevando comida del almacén al comedor.
+2023-05-09 17:52:05.434 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:52:05.531 : la hormiga Obrera, HO0009, está guardando comida en el almacén.
+2023-05-09 17:52:05.534 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:52:05.941 : la hormiga Soldado, HS0003, ha nacido.
+2023-05-09 17:52:05.941 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:52:05.941 : la hormiga Obrera, HO0015, ha nacido.
+2023-05-09 17:52:06.041 : la hormiga Obrera, HO0015, está recogiendo comida.
+2023-05-09 17:52:06.276 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:52:06.502 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:52:06.664 : la hormiga Obrera, HO0013, está guardando comida en el almacén.
+2023-05-09 17:52:07.185 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:52:07.434 : la hormiga Obrera, HO0010, está sacando comida del almacén.
+2023-05-09 17:52:07.434 : la hormiga Obrera, HO0004, está llevando comida del almacén al comedor.
+2023-05-09 17:52:07.534 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:52:07.534 : la hormiga Obrera, HO0011, está guardando comida en el almacén.
+2023-05-09 17:52:07.536 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:52:07.538 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:52:08.064 : la hormiga Cría, HC0004, ha nacido.
+2023-05-09 17:52:08.064 : la hormiga Cría, HC0004, está comiendo.
+2023-05-09 17:52:08.226 : la hormiga Cría, HC0003, está descansando.
+2023-05-09 17:52:08.435 : la hormiga Obrera, HO0000, está dejando comida en el comedor.
+2023-05-09 17:52:08.436 : la hormiga Obrera, HO0010, está llevando comida del almacén al comedor.
+2023-05-09 17:52:08.436 : la hormiga Obrera, HO0014, está sacando comida del almacén.
+2023-05-09 17:52:08.503 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:52:08.539 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:52:08.941 : la hormiga Soldado, HS0003, está descansando.
+2023-05-09 17:52:09.193 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:52:09.348 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:52:09.435 : la hormiga Obrera, HO0004, está dejando comida en el comedor.
+2023-05-09 17:52:09.439 : la hormiga Obrera, HO0010, está dejando comida en el comedor.
+2023-05-09 17:52:10.044 : la hormiga Obrera, HO0015, está guardando comida en el almacén.
+2023-05-09 17:52:10.276 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:52:10.438 : la hormiga Obrera, HO0014, está llevando comida del almacén al comedor.
+2023-05-09 17:52:10.438 : la hormiga Obrera, HO0008, está sacando comida del almacén.
+2023-05-09 17:52:10.504 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:52:10.54 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:52:10.942 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:52:11.064 : la hormiga Cría, HC0004, está descansando.
+2023-05-09 17:52:11.135 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:52:11.187 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:52:11.3 : la hormiga Obrera, HO0016, ha nacido.
+2023-05-09 17:52:11.348 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:52:11.438 : la hormiga Obrera, HO0014, está dejando comida en el comedor.
+2023-05-09 17:52:11.537 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:52:11.539 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:52:12.226 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:52:12.438 : la hormiga Obrera, HO0008, está llevando comida del almacén al comedor.
+2023-05-09 17:52:12.438 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:52:12.54 : la hormiga Obrera, HO0009, está guardando comida en el almacén.
+2023-05-09 17:52:12.54 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:52:12.541 : la hormiga Obrera, HO0013, está recogiendo comida.
+2023-05-09 17:52:12.641 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:52:13.137 : la hormiga Soldado, HS0000, está comiendo.
+2023-05-09 17:52:13.194 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:52:13.277 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:52:13.438 : la hormiga Obrera, HO0008, está dejando comida en el comedor.
+2023-05-09 17:52:13.439 : la hormiga Obrera, HO0006, está llevando comida del almacén al comedor.
+2023-05-09 17:52:13.439 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:52:13.504 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:52:13.54 : la hormiga Obrera, HO0015, está recogiendo comida.
+2023-05-09 17:52:14.44 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:52:14.44 : la hormiga Obrera, HO0012, está sacando comida del almacén.
+2023-05-09 17:52:14.54 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:52:14.544 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:52:14.624 : la hormiga Obrera, HO0017, ha nacido.
+2023-05-09 17:52:14.724 : la hormiga Obrera, HO0017, está recogiendo comida.
+2023-05-09 17:52:14.942 : la hormiga Soldado, HS0003, está descansando.
+2023-05-09 17:52:15.065 : la hormiga Cría, HC0004, está comiendo.
+2023-05-09 17:52:15.19 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:52:15.228 : la hormiga Cría, HC0003, está descansando.
+2023-05-09 17:52:15.441 : la hormiga Obrera, HO0012, está llevando comida del almacén al comedor.
+2023-05-09 17:52:15.441 : la hormiga Obrera, HO0008, está sacando comida del almacén.
+2023-05-09 17:52:15.442 : la hormiga Obrera, HO0006, está dejando comida en el comedor.
+2023-05-09 17:52:15.505 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:52:15.541 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:52:15.541 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:52:16.139 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:52:16.195 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:52:16.441 : la hormiga Obrera, HO0012, está dejando comida en el comedor.
+2023-05-09 17:52:16.442 : la hormiga Obrera, HO0002, está dejando comida en el comedor.
+2023-05-09 17:52:16.531 : la hormiga Obrera, HO0018, ha nacido.
+2023-05-09 17:52:16.54 : la hormiga Obrera, HO0011, está guardando comida en el almacén.
+2023-05-09 17:52:16.541 : la hormiga Obrera, HO0013, está guardando comida en el almacén.
+2023-05-09 17:52:16.641 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:52:16.943 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:52:17.279 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:52:17.441 : la hormiga Obrera, HO0008, está llevando comida del almacén al comedor.
+2023-05-09 17:52:17.441 : la hormiga Obrera, HO0014, está sacando comida del almacén.
+2023-05-09 17:52:17.54 : la hormiga Obrera, HO0015, está guardando comida en el almacén.
+2023-05-09 17:52:17.541 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:52:18.066 : la hormiga Cría, HC0004, está descansando.
+2023-05-09 17:52:18.348 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:52:18.544 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:52:18.726 : la hormiga Obrera, HO0017, está guardando comida en el almacén.
+2023-05-09 17:52:18.943 : la hormiga Soldado, HS0003, está descansando.
+2023-05-09 17:52:19.191 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:52:19.229 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:52:19.444 : la hormiga Obrera, HO0014, está llevando comida del almacén al comedor.
+2023-05-09 17:52:19.444 : la hormiga Obrera, HO0010, está sacando comida del almacén.
+2023-05-09 17:52:19.541 : la hormiga Obrera, HO0009, está guardando comida en el almacén.
+2023-05-09 17:52:19.541 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:52:19.708 : la hormiga Soldado, HS0004, ha nacido.
+2023-05-09 17:52:19.708 : la hormiga Soldado, HS0004, está instruyéndose.
+2023-05-09 17:52:19.708 : la hormiga Obrera, HO0019, ha nacido.
+2023-05-09 17:52:19.808 : la hormiga Obrera, HO0019, está recogiendo comida.
+2023-05-09 17:52:20.195 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:52:20.351 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:52:20.444 : la hormiga Obrera, HO0008, está dejando comida en el comedor.
+2023-05-09 17:52:20.445 : la hormiga Obrera, HO0014, está dejando comida en el comedor.
+2023-05-09 17:52:20.505 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:52:20.944 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:52:21.28 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:52:21.445 : la hormiga Obrera, HO0010, está llevando comida del almacén al comedor.
+2023-05-09 17:52:21.445 : la hormiga Obrera, HO0016, está sacando comida del almacén.
+2023-05-09 17:52:21.542 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:52:21.546 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:52:21.546 : la hormiga Obrera, HO0013, está recogiendo comida.
+2023-05-09 17:52:21.646 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:52:22.066 : la hormiga Cría, HC0004, está comiendo.
+2023-05-09 17:52:22.191 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:52:22.231 : la hormiga Cría, HC0003, está descansando.
+2023-05-09 17:52:22.446 : la hormiga Obrera, HO0010, está dejando comida en el comedor.
+2023-05-09 17:52:22.506 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:52:22.932 : la hormiga Cría, HC0005, ha nacido.
+2023-05-09 17:52:22.932 : la hormiga Cría, HC0005, está comiendo.
+2023-05-09 17:52:23.352 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:52:23.447 : la hormiga Obrera, HO0016, está llevando comida del almacén al comedor.
+2023-05-09 17:52:23.447 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:52:23.55 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:52:23.55 : la hormiga Obrera, HO0015, está recogiendo comida.
+2023-05-09 17:52:23.651 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:52:23.651 : la hormiga Obrera, HO0017, está recogiendo comida.
+2023-05-09 17:52:23.808 : la hormiga Obrera, HO0019, está guardando comida en el almacén.
+2023-05-09 17:52:24.14 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:52:24.195 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:52:24.448 : la hormiga Obrera, HO0004, está llevando comida del almacén al comedor.
+2023-05-09 17:52:24.448 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:52:24.506 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:52:24.549 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:52:24.55 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:52:24.711 : la hormiga Soldado, HS0004, está descansando.
+2023-05-09 17:52:25.066 : la hormiga Cría, HC0004, está descansando.
+2023-05-09 17:52:25.28 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:52:25.352 : la hormiga Soldado, HS0001, está comiendo.
+2023-05-09 17:52:25.448 : la hormiga Obrera, HO0016, está dejando comida en el comedor.
+2023-05-09 17:52:25.45 : la hormiga Obrera, HO0004, está dejando comida en el comedor.
+2023-05-09 17:52:25.546 : la hormiga Obrera, HO0013, está guardando comida en el almacén.
+2023-05-09 17:52:25.546 : la hormiga Obrera, HO0011, está guardando comida en el almacén.
+2023-05-09 17:52:25.615 : la hormiga Obrera, HO0020, ha nacido.
+2023-05-09 17:52:25.647 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:52:26.141 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:52:26.194 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:52:26.232 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:52:26.45 : la hormiga Obrera, HO0016, está sacando comida del almacén.
+2023-05-09 17:52:26.45 : la hormiga Obrera, HO0000, está llevando comida del almacén al comedor.
+2023-05-09 17:52:26.508 : la hormiga Soldado, HS0002, está comiendo.
+2023-05-09 17:52:26.552 : la hormiga Obrera, HO0019, está recogiendo comida.
+2023-05-09 17:52:26.712 : la hormiga Soldado, HS0004, está instruyéndose.
+2023-05-09 17:52:26.933 : la hormiga Cría, HC0005, está descansando.
+2023-05-09 17:52:27.45 : la hormiga Obrera, HO0000, está dejando comida en el comedor.
+2023-05-09 17:52:27.45 : la hormiga Obrera, HO0016, está llevando comida del almacén al comedor.
+2023-05-09 17:52:27.45 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:52:27.551 : la hormiga Obrera, HO0015, está guardando comida en el almacén.
+2023-05-09 17:52:27.551 : la hormiga Obrera, HO0009, está guardando comida en el almacén.
+2023-05-09 17:52:27.632 : la hormiga Obrera, HO0021, ha nacido.
+2023-05-09 17:52:27.652 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:52:27.653 : la hormiga Obrera, HO0017, está guardando comida en el almacén.
+2023-05-09 17:52:27.733 : la hormiga Obrera, HO0021, está recogiendo comida.
+2023-05-09 17:52:28.196 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:52:28.28 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:52:28.352 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:52:28.452 : la hormiga Obrera, HO0016, está dejando comida en el comedor.
+2023-05-09 17:52:28.549 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:52:28.55 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:52:28.944 : la hormiga Soldado, HS0003, está descansando.
+2023-05-09 17:52:29.067 : la hormiga Cría, HC0004, está comiendo.
+2023-05-09 17:52:29.195 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:52:29.232 : la hormiga Cría, HC0003, está descansando.
+2023-05-09 17:52:29.451 : la hormiga Obrera, HO0004, está llevando comida del almacén al comedor.
+2023-05-09 17:52:29.451 : la hormiga Obrera, HO0020, está sacando comida del almacén.
+2023-05-09 17:52:29.508 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:52:29.551 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:52:29.554 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:52:29.651 : la hormiga Obrera, HO0013, está recogiendo comida.
+2023-05-09 17:52:29.714 : la hormiga Soldado, HS0004, está descansando.
+2023-05-09 17:52:30.142 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:52:30.452 : la hormiga Obrera, HO0004, está dejando comida en el comedor.
+2023-05-09 17:52:30.453 : la hormiga Obrera, HO0020, está llevando comida del almacén al comedor.
+2023-05-09 17:52:30.453 : la hormiga Obrera, HO0010, está sacando comida del almacén.
+2023-05-09 17:52:30.552 : la hormiga Obrera, HO0019, está guardando comida en el almacén.
+2023-05-09 17:52:30.554 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:52:30.554 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:52:30.567 : la hormiga Obrera, HO0022, ha nacido.
+2023-05-09 17:52:30.934 : la hormiga Cría, HC0005, está comiendo.
+2023-05-09 17:52:30.944 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:52:31.454 : la hormiga Obrera, HO0010, está llevando comida del almacén al comedor.
+2023-05-09 17:52:31.454 : la hormiga Obrera, HO0014, está sacando comida del almacén.
+2023-05-09 17:52:31.714 : la hormiga Soldado, HS0004, está instruyéndose.
+2023-05-09 17:52:31.734 : la hormiga Obrera, HO0021, está guardando comida en el almacén.
+2023-05-09 17:52:32.067 : la hormiga Cría, HC0004, está descansando.
+2023-05-09 17:52:32.142 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:52:32.196 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:52:32.28 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:52:32.354 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:52:32.453 : la hormiga Obrera, HO0020, está dejando comida en el comedor.
+2023-05-09 17:52:32.454 : la hormiga Obrera, HO0010, está dejando comida en el comedor.
+2023-05-09 17:52:33.084 : la hormiga Soldado, HS0005, ha nacido.
+2023-05-09 17:52:33.084 : la hormiga Soldado, HS0005, está instruyéndose.
+2023-05-09 17:52:33.084 : la hormiga Obrera, HO0023, ha nacido.
+2023-05-09 17:52:33.184 : la hormiga Obrera, HO0023, está recogiendo comida.
+2023-05-09 17:52:33.195 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:52:33.232 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:52:33.454 : la hormiga Obrera, HO0014, está llevando comida del almacén al comedor.
+2023-05-09 17:52:33.454 : la hormiga Obrera, HO0008, está sacando comida del almacén.
+2023-05-09 17:52:33.551 : la hormiga Obrera, HO0011, está guardando comida en el almacén.
+2023-05-09 17:52:33.554 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:52:33.555 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:52:33.555 : la hormiga Obrera, HO0015, está recogiendo comida.
+2023-05-09 17:52:33.654 : la hormiga Obrera, HO0013, está guardando comida en el almacén.
+2023-05-09 17:52:33.655 : la hormiga Obrera, HO0017, está recogiendo comida.
+2023-05-09 17:52:33.655 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:52:34.355 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:52:34.455 : la hormiga Obrera, HO0010, está sacando comida del almacén.
+2023-05-09 17:52:34.455 : la hormiga Obrera, HO0008, está llevando comida del almacén al comedor.
+2023-05-09 17:52:34.554 : la hormiga Obrera, HO0009, está guardando comida en el almacén.
+2023-05-09 17:52:34.554 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:52:34.555 : la hormiga Obrera, HO0021, está recogiendo comida.
+2023-05-09 17:52:34.716 : la hormiga Soldado, HS0004, está descansando.
+2023-05-09 17:52:34.934 : la hormiga Cría, HC0005, está descansando.
+2023-05-09 17:52:35.508 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:52:36.067 : la hormiga Cría, HC0004, está comiendo.
+2023-05-09 17:52:36.196 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:52:36.196 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:52:36.281 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:52:36.398 : la hormiga Cría, HC0006, ha nacido.
+2023-05-09 17:52:36.398 : la hormiga Cría, HC0006, está comiendo.
+2023-05-09 17:52:36.455 : la hormiga Obrera, HO0008, está dejando comida en el comedor.
+2023-05-09 17:52:36.455 : la hormiga Obrera, HO0010, está llevando comida del almacén al comedor.
+2023-05-09 17:52:36.455 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:52:36.456 : la hormiga Obrera, HO0014, está dejando comida en el comedor.
+2023-05-09 17:52:36.556 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:52:36.556 : la hormiga Obrera, HO0019, está recogiendo comida.
+2023-05-09 17:52:36.656 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:52:36.716 : la hormiga Soldado, HS0004, está instruyéndose.
+2023-05-09 17:52:37.085 : la hormiga Soldado, HS0005, está descansando.
+2023-05-09 17:52:37.185 : la hormiga Obrera, HO0023, está guardando comida en el almacén.
+2023-05-09 17:52:37.234 : la hormiga Cría, HC0003, está descansando.
+2023-05-09 17:52:37.355 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:52:37.509 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:52:37.555 : la hormiga Obrera, HO0015, está guardando comida en el almacén.
+2023-05-09 17:52:37.555 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:52:37.655 : la hormiga Obrera, HO0017, está guardando comida en el almacén.
+2023-05-09 17:52:37.655 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:52:38.457 : la hormiga Obrera, HO0010, está dejando comida en el comedor.
+2023-05-09 17:52:38.457 : la hormiga Obrera, HO0008, está sacando comida del almacén.
+2023-05-09 17:52:38.457 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:52:38.555 : la hormiga Obrera, HO0021, está guardando comida en el almacén.
+2023-05-09 17:52:38.558 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:52:38.558 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:52:38.602 : la hormiga Obrera, HO0024, ha nacido.
+2023-05-09 17:52:38.658 : la hormiga Obrera, HO0013, está recogiendo comida.
+2023-05-09 17:52:38.935 : la hormiga Cría, HC0005, está comiendo.
+2023-05-09 17:52:38.946 : la hormiga Soldado, HS0003, está descansando.
+2023-05-09 17:52:39.069 : la hormiga Cría, HC0004, está descansando.
+2023-05-09 17:52:39.085 : la hormiga Soldado, HS0005, está instruyéndose.
+2023-05-09 17:52:39.142 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:52:39.357 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:52:39.458 : la hormiga Obrera, HO0002, está dejando comida en el comedor.
+2023-05-09 17:52:39.458 : la hormiga Obrera, HO0010, está sacando comida del almacén.
+2023-05-09 17:52:39.458 : la hormiga Obrera, HO0008, está llevando comida del almacén al comedor.
+2023-05-09 17:52:40.196 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:52:40.197 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:52:40.281 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:52:40.399 : la hormiga Cría, HC0006, está descansando.
+2023-05-09 17:52:40.458 : la hormiga Obrera, HO0012, está sacando comida del almacén.
+2023-05-09 17:52:40.458 : la hormiga Obrera, HO0010, está llevando comida del almacén al comedor.
+2023-05-09 17:52:40.556 : la hormiga Obrera, HO0011, está guardando comida en el almacén.
+2023-05-09 17:52:40.556 : la hormiga Obrera, HO0019, está guardando comida en el almacén.
+2023-05-09 17:52:40.558 : la hormiga Obrera, HO0017, está recogiendo comida.
+2023-05-09 17:52:40.558 : la hormiga Obrera, HO0015, está recogiendo comida.
+2023-05-09 17:52:40.656 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:52:40.658 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:52:40.946 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:52:41.142 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:52:41.234 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:52:41.357 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:52:41.458 : la hormiga Obrera, HO0012, está llevando comida del almacén al comedor.
+2023-05-09 17:52:41.458 : la hormiga Obrera, HO0018, está sacando comida del almacén.
+2023-05-09 17:52:41.459 : la hormiga Obrera, HO0008, está dejando comida en el comedor.
+2023-05-09 17:52:41.559 : la hormiga Obrera, HO0021, está recogiendo comida.
+2023-05-09 17:52:41.559 : la hormiga Obrera, HO0023, está recogiendo comida.
+2023-05-09 17:52:41.779 : la hormiga Obrera, HO0025, ha nacido.
+2023-05-09 17:52:41.88 : la hormiga Obrera, HO0025, está recogiendo comida.
+2023-05-09 17:52:42.459 : la hormiga Obrera, HO0012, está dejando comida en el comedor.
+2023-05-09 17:52:42.558 : la hormiga Obrera, HO0009, está guardando comida en el almacén.
+2023-05-09 17:52:42.558 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:52:42.659 : la hormiga Obrera, HO0013, está guardando comida en el almacén.
+2023-05-09 17:52:42.719 : la hormiga Soldado, HS0004, está descansando.
+2023-05-09 17:52:42.935 : la hormiga Cría, HC0005, está descansando.
+2023-05-09 17:52:43.069 : la hormiga Cría, HC0004, está comiendo.
+2023-05-09 17:52:43.086 : la hormiga Soldado, HS0005, está descansando.
+2023-05-09 17:52:43.358 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:52:43.458 : la hormiga Obrera, HO0010, está dejando comida en el comedor.
+2023-05-09 17:52:43.459 : la hormiga Obrera, HO0018, está llevando comida del almacén al comedor.
+2023-05-09 17:52:43.459 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:52:43.511 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:52:43.56 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:52:43.56 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:52:43.567 : la hormiga Obrera, HO0026, ha nacido.
+2023-05-09 17:52:44.198 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:52:44.198 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:52:44.234 : la hormiga Cría, HC0003, está descansando.
+2023-05-09 17:52:44.281 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:52:44.399 : la hormiga Cría, HC0006, está comiendo.
+2023-05-09 17:52:44.46 : la hormiga Obrera, HO0018, está dejando comida en el comedor.
+2023-05-09 17:52:44.558 : la hormiga Obrera, HO0015, está guardando comida en el almacén.
+2023-05-09 17:52:44.559 : la hormiga Obrera, HO0017, está guardando comida en el almacén.
+2023-05-09 17:52:44.659 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:52:44.72 : la hormiga Soldado, HS0004, está instruyéndose.
+2023-05-09 17:52:45.086 : la hormiga Soldado, HS0005, está instruyéndose.
+2023-05-09 17:52:45.461 : la hormiga Obrera, HO0010, está sacando comida del almacén.
+2023-05-09 17:52:45.461 : la hormiga Obrera, HO0006, está llevando comida del almacén al comedor.
+2023-05-09 17:52:45.513 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:52:45.559 : la hormiga Obrera, HO0023, está guardando comida en el almacén.
+2023-05-09 17:52:45.559 : la hormiga Obrera, HO0021, está guardando comida en el almacén.
+2023-05-09 17:52:45.561 : la hormiga Obrera, HO0019, está recogiendo comida.
+2023-05-09 17:52:45.561 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:52:45.662 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:52:45.662 : la hormiga Obrera, HO0013, está recogiendo comida.
+2023-05-09 17:52:45.88 : la hormiga Obrera, HO0025, está guardando comida en el almacén.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 17:53:08.353 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 17:53:08.354 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:53:11.811 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 17:53:11.811 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:53:13.423 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 17:53:13.524 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:53:16.528 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 17:53:17.524 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:53:19.615 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 17:53:19.615 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 17:53:19.615 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:53:19.717 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:53:21.628 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:53:22.072 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 17:53:22.072 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:53:22.527 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:53:22.527 : la hormiga Obrera, HO0000, está llevando comida del almacén al comedor.
+2023-05-09 17:53:23.717 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:53:24.529 : la hormiga Obrera, HO0000, está dejando comida en el comedor.
+2023-05-09 17:53:24.584 : la hormiga Obrera, HO0004, ha nacido.
+2023-05-09 17:53:25.509 : la hormiga Obrera, HO0005, ha nacido.
+2023-05-09 17:53:25.612 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:53:25.628 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:53:26.618 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:53:27.819 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:53:28.53 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:53:28.53 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:53:28.62 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:53:28.996 : la hormiga Obrera, HO0006, ha nacido.
+2023-05-09 17:53:29.612 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:53:29.721 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:53:29.721 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:53:29.824 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:53:30.722 : la hormiga Obrera, HO0006, está llevando comida del almacén al comedor.
+2023-05-09 17:53:30.722 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:53:31.079 : la hormiga Soldado, HS0001, ha nacido.
+2023-05-09 17:53:31.079 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:53:31.079 : la hormiga Obrera, HO0007, ha nacido.
+2023-05-09 17:53:31.181 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:53:31.722 : la hormiga Obrera, HO0002, está dejando comida en el comedor.
+2023-05-09 17:53:31.82 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:53:32.53 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:53:32.53 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:53:32.62 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:53:32.724 : la hormiga Obrera, HO0006, está dejando comida en el comedor.
+2023-05-09 17:53:33.714 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:53:33.784 : la hormiga Cría, HC0002, ha nacido.
+2023-05-09 17:53:33.784 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:53:33.824 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:53:34.614 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:53:34.614 : la hormiga Obrera, HO0000, está llevando comida del almacén al comedor.
+2023-05-09 17:53:34.62 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:53:34.715 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:53:35.081 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:53:35.181 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:53:35.53 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:53:35.615 : la hormiga Obrera, HO0004, está llevando comida del almacén al comedor.
+2023-05-09 17:53:35.615 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:53:35.928 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:53:36.532 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:53:36.617 : la hormiga Obrera, HO0004, está dejando comida en el comedor.
+2023-05-09 17:53:36.828 : la hormiga Obrera, HO0006, está llevando comida del almacén al comedor.
+2023-05-09 17:53:36.828 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:53:37.083 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:53:37.105 : la hormiga Obrera, HO0008, ha nacido.
+2023-05-09 17:53:37.614 : la hormiga Obrera, HO0000, está dejando comida en el comedor.
+2023-05-09 17:53:37.714 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:53:37.785 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:53:37.83 : la hormiga Obrera, HO0006, está dejando comida en el comedor.
+2023-05-09 17:53:38.281 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:53:38.62 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:53:38.715 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:53:38.899 : la hormiga Obrera, HO0009, ha nacido.
+2023-05-09 17:53:39.0 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:53:39.084 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:53:39.531 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:53:39.751 : la hormiga Obrera, HO0010, ha nacido.
+2023-05-09 17:53:39.928 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:53:40.182 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:53:40.182 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:53:40.532 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:53:40.624 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:53:41.084 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:53:41.275 : la hormiga Soldado, HS0002, ha nacido.
+2023-05-09 17:53:41.275 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:53:41.275 : la hormiga Obrera, HO0011, ha nacido.
+2023-05-09 17:53:41.376 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:53:41.786 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:53:41.815 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:53:42.182 : la hormiga Obrera, HO0002, está dejando comida en el comedor.
+2023-05-09 17:53:42.282 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:53:42.531 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:53:42.727 : la hormiga Cría, HC0003, ha nacido.
+2023-05-09 17:53:42.727 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:53:43.0 : la hormiga Obrera, HO0009, está guardando comida en el almacén.
+2023-05-09 17:53:43.275 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:53:43.532 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:53:43.715 : la hormiga Obrera, HO0006, está llevando comida del almacén al comedor.
+2023-05-09 17:53:43.715 : la hormiga Obrera, HO0010, está sacando comida del almacén.
+2023-05-09 17:53:43.817 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:53:44.717 : la hormiga Obrera, HO0010, está llevando comida del almacén al comedor.
+2023-05-09 17:53:44.717 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:53:44.788 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:53:44.818 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:53:44.945 : la hormiga Obrera, HO0012, ha nacido.
+2023-05-09 17:53:45.275 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:53:45.376 : la hormiga Obrera, HO0011, está guardando comida en el almacén.
+2023-05-09 17:53:45.717 : la hormiga Obrera, HO0006, está dejando comida en el comedor.
+2023-05-09 17:53:45.72 : la hormiga Obrera, HO0004, está sacando comida del almacén.
+2023-05-09 17:53:45.72 : la hormiga Obrera, HO0000, está llevando comida del almacén al comedor.
+2023-05-09 17:53:45.73 : la hormiga Cría, HC0003, está descansando.
+2023-05-09 17:53:45.816 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:53:45.823 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:53:46.528 : la hormiga Obrera, HO0013, ha nacido.
+2023-05-09 17:53:46.531 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:53:46.63 : la hormiga Obrera, HO0013, está recogiendo comida.
+2023-05-09 17:53:46.717 : la hormiga Obrera, HO0010, está dejando comida en el comedor.
+2023-05-09 17:53:46.72 : la hormiga Obrera, HO0000, está dejando comida en el comedor.
+2023-05-09 17:53:46.72 : la hormiga Obrera, HO0004, está llevando comida del almacén al comedor.
+2023-05-09 17:53:46.72 : la hormiga Obrera, HO0008, está sacando comida del almacén.
+2023-05-09 17:53:47.104 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:53:47.533 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:53:47.817 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:53:48.084 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:53:48.154 : la hormiga Obrera, HO0014, ha nacido.
+2023-05-09 17:53:48.624 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:53:48.721 : la hormiga Obrera, HO0004, está dejando comida en el comedor.
+2023-05-09 17:53:48.788 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:53:48.818 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:53:49.004 : la hormiga Obrera, HO0008, está llevando comida del almacén al comedor.
+2023-05-09 17:53:49.004 : la hormiga Obrera, HO0010, está sacando comida del almacén.
+2023-05-09 17:53:49.104 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:53:49.697 : la hormiga Soldado, HS0003, ha nacido.
+2023-05-09 17:53:49.697 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:53:49.697 : la hormiga Obrera, HO0015, ha nacido.
+2023-05-09 17:53:49.73 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:53:49.799 : la hormiga Obrera, HO0015, está recogiendo comida.
+2023-05-09 17:53:49.823 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:53:50.085 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:53:50.532 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:53:50.624 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:53:50.63 : la hormiga Obrera, HO0013, está guardando comida en el almacén.
+2023-05-09 17:53:50.703 : la hormiga Cría, HC0004, ha nacido.
+2023-05-09 17:53:50.703 : la hormiga Cría, HC0004, está comiendo.
+2023-05-09 17:53:51.004 : la hormiga Obrera, HO0008, está dejando comida en el comedor.
+2023-05-09 17:53:51.004 : la hormiga Obrera, HO0010, está llevando comida del almacén al comedor.
+2023-05-09 17:53:51.004 : la hormiga Obrera, HO0014, está sacando comida del almacén.
+2023-05-09 17:53:51.104 : la hormiga Obrera, HO0009, está guardando comida en el almacén.
+2023-05-09 17:53:51.105 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:53:51.105 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 17:53:51.534 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:53:51.791 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:53:52.005 : la hormiga Obrera, HO0008, está sacando comida del almacén.
+2023-05-09 17:53:52.005 : la hormiga Obrera, HO0014, está llevando comida del almacén al comedor.
+2023-05-09 17:53:52.688 : la hormiga Obrera, HO0016, ha nacido.
+2023-05-09 17:53:52.73 : la hormiga Cría, HC0003, está descansando.
+2023-05-09 17:53:53.105 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:53:53.277 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:53:53.699 : la hormiga Soldado, HS0003, está descansando.
+2023-05-09 17:53:53.704 : la hormiga Cría, HC0004, está descansando.
+2023-05-09 17:53:53.802 : la hormiga Obrera, HO0015, está guardando comida en el almacén.
+2023-05-09 17:53:54.005 : la hormiga Obrera, HO0014, está dejando comida en el comedor.
+2023-05-09 17:53:54.005 : la hormiga Obrera, HO0010, está dejando comida en el comedor.
+2023-05-09 17:53:54.005 : la hormiga Obrera, HO0008, está llevando comida del almacén al comedor.
+2023-05-09 17:53:54.005 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 17:53:54.105 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 17:53:54.107 : la hormiga Obrera, HO0007, está recogiendo comida.
+2023-05-09 17:53:54.196 : la hormiga Obrera, HO0017, ha nacido.
+2023-05-09 17:53:54.206 : la hormiga Obrera, HO0009, está recogiendo comida.
+2023-05-09 17:53:54.296 : la hormiga Obrera, HO0017, está recogiendo comida.
+2023-05-09 17:53:54.532 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 17:53:55.006 : la hormiga Obrera, HO0008, está dejando comida en el comedor.
+2023-05-09 17:53:55.006 : la hormiga Obrera, HO0000, está llevando comida del almacén al comedor.
+2023-05-09 17:53:55.006 : la hormiga Obrera, HO0010, está sacando comida del almacén.
+2023-05-09 17:53:55.085 : la hormiga Soldado, HS0001, está descansando.
+2023-05-09 17:53:55.106 : la hormiga Obrera, HO0011, está guardando comida en el almacén.
+2023-05-09 17:53:55.106 : la hormiga Obrera, HO0003, está guardando comida en el almacén.
+2023-05-09 17:53:55.106 : la hormiga Obrera, HO0013, está recogiendo comida.
+2023-05-09 17:53:55.278 : la hormiga Soldado, HS0002, está instruyéndose.
+2023-05-09 17:53:55.534 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 17:53:55.624 : la hormiga Soldado, HS0000, está descansando.
+2023-05-09 17:53:55.655 : la hormiga Obrera, HO0018, ha nacido.
+2023-05-09 17:53:55.7 : la hormiga Soldado, HS0003, está instruyéndose.
+2023-05-09 17:53:55.791 : la hormiga Cría, HC0002, está comiendo.
+2023-05-09 17:53:56.008 : la hormiga Obrera, HO0010, está llevando comida del almacén al comedor.
+2023-05-09 17:53:56.008 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:53:56.109 : la hormiga Obrera, HO0005, está recogiendo comida.
+2023-05-09 17:53:56.684 : la hormiga Soldado, HS0004, ha nacido.
+2023-05-09 17:53:56.684 : la hormiga Soldado, HS0004, está instruyéndose.
+2023-05-09 17:53:56.684 : la hormiga Obrera, HO0019, ha nacido.
+2023-05-09 17:53:56.731 : la hormiga Cría, HC0003, está comiendo.
+2023-05-09 17:53:56.786 : la hormiga Obrera, HO0019, está recogiendo comida.
+2023-05-09 17:53:57.006 : la hormiga Obrera, HO0000, está dejando comida en el comedor.
+2023-05-09 17:53:57.01 : la hormiga Obrera, HO0010, está dejando comida en el comedor.
+2023-05-09 17:53:57.01 : la hormiga Obrera, HO0006, está llevando comida del almacén al comedor.
+2023-05-09 17:53:57.01 : la hormiga Obrera, HO0012, está sacando comida del almacén.
+2023-05-09 17:53:57.086 : la hormiga Soldado, HS0001, está instruyéndose.
+2023-05-09 17:53:57.534 : la hormiga Cría, HC0000, está descansando.
+2023-05-09 17:53:57.625 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 17:53:57.704 : la hormiga Cría, HC0004, está comiendo.
+2023-05-09 17:53:57.808 : la hormiga Cría, HC0005, ha nacido.
+2023-05-09 17:53:57.808 : la hormiga Cría, HC0005, está comiendo.
+2023-05-09 17:53:58.106 : la hormiga Obrera, HO0001, está guardando comida en el almacén.
+2023-05-09 17:53:58.108 : la hormiga Obrera, HO0007, está guardando comida en el almacén.
+2023-05-09 17:53:58.206 : la hormiga Obrera, HO0009, está guardando comida en el almacén.
+2023-05-09 17:53:58.278 : la hormiga Soldado, HS0002, está descansando.
+2023-05-09 17:53:58.297 : la hormiga Obrera, HO0017, está guardando comida en el almacén.
+2023-05-09 17:53:58.684 : la hormiga Soldado, HS0004, está descansando.
+2023-05-09 17:53:59.01 : la hormiga Obrera, HO0006, está dejando comida en el comedor.
+2023-05-09 17:53:59.01 : la hormiga Obrera, HO0012, está llevando comida del almacén al comedor.
+2023-05-09 17:53:59.01 : la hormiga Obrera, HO0002, está sacando comida del almacén.
+2023-05-09 17:53:59.109 : la hormiga Obrera, HO0013, está guardando comida en el almacén.
+2023-05-09 17:53:59.11 : la hormiga Obrera, HO0011, está recogiendo comida.
+2023-05-09 17:53:59.113 : la hormiga Obrera, HO0015, está recogiendo comida.
+2023-05-09 17:53:59.534 : la hormiga Cría, HC0001, está descansando.
+2023-05-09 17:53:59.732 : la hormiga Cría, HC0003, está descansando.
+2023-05-09 17:53:59.794 : la hormiga Cría, HC0002, está descansando.
+2023-05-09 17:54:00.011 : la hormiga Obrera, HO0006, está sacando comida del almacén.
+2023-05-09 17:54:00.011 : la hormiga Obrera, HO0002, está llevando comida del almacén al comedor.
+2023-05-09 17:54:00.013 : la hormiga Obrera, HO0012, está dejando comida en el comedor.
+2023-05-09 17:54:00.111 : la hormiga Obrera, HO0005, está guardando comida en el almacén.
+2023-05-09 17:54:00.111 : la hormiga Obrera, HO0003, está recogiendo comida.
