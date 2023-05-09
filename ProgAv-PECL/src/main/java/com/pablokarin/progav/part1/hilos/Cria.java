@@ -96,7 +96,9 @@ public class Cria implements Hormiga
     {
         try
         {
+            Hormiguero.getRefugio().add(this);
             Refugio.refugiar();
+            Hormiguero.getRefugio().remove(this);
         }
         catch(InterruptedException IE){}
     }

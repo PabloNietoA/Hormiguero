@@ -25,7 +25,15 @@ public class ScreenUpdate extends Thread
         this.setName("ScreenUpdater");
         while(true)
         {
-            ventanaPrincipal.updateData();
+            try
+            {
+                ventanaPrincipal.updateData();
+            }
+                catch(Exception e)
+                    
+            {
+          
+            }
         }
     }
 }

@@ -13,6 +13,11 @@ import static java.lang.Thread.sleep;
 public class TestMain {
     public static void main(String[] args)
     {
+        for (int i=1; i<0; i++)
+        {
+            System.out.println("Se ha metido tf");
+        }
+        System.out.println("No pasa na");
         TestHilo thread = new TestHilo();
         thread.start();
         try

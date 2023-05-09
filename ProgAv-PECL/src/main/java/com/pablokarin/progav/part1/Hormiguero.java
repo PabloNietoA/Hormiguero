@@ -28,6 +28,7 @@ public class Hormiguero
     private static ArrayList<Hormiga> descanso = new ArrayList();
     private static ArrayList<Obrera> fuera = new ArrayList();
     private static ArrayList<Obrera> movimiento = new ArrayList();
+    private static ArrayList<Obrera> dejandoComida = new ArrayList();
     private static ArrayList<Soldado> defendiendo = new ArrayList();
     private static ArrayList<Soldado> instruc = new ArrayList();
     private static ArrayList<Cria> refugio = new ArrayList();
@@ -115,6 +116,16 @@ public class Hormiguero
 
     public static void setMovimiento(ArrayList<Obrera> movimiento) {
         Hormiguero.movimiento = movimiento;
+    }
+    
+    public synchronized static ArrayList<Obrera> getDejandoComida()
+    {
+        return dejandoComida;
+    }
+    
+    public static void setDejandoComida(ArrayList<Obrera> dejandoComida)
+    {
+        Hormiguero.dejandoComida = dejandoComida;
     }
 
     public synchronized static ArrayList<Soldado> getDefendiendo() {

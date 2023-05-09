@@ -58,6 +58,7 @@ public class Main {
         int obreras = 0;
         
         
+        
         thread.start();
         thread2.start();
         //creador de hormigas
@@ -76,15 +77,18 @@ public class Main {
                 new Thread(new Soldado(soldados)).start();
                 soldados++;
             }
-            if (((i%5)-1)==0)
-            {
-                new Thread(new Cria(crias)).start();
-                crias++;
-            }
             else
             {
-                new Thread(new Obrera(obreras)).start();
-                obreras++;
+                if (((i%5)-1)==0)
+                {
+                    new Thread(new Cria(crias)).start();
+                    crias++;
+                }
+                else
+                {
+                    new Thread(new Obrera(obreras)).start();
+                    obreras++;
+                }
             }
         }
     }

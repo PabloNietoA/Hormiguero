@@ -77,6 +77,8 @@ public class Obrera implements Hormiga{
                 Timestamp timestamp = new Timestamp(System.currentTimeMillis());
                 TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 6, timestamp);
                 Escritor.logger.execute(entrada);
+                
+                Hormiguero.getMovimiento().add(this);
                 try
                 {
                     Thread.sleep((new Random().nextInt(3) + 1) * 1000);
@@ -85,13 +87,17 @@ public class Obrera implements Hormiga{
                 {
                     System.out.println(IE.getMessage());
                 }
+                Hormiguero.getMovimiento().remove(this);
+                
+                Hormiguero.getDejandoComida().add(this);
                 Comedor.incStock(5);
+                Hormiguero.getDejandoComida().remove(this);
+                
                 //cada 10 iteraciones
                 if (iteracion%10==0&& iteracion !=0)
                 {
                     //Entra a comer
                     Hormiguero.getComer().add(this);
-                    
                     try
                     {
                         Comedor.comer(1, 3);
@@ -120,11 +126,14 @@ public class Obrera implements Hormiga{
         {
             while (true)
             {
-                Hormiguero.salir();
                 //recolecta comida
                 Timestamp timestamp = new Timestamp(System.currentTimeMillis());
                 TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 3, timestamp);
                 Escritor.logger.execute(entrada);
+                
+                Hormiguero.salir();
+                
+                Hormiguero.getFuera().add(this);
                 try
                 {
                     Thread.sleep(4000);
@@ -133,7 +142,11 @@ public class Obrera implements Hormiga{
                 {
                 
                 }
-                //hormiguero.recolectar(); //lleva salir y entrar dentro
+                Hormiguero.getFuera().remove(this);
+                Hormiguero.entrar();
+                
+                
+                //hormiguero.recolectar(); //lleva salir y entrar dentro //sigue haciendo falta?
                 
                 Hormiguero.getAlmacen().add(this);
                 Almacen.incStock(5);

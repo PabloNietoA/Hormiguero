@@ -56,9 +56,9 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         jLabel10 = new javax.swing.JLabel();
         campoComidaComedor = new javax.swing.JTextField();
         jScrollPane3 = new javax.swing.JScrollPane();
-        jTextArea3 = new javax.swing.JTextArea();
+        campoDefendiendo = new javax.swing.JTextArea();
         jScrollPane4 = new javax.swing.JScrollPane();
-        jTextArea4 = new javax.swing.JTextArea();
+        campoRefugio = new javax.swing.JTextArea();
         campoEnAlmacen = new javax.swing.JTextField();
         campoLlevandoComida = new javax.swing.JTextField();
         jLabel11 = new javax.swing.JLabel();
@@ -144,15 +144,15 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
         });
 
-        jTextArea3.setEditable(false);
-        jTextArea3.setColumns(20);
-        jTextArea3.setRows(5);
-        jScrollPane3.setViewportView(jTextArea3);
+        campoDefendiendo.setEditable(false);
+        campoDefendiendo.setColumns(20);
+        campoDefendiendo.setRows(5);
+        jScrollPane3.setViewportView(campoDefendiendo);
 
-        jTextArea4.setEditable(false);
-        jTextArea4.setColumns(20);
-        jTextArea4.setRows(5);
-        jScrollPane4.setViewportView(jTextArea4);
+        campoRefugio.setEditable(false);
+        campoRefugio.setColumns(20);
+        campoRefugio.setRows(5);
+        jScrollPane4.setViewportView(campoRefugio);
 
         campoEnAlmacen.setEditable(false);
 
@@ -373,40 +373,79 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     {
         campoComidaAlmacen.setText(String.valueOf(Almacen.getStock()));
         campoComidaComedor.setText(String.valueOf(Comedor.getStock()));
+        //campoNHormigas.setText(String.valueOf())
         
         String almacen = "";
-        for (int i = 0; i < Hormiguero.getAlmacen().size(); i++)
-        {
-            almacen += " " + Hormiguero.getAlmacen().get(i).getNombre();
-        }
+         for (int i = 0; i < Hormiguero.getAlmacen().size(); i++)
+         {
+            almacen += Hormiguero.getAlmacen().get(i).getNombre() + ", ";
+         }
         campoEnAlmacen.setText(almacen);
         
         String comiendo = "";
         for (int i = 0; i < Hormiguero.getComer().size(); i++)
         {
-            comiendo += " " + Hormiguero.getComer().get(i).getNombre();
+            comiendo +=Hormiguero.getComer().get(i).getNombre() + ", ";
         }
         campoComiendo.setText(comiendo);
         
-        String descansando = " ";
+        String descansando = "";
         for (int i = 0; i < Hormiguero.getDescanso().size(); i++)
         {
-            descansando += " " + Hormiguero.getDescanso().get(i).getNombre();
+            descansando +=Hormiguero.getDescanso().get(i).getNombre() + ", ";
         }
         campoDescansando.setText(descansando);
+        
+        String fuera = "";
+        for (int i = 0; i < Hormiguero.getFuera().size();i++)
+        {
+            fuera += Hormiguero.getFuera().get(i).getNombre() + ", ";
+        }
+        campoBuscandoComida.setText(fuera);
+        
+        String movimiento = "";
+        for (int i = 0; i<Hormiguero.getMovimiento().size(); i++)
+        {
+            movimiento += Hormiguero.getMovimiento().get(i).getNombre() + ", ";
+        }
+        campoLlevandoComida.setText(movimiento);
+        String defendiendo = "";
+        for (int i = 0; i<Hormiguero.getDefendiendo().size(); i++)
+        {
+            defendiendo += Hormiguero.getDefendiendo().get(i).getNombre() + ", ";
+        }
+        campoDefendiendo.setText(defendiendo);
+        
+        String instruc ="";
+        for (int i = 0; i<Hormiguero.getInstruc().size(); i++)
+        {
+            instruc += Hormiguero.getDefendiendo().get(i).getNombre() + ", ";
+        }
+        campoInstruyendose.setText(instruc);
+        
+        String refugio = "";
+        for (int i = 0; i<Hormiguero.getRefugio().size(); i++)
+        {
+            refugio += Hormiguero.getRefugio().get(i).getNombre() + ", ";
+        }
+        campoRefugio.setText(refugio);
     }
+    
+    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField campoBuscandoComida;
     private javax.swing.JTextField campoComidaAlmacen;
     private javax.swing.JTextField campoComidaComedor;
     private javax.swing.JTextArea campoComiendo;
+    private javax.swing.JTextArea campoDefendiendo;
     private javax.swing.JTextField campoDejandoComida;
     private javax.swing.JTextArea campoDescansando;
     private javax.swing.JTextField campoEnAlmacen;
     private javax.swing.JTextField campoInstruyendose;
     private javax.swing.JTextField campoLlevandoComida;
     private javax.swing.JTextField campoNHormigas;
+    private javax.swing.JTextArea campoRefugio;
     private javax.swing.JButton generarAmenaza;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
@@ -425,8 +464,6 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
-    private javax.swing.JTextArea jTextArea3;
-    private javax.swing.JTextArea jTextArea4;
     private javax.swing.JTree jTree1;
     private javax.swing.JToggleButton pausaReanudar;
     // End of variables declaration//GEN-END:variables
