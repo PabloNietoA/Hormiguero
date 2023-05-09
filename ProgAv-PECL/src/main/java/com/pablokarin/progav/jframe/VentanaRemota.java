@@ -4,6 +4,8 @@
  */
 package com.pablokarin.progav.jframe;
 
+import javax.swing.JTextField;
+
 /**
  *
  * @author Karín
@@ -16,6 +18,32 @@ public class VentanaRemota extends javax.swing.JFrame {
     public VentanaRemota() {
         initComponents();
     }
+
+    public JTextField getCampoNCriasComedor() {
+        return campoNCriasComedor;
+    }
+
+    public JTextField getCampoNCriasRefugio() {
+        return campoNCriasRefugio;
+    }
+
+    public JTextField getCampoNObrerasDentro() {
+        return campoNObrerasDentro;
+    }
+
+    public JTextField getCampoNObrerasFuera() {
+        return campoNObrerasFuera;
+    }
+
+    public JTextField getCampoNSoldadosAmenaza() {
+        return campoNSoldadosAmenaza;
+    }
+
+    public JTextField getCampoNSoldadosInstruc() {
+        return campoNSoldadosInstruc;
+    }
+    
+    
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -76,6 +104,11 @@ public class VentanaRemota extends javax.swing.JFrame {
         });
 
         campoNCriasRefugio.setEditable(false);
+        campoNCriasRefugio.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                campoNCriasRefugioActionPerformed(evt);
+            }
+        });
 
         generarAmenaza.setBackground(new java.awt.Color(255, 0, 0));
         generarAmenaza.setForeground(new java.awt.Color(255, 255, 255));
@@ -160,9 +193,17 @@ public class VentanaRemota extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_campoNSoldadosInstrucActionPerformed
 
+    private void campoNCriasRefugioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_campoNCriasRefugioActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_campoNCriasRefugioActionPerformed
+
     /**
      * @param args the command line arguments
      */
+    public void modificar (javax.swing.JTextField campo, String texto)
+    {
+        campo.setText(texto);
+    }
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">

@@ -82,7 +82,7 @@ public class Obrera implements Hormiga{
                 }
                 Comedor.incStock(5);
                 //cada 10 iteraciones
-                if (iteracion%10==0)
+                if (iteracion%10==0&& iteracion !=0)
                 {
                     //Entra a comer
                     Hormiguero.getComer().add(this);
@@ -131,7 +131,7 @@ public class Obrera implements Hormiga{
                 //hormiguero.recolectar(); //lleva salir y entrar dentro
                 Almacen.incStock(5);
                 //cada 10 iteraciones              
-                if (iteracion%10==0)
+                if (iteracion%10==0&& iteracion !=0)
                 {
                     //Entra a comer
                     Hormiguero.getComer().add(this);

@@ -1,1 +1,16 @@
 
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-09 14:37:38.116 : la hormiga Cría, HC0000, ha nacido.
+2023-05-09 14:37:38.118 : la hormiga Cría, HC0000, está comiendo.
+2023-05-09 14:37:39.441 : la hormiga Obrera, HO0000, ha nacido.
+2023-05-09 14:37:39.442 : la hormiga Obrera, HO0000, está sacando comida del almacén.
+2023-05-09 14:37:42.017 : la hormiga Obrera, HO0001, ha nacido.
+2023-05-09 14:37:42.119 : la hormiga Obrera, HO0001, está recogiendo comida.
+2023-05-09 14:37:44.601 : la hormiga Obrera, HO0002, ha nacido.
+2023-05-09 14:37:47.123 : la hormiga Soldado, HS0000, ha nacido.
+2023-05-09 14:37:47.123 : la hormiga Obrera, HO0003, ha nacido.
+2023-05-09 14:37:47.123 : la hormiga Soldado, HS0000, está instruyéndose.
+2023-05-09 14:37:47.223 : la hormiga Obrera, HO0003, está recogiendo comida.
+2023-05-09 14:37:50.408 : la hormiga Cría, HC0001, ha nacido.
+2023-05-09 14:37:50.408 : la hormiga Cría, HC0001, está comiendo.
+2023-05-09 14:37:51.232 : la hormiga Obrera, HO0004, ha nacido.

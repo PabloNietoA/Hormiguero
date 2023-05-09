@@ -7,6 +7,12 @@ import java.rmi.RemoteException;
 
 public interface InterfazOperaciones extends Remote
 {
-    void generarAmenaza() throws RemoteException; //se declara el método que genera la amenaza   
+    void generarAmenaza() throws RemoteException; //se declara el método que genera la amenaza 
+    int getNObrerasFuera() throws RemoteException;
+    int getNObrerasDentro() throws RemoteException;
+    int getNSoldadosInstruc() throws RemoteException;
+    int getNSoldadosAmenaza() throws RemoteException;
+    int getNCriasComedor() throws RemoteException;
+    int getNCriasRefugio() throws RemoteException;
     
 }

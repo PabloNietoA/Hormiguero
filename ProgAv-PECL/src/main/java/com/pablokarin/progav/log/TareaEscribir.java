@@ -45,6 +45,7 @@ public class TareaEscribir implements Runnable{
         this.tipo = tipo;
         this.tiempo = tiempo;
     }
+    
     public void run()
     {
         switch (tipo)
@@ -117,7 +118,7 @@ public class TareaEscribir implements Runnable{
         mensaje = sb.toString();
         try 
         {
-            FileWriter fileWriter = new FileWriter("src/main/java/com/pablokarin/progav/log/evolucionColonia.txt");
+            FileWriter fileWriter = new FileWriter("src/main/java/com/pablokarin/progav/log/evolucionColonia.txt", true);
             //Escribe el string mensaje en el documento de texto
             fileWriter.write(mensaje);
             fileWriter.close();

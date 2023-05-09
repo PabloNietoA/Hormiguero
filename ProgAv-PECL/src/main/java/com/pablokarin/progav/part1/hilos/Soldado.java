@@ -69,7 +69,7 @@ public class Soldado implements Hormiga {
         while (true)
         {
             //va a comer cada 6 iteraciones de comportamiento
-            if (iteracion %6 == 0)
+            if (iteracion %6 == 0 && iteracion !=0)
             {
                 try
                 {

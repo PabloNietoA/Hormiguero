@@ -5,7 +5,7 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 
 public class Servidor 
-{
+{//mover al main
     public static void main (String [] args)
     {
         try
