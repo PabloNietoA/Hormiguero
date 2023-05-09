@@ -50,57 +50,57 @@ public class TareaEscribir implements Runnable{
     {
         switch (tipo)
         {
-            case 0://hehco
+            case 0://nacer
             {
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", ha nacido.";
                 break;
             }
-            case 1: //Escrito ya
+            case 1: //comer
             {
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", está comiendo.";
                 break;
             }
-            case 2://Escrito ya
+            case 2://Descansar
             {
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", está descansando.";
                 break;
             }
-            case 3: //Hecho
+            case 3: //Recoger comida
             {
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", está recogiendo comida.";
                 break;
             }
-            case 4://hecho
+            case 4://Guardar comida
             {
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", está guardando comida en el almacén.";
                 break;
             }
-            case 5://hecho
+            case 5://Sacar comida
             {
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", está sacando comida del almacén.";
                 break;
             }
-            case 6: //Hecho
+            case 6: //Llevar comida
             {
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", está llevando comida del almacén al comedor.";
                 break;
             }
-            case 7://hefcho
+            case 7://Dejar comida
             {
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", está dejando comida en el comedor.";
                 break;
             }
-            case 8://Escrito ya
+            case 8://Instruirse
             {
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", está instruyéndose.";
                 break;
             }
-            case 9://hecho
+            case 9://Defender
             {
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", va a defender a la colonia de una amenaza.";
                 break;
             }
-            case 10://Escrito ya
+            case 10://Refugiada
             {
                 mensaje = tiempo + " : la hormiga " + tipoH + ", " + nombre + ", está refugiada.";
                 break;

@@ -8,11 +8,16 @@ public class Servidor
 {//mover al main
     public static void main (String [] args)
     {
+        
         try
         {
             Operador op = new Operador();
             Registry reg = LocateRegistry.createRegistry(1099);
             Naming.rebind("//127.0.0.1/ObjOperador", op);
+            while(true)
+            {
+                
+            }
             
         }
         catch (Exception e)
