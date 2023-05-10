@@ -19,7 +19,7 @@ import java.util.concurrent.locks.*;
  *
  * @author Slend
  */
-public class Main {
+public class Servidor {
 
     
     

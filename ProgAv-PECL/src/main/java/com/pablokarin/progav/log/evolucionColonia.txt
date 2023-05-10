@@ -34648,3 +34648,7 @@
 2023-05-10 11:13:24.284 : la hormiga Obrera, HO0019, está recogiendo comida.
 2023-05-10 11:13:24.323 : la hormiga Soldado, HS0005, está instruyéndose.
 2023-05-10 11:13:24.334 : la hormiga Cría, HC0002, está descansando.
+
+=======COMIENZA LA EJECUCIÓN DEL PROGRMA=======
+2023-05-10 11:27:26.561 : la hormiga Cría, HC0000, ha nacido.
+2023-05-10 11:27:26.564 : la hormiga Cría, HC0000, está comiendo.

@@ -118,7 +118,7 @@ public class Soldado implements Hormiga {
     public void interrumpido()
     {
         Timestamp timestamp1 = new Timestamp(System.currentTimeMillis());
-        TareaEscribir entrada1 = new TareaEscribir(Thread.currentThread().getName(), 0, timestamp1);
+        TareaEscribir entrada1 = new TareaEscribir(Thread.currentThread().getName(), 10, timestamp1);
         Escritor.logger.execute(entrada1);
         //sale del hormiguero
         Hormiguero.salir();
