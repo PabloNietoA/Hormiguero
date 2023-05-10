@@ -100,9 +100,13 @@ public class Soldado implements Hormiga {
                     {
                         Hormiguero.getComer().remove(this);
                     }    
-                    else pausado = true;
+                    else 
+                    {
+                        pausado = true;
+                    }
                     
                     interrumpido();
+                    
                     if (pausado) Hormiguero.getComer().remove(this);
                 }
             }
@@ -122,7 +126,10 @@ public class Soldado implements Hormiga {
                     {
                         Hormiguero.getInstruc().remove(this);
                     }
-                    else pausado = true;
+                    else 
+                    {
+                        pausado = true;
+                    }
 
                     interrumpido();
                     
@@ -144,9 +151,13 @@ public class Soldado implements Hormiga {
                     {
                         Hormiguero.getDescanso().remove(this);
                     }
-                    else pausado = true;
+                    else 
+                    {
+                        pausado = true;
+                    }
 
                     interrumpido();
+                    
                     if (pausado) Hormiguero.getDescanso().remove(this);
                         
                 }
@@ -164,7 +175,10 @@ public class Soldado implements Hormiga {
             {
                 latch.await();
             }
-            catch (InterruptedException IE){}
+            catch (InterruptedException IE)
+            {
+                interrumpido();
+            }
         }
         else
         {
@@ -174,9 +188,9 @@ public class Soldado implements Hormiga {
             try {
                 //sale del hormiguero
                 Hormiguero.salir();
-            } catch (InterruptedException ex) {
-                System.out.println(ex.getMessage());
-                ex.printStackTrace();
+            } catch (InterruptedException ex) 
+            {
+                interrumpido();
             }
             Hormiguero.getDefendiendo().add(this);
             //entra en la cyclicbarrier de espera
@@ -184,24 +198,29 @@ public class Soldado implements Hormiga {
             {
                 barrera.await();
             }
-            catch(Exception e){}
+            catch(Exception e)
+            {
+                interrumpido();
+            }
 
             //entra a la pelea (CountdownLatch)
             try
             {
                 latch.await();
             }
-            catch (InterruptedException IE){}
+            catch (InterruptedException IE)
+            {
+                interrumpido();
+            }
 
             //vuelve a entrar en el hormiguero
             Hormiguero.getDefendiendo().remove(this);
            try{ 
             Hormiguero.entrar();
            }
-           catch(Exception e)
+           catch(InterruptedException e)
            {
-               System.out.println(e.getMessage());
-               e.printStackTrace();
+               interrumpido();
            }
         }
     }

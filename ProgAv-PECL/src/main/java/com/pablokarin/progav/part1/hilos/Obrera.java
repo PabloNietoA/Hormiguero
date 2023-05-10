@@ -239,8 +239,13 @@ public class Obrera implements Hormiga{
     
     public void interrumpido()
     {
-        try {
+        try 
+        {
             latch.await();
-        } catch (InterruptedException ex) {}
+        } 
+        catch (InterruptedException ex) 
+        {
+            interrumpido();
+        }
     }
 }

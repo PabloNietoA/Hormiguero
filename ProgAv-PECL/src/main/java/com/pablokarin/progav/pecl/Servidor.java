@@ -40,7 +40,7 @@ public class Servidor {
         }
         
         //se muestra la pantalla
-        VentanaPrincipal ventana = new VentanaPrincipal();
+        com.pablokarin.progav.jframe.VentanaPrincipal ventana = new com.pablokarin.progav.jframe.VentanaPrincipal();
         ventana.setLocationRelativeTo(null);
         ventana.setVisible(true);
         
@@ -91,23 +91,26 @@ public class Servidor {
                 {
                     System.out.println(IE.getMessage());
                 }
-                if ((i%5)==0)
+                if (!Hormiguero.isPausa())
                 {
-                    new Thread(new Soldado(soldados)).start();
-                    Hormiguero.aumentarSoldados();
-                    soldados++;
-                }
-                else
-                {
-                    if (((i%5)-1)==0)
+                    if ((i%5)==0)
                     {
-                        new Thread(new Cria(crias)).start();
-                        crias++;
+                        new Thread(new Soldado(soldados)).start();
+                        Hormiguero.aumentarSoldados();
+                        soldados++;
                     }
                     else
                     {
-                        new Thread(new Obrera(obreras)).start();
-                        obreras++;
+                        if (((i%5)-1)==0)
+                        {
+                            new Thread(new Cria(crias)).start();
+                            crias++;
+                        }
+                        else
+                        {
+                            new Thread(new Obrera(obreras)).start();
+                            obreras++;
+                        }
                     }
                 }
             }

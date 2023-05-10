@@ -206,15 +206,6 @@ public class Hormiguero
             
             pausa = true;
             
-            try 
-            {
-                Thread.sleep(100);
-            } 
-            catch (InterruptedException ex) 
-            {
-                
-            }
-            
             for (Thread t : Thread.getAllStackTraces().keySet())
             {
                 if (t.getName().contains("HO") || t.getName().contains("HS") || t.getName().contains("HC"))

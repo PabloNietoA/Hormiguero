@@ -95,11 +95,17 @@ public class Cria implements Hormiga
                     {
                         Hormiguero.getComer().remove(this);
                     }
-                    else pausado = true;
+                    else 
+                    {
+                        pausado = true;
+                    }
                     
                     interrumpido();
                     
-                    if (pausado) Hormiguero.getComer().remove(this);
+                    if (pausado) 
+                    {
+                        Hormiguero.getComer().remove(this);
+                    }
                 }
                 try
                 {
@@ -114,11 +120,17 @@ public class Cria implements Hormiga
                     {
                         Hormiguero.getDescanso().remove(this);
                     }
-                    else pausado = true;
+                    else 
+                    {
+                        pausado = true;
+                    }
 
                     interrumpido();
                     
-                    if(pausado) Hormiguero.getDescanso().remove(this);
+                    if(pausado) 
+                    {
+                        Hormiguero.getDescanso().remove(this);
+                    }
                 }
             }
         }
@@ -145,7 +157,10 @@ public class Cria implements Hormiga
         {
             try {
                 latch.await();
-            } catch (InterruptedException ex) {}
+            } catch (InterruptedException ex) 
+            {
+                interrumpido();
+            }
         }
         else
         {
@@ -156,7 +171,10 @@ public class Cria implements Hormiga
 
                 Hormiguero.getRefugio().remove(this);
             }
-            catch(InterruptedException IE){}
+            catch(InterruptedException IE)
+            {
+                interrumpido();
+            }
         }
     }
 
