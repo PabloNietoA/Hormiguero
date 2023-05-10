@@ -6,6 +6,7 @@ package com.pablokarin.progav.part1;
 
 import com.pablokarin.progav.log.Escritor;
 import com.pablokarin.progav.log.TareaEscribir;
+import com.pablokarin.progav.part1.hilos.Obrera;
 import java.sql.Timestamp;
 import java.util.concurrent.Semaphore;
 import java.util.Random;
@@ -22,19 +23,17 @@ public class Almacen
     private static final Lock control = new ReentrantLock();
     private static final Condition vacio = control.newCondition();
     
-    public static void incStock(int inc)
+    public static void incStock(int inc, Obrera obr)
     {
-        System.out.println("Entra");
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 4, timestamp);
         Escritor.logger.execute(entrada);
         try 
         {
             aforo.acquire();
-            System.out.println("Entro en Aforo");
+            Hormiguero.getAlmacen().add(obr);
             Thread.sleep((new Random().nextInt(3) + 2)*1000);
             control.lock();
-            System.out.println("Deposito la carga");
             stock += inc;
             //puede haber problemas si llegan 10 recolectores (que hacer?)
             vacio.signalAll();
@@ -46,6 +45,7 @@ public class Almacen
         finally 
         {
             control.unlock();
+            Hormiguero.getAlmacen().remove(obr);
             aforo.release();
         }
     }
@@ -53,7 +53,7 @@ public class Almacen
     public static int getStock() {
         return stock;
     }
-    public static synchronized void decStock(int dec)
+    public static synchronized void decStock(int dec, Obrera obr)
     {
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 5, timestamp);
@@ -62,14 +62,17 @@ public class Almacen
         try
         {
             aforo.acquire();
+            Hormiguero.getAlmacen().add(obr);
             control.lock();
             while (stock < dec)
             {
+                Hormiguero.getAlmacen().remove(obr);
                 aforo.release();
                 //sigue desde el await cuando hace el signal
                 vacio.await();
                 
                 aforo.acquire();
+                Hormiguero.getAlmacen().add(obr);
             }
             Thread.sleep((new Random().nextInt(2) + 1) * 1000);
             stock -= dec;
@@ -91,6 +94,7 @@ public class Almacen
             }
             try
             {
+                Hormiguero.getAlmacen().remove(obr);
                 aforo.release();
             }
             catch(Exception e)

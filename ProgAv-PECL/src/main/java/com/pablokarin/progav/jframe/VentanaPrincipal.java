@@ -8,6 +8,8 @@ import java.awt.Color;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import com.pablokarin.progav.part1.*;
+import com.pablokarin.progav.part1.hilos.*;
+import java.util.ArrayList;
 import javax.swing.JScrollPane;
 
 /**
@@ -375,65 +377,119 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         campoNHormigas.setText(String.valueOf(Hormiguero.getNHormigasVivas()));
         
         String almacen = "";
-         for (int i = 0; i < Hormiguero.getAlmacen().size(); i++)
+        ArrayList<Obrera> lAlmacen = Hormiguero.getAlmacen();
+        
+         for (int i = 0; i < lAlmacen.size(); i++)
          {
-            almacen += Hormiguero.getAlmacen().get(i).getNombre() + ", ";
+            try
+            {
+                almacen += lAlmacen.get(i).getNombre() + ", ";
+            }
+            catch(Exception e){}
          }
         campoEnAlmacen.setText(almacen);
         
         String comiendo = "";
-        for (int i = 0; i < Hormiguero.getComer().size(); i++)
+        ArrayList<Hormiga> lComer = Hormiguero.getComer();
+        
+        for (int i = 0; i < lComer.size(); i++)
         {
-            comiendo +=Hormiguero.getComer().get(i).getNombre() + ", ";
+            try
+            {
+                comiendo += lComer.get(i).getNombre() + ", ";
+            }
+            catch(Exception e){}
         }
         campoComiendo.setText(comiendo);
         
         String descansando = "";
-        for (int i = 0; i < Hormiguero.getDescanso().size(); i++)
+        ArrayList<Hormiga> lDescanso = Hormiguero.getDescanso();
+        
+        for (int i = 0; i < lDescanso.size(); i++)
         {
-            descansando +=Hormiguero.getDescanso().get(i).getNombre() + ", ";
+            try
+            {
+                descansando += lDescanso.get(i).getNombre() + ", ";
+            }
+            catch(Exception e){}
         }
         campoDescansando.setText(descansando);
         
         String fuera = "";
-        for (int i = 0; i < Hormiguero.getFuera().size();i++)
+        ArrayList<Obrera> lFuera = Hormiguero.getFuera();
+        
+        for (int i = 0; i < lFuera.size();i++)
         {
-            fuera += Hormiguero.getFuera().get(i).getNombre() + ", ";
+            try
+            {
+                fuera += lFuera.get(i).getNombre() + ", ";
+            }
+            catch(Exception e){}
         }
         campoBuscandoComida.setText(fuera);
         
         String movimiento = "";
-        for (int i = 0; i<Hormiguero.getMovimiento().size(); i++)
+        ArrayList<Obrera> lMovimiento = Hormiguero.getMovimiento();
+        
+        for (int i = 0; i < lMovimiento.size(); i++)
         {
-            movimiento += Hormiguero.getMovimiento().get(i).getNombre() + ", ";
+            try
+            {
+                movimiento += lMovimiento.get(i).getNombre() + ", ";
+            }
+            catch(Exception e){}
         }
         campoLlevandoComida.setText(movimiento);
         
         String dejandoComida = "";
-        for (int i = 0; i<Hormiguero.getDejandoComida().size(); i++)
+        ArrayList<Obrera> lDejandoComida = Hormiguero.getDejandoComida();
+        
+        for (int i = 0; i < lDejandoComida.size(); i++)
         {
-            dejandoComida += Hormiguero.getDejandoComida().get(i).getNombre() + ", ";
+            try
+            {
+                dejandoComida += lDejandoComida.get(i).getNombre() + ", ";
+            }
+            catch(Exception e){}
         }
         campoDejandoComida.setText(dejandoComida);
         
         String defendiendo = "";
-        for (int i = 0; i<Hormiguero.getDefendiendo().size(); i++)
+        ArrayList<Soldado> lDefendiendo = Hormiguero.getDefendiendo();
+        
+        for (int i = 0; i < lDefendiendo.size(); i++)
         {
-            defendiendo += Hormiguero.getDefendiendo().get(i).getNombre() + ", ";
+            try
+            {
+                defendiendo += lDefendiendo.get(i).getNombre() + ", ";
+            }
+            catch(Exception e){}
         }
         campoDefendiendo.setText(defendiendo);
         
-        String instruc ="";
-        for (int i = 0; i<Hormiguero.getInstruc().size(); i++)
+        String instruc = "";
+        ArrayList<Soldado> lInstruc = Hormiguero.getInstruc();
+        
+        for (int i = 0; i < lInstruc.size(); i++)
         {
-            instruc += Hormiguero.getInstruc().get(i).getNombre() + ", ";
+            try
+            {
+                instruc += lInstruc.get(i).getNombre() + ", ";
+            }
+            catch(Exception e){}
         }
         campoInstruyendose.setText(instruc);
         
         String refugio = "";
-        for (int i = 0; i<Hormiguero.getRefugio().size(); i++)
+        ArrayList<Cria> lRefugio = Hormiguero.getRefugio();
+        
+        for (int i = 0; i < lRefugio.size(); i++)
         {
-            refugio += Hormiguero.getRefugio().get(i).getNombre() + ", ";
+            try
+            {
+                refugio += lRefugio.get(i).getNombre() + ", ";
+            }
+            catch(Exception e){}
         }
         campoRefugio.setText(refugio);
     }

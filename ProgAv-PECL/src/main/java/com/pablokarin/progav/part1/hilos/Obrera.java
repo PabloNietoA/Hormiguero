@@ -69,9 +69,7 @@ public class Obrera implements Hormiga{
             while (true)
             {
                 
-                Hormiguero.getAlmacen().add(this);
-                Almacen.decStock(5);
-                Hormiguero.getAlmacen().remove(this);
+                Almacen.decStock(5, this);
                 
                 
                 //camina del almacén al comedor
@@ -149,9 +147,8 @@ public class Obrera implements Hormiga{
                 
                 //hormiguero.recolectar(); //lleva salir y entrar dentro //sigue haciendo falta?
                 
-                Hormiguero.getAlmacen().add(this);
-                Almacen.incStock(5);
-                Hormiguero.getAlmacen().remove(this);
+                Almacen.incStock(5, this);
+                
                 //cada 10 iteraciones              
                 if (iteracion%10==0&& iteracion !=0)
                 {

@@ -5,7 +5,6 @@
 package com.pablokarin.progav.pecl;
 
 import com.pablokarin.progav.jframe.VentanaPrincipal;
-import com.pablokarin.progav.part1.Almacen;
 
 /**
  *
@@ -13,27 +12,20 @@ import com.pablokarin.progav.part1.Almacen;
  */
 public class ScreenUpdate extends Thread 
 {    
-    private VentanaPrincipal ventanaPrincipal;
+    private final VentanaPrincipal ventanaPrincipal;
     
     public ScreenUpdate(VentanaPrincipal ventana)
     {
         ventanaPrincipal = ventana;
     }
     
+    @Override
     public void run()
     {
         this.setName("ScreenUpdater");
         while(true)
         {
-            try
-            {
-                ventanaPrincipal.updateData();
-            }
-                catch(Exception e)
-                    
-            {
-          
-            }
+            ventanaPrincipal.updateData();
         }
     }
 }
