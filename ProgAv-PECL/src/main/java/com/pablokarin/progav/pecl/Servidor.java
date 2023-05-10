@@ -100,7 +100,7 @@ public class Servidor {
             }
             else
             {
-                if (((i%5)-1)==0 && !Cria.getAmenazado())
+                if (((i%5)-1)==0)
                 {
                     new Thread(new Cria(crias)).start();
                     crias++;

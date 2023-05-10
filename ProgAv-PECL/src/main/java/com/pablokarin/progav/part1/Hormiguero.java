@@ -80,11 +80,13 @@ public class Hormiguero
     //se llama al iniciar un ataque
     public static void ataque()
     {
-        //TRIGGER CRIAS
-        bloqueoPelea = new CountDownLatch(1);
-        barreraAtaque = new CyclicBarrier( soldados, new Bicho(bloqueoPelea));
-        Soldado.llamarAtaque(barreraAtaque, bloqueoPelea);
-        Cria.llamarAtaque();
+        if(soldados > 0)
+        {
+            bloqueoPelea = new CountDownLatch(1);
+            barreraAtaque = new CyclicBarrier( soldados, new Bicho(bloqueoPelea));
+            Soldado.llamarAtaque(barreraAtaque, bloqueoPelea);
+            Cria.llamarAtaque();
+        }
     }
     
     

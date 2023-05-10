@@ -19,19 +19,12 @@ public class Cria implements Hormiga
 {
     
     private String nombre;
-    private int id;
-    private static ArrayList<Cria> listaCrias = new ArrayList<Cria>();
+    private static final ArrayList<Cria> listaCrias = new ArrayList();
     private static boolean amenazado = false;
-    
-    public static boolean getAmenazado()
-    {
-        return amenazado;
-    }
     
     public Cria (int id)
     {
         listaCrias.add(this);
-        this.id = id;
         if (id < 10)
         {
             nombre = "HC000" + id;
@@ -84,6 +77,8 @@ public class Cria implements Hormiga
                 }
                 catch(InterruptedException IE)
                 {
+                    Hormiguero.getComer().remove(this);
+                    
                     interrumpido();
                 }
                 try
@@ -94,6 +89,8 @@ public class Cria implements Hormiga
                 }
                 catch(InterruptedException IE)
                 {
+                    Hormiguero.getDescanso().remove(this);
+
                     interrumpido();
                 }
             }
@@ -101,7 +98,6 @@ public class Cria implements Hormiga
     }
     public static void llamarAtaque()
     {
-        amenazado = true;
         ArrayList<Thread> crias = new ArrayList();
         for(int i = 0; i < listaCrias.size(); i++)
         {
@@ -122,12 +118,9 @@ public class Cria implements Hormiga
         {
             Hormiguero.getRefugio().add(this);
             Refugio.refugiar();
+            
             Hormiguero.getRefugio().remove(this);
         }
         catch(InterruptedException IE){}
-    }
-
-    public static void setAmenazado(boolean amenazado) {
-        Cria.amenazado = amenazado;
     }
 }

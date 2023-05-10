@@ -21,22 +21,36 @@ public class Refugio {
     
     public static void refugiar() throws InterruptedException
     {
+        System.out.println("Se refugia");
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 10, timestamp);
         Escritor.logger.execute(entrada);
         try
         {
             control.lock();
+            System.out.println("Entra a refugio");
             espera.await();
+            System.out.println("Unlock");
         }
         catch (InterruptedException IE)
         {
+            System.out.println("Salgo del refugio");
             control.unlock();
+            System.out.println("He salido del refugio");
         }
     }
     public static void terminarAmenaza()
     {
-        Cria.setAmenazado(false);
-        espera.signalAll();
+        System.out.println("Notifico");
+        try
+        {
+            control.lock();
+            espera.signalAll();
+        }
+        finally
+        {
+            control.unlock();
+        }
+        System.out.println("Notificado");
     }
 }

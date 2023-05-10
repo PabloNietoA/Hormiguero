@@ -84,7 +84,8 @@ public class Soldado implements Hormiga {
                 }
                 catch(InterruptedException IE)
                 {
-                    System.out.println("Interrumpido");
+                    Hormiguero.getComer().remove(this);    
+                    
                     interrumpido();
                 }
             }
@@ -99,7 +100,8 @@ public class Soldado implements Hormiga {
                 }
                 catch(InterruptedException IE)
                 {
-                    System.out.println("Interrumpido");
+                    Hormiguero.getInstruc().remove(this);
+
                     interrumpido();
                 }
 
@@ -113,7 +115,8 @@ public class Soldado implements Hormiga {
                 }
                 catch(InterruptedException IE)
                 {
-                    System.out.println("Interrumpido");
+                    Hormiguero.getDescanso().remove(this);
+
                     interrumpido();
                 }
             }
