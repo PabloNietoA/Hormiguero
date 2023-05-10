@@ -70,6 +70,12 @@ public class Obrera implements Hormiga{
         Timestamp timestamp1 = new Timestamp(System.currentTimeMillis());
         TareaEscribir entrada1 = new TareaEscribir(Thread.currentThread().getName(), 0, timestamp1);
         Escritor.logger.execute(entrada1);
+        
+        try {
+            Hormiguero.entrar();
+        } catch (InterruptedException ex) {
+           interrumpido();
+        }
         //las obreras pares
         if (id%2==0)
         {
@@ -156,7 +162,14 @@ public class Obrera implements Hormiga{
                 TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 3, timestamp);
                 Escritor.logger.execute(entrada);
                 
-                Hormiguero.salir();
+                try
+                {
+                    Hormiguero.salir();
+                }
+                catch (InterruptedException IE)
+                {
+                    interrumpido();
+                }
                 
                 Hormiguero.getFuera().add(this);
                 try
@@ -168,8 +181,14 @@ public class Obrera implements Hormiga{
                     interrumpido();
                 }
                 Hormiguero.getFuera().remove(this);
-                Hormiguero.entrar();
-                
+                try
+                { 
+                    Hormiguero.entrar();
+                }
+                catch (InterruptedException IE)
+                {
+                    interrumpido();
+                }
                 
                 //hormiguero.recolectar(); //lleva salir y entrar dentro //sigue haciendo falta?
                 try

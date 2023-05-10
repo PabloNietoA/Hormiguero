@@ -66,21 +66,14 @@ public class Servidor {
         catch (IOException e) {System.out.println("No se pudo escribir en el archivo. Error de I/0: " + e);}
         
         
-        Test.getA().add(7);
-        System.out.println(Test.getA().get(0));
+       
         Lock l = new ReentrantLock();
         Condition c = l.newCondition();
-        Test thread = new Test(1, l, c, true);
-        Test thread2 = new Test (2, l, c, false);
         
         int soldados = 0;
         int crias = 0;
         int obreras = 0;
         
-        
-        
-        thread.start();
-        thread2.start();
         //creador de hormigas
         for (int i = 1; i <= 10000; i++)
         {

@@ -66,6 +66,16 @@ public class Cria implements Hormiga
         Timestamp timestamp1 = new Timestamp(System.currentTimeMillis());
         TareaEscribir entrada1 = new TareaEscribir(Thread.currentThread().getName(), 0, timestamp1);
         Escritor.logger.execute(entrada1);
+        
+        try 
+        {
+            Hormiguero.entrar();
+        } 
+        catch (InterruptedException ex) 
+        {
+            interrumpido();
+        }
+        
         while (true)
         {
             while(true)

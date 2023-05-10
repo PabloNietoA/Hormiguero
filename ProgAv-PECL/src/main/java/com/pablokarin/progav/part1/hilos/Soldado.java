@@ -12,6 +12,8 @@ import java.util.ArrayList;
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.CyclicBarrier;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -69,6 +71,15 @@ public class Soldado implements Hormiga {
         Timestamp timestamp1 = new Timestamp(System.currentTimeMillis());
         TareaEscribir entrada1 = new TareaEscribir(Thread.currentThread().getName(), 0, timestamp1);
         Escritor.logger.execute(entrada1);
+        
+        try 
+        {
+            Hormiguero.entrar();
+        }
+        catch (InterruptedException ex) 
+        {
+            interrumpido();
+        }
         //bucle principal de comportamiento
         while (true)
         {
@@ -160,8 +171,13 @@ public class Soldado implements Hormiga {
             Timestamp timestamp1 = new Timestamp(System.currentTimeMillis());
             TareaEscribir entrada1 = new TareaEscribir(Thread.currentThread().getName(), 10, timestamp1);
             Escritor.logger.execute(entrada1);
-            //sale del hormiguero
-            Hormiguero.salir();
+            try {
+                //sale del hormiguero
+                Hormiguero.salir();
+            } catch (InterruptedException ex) {
+                System.out.println(ex.getMessage());
+                ex.printStackTrace();
+            }
             Hormiguero.getDefendiendo().add(this);
             //entra en la cyclicbarrier de espera
             try
@@ -179,7 +195,14 @@ public class Soldado implements Hormiga {
 
             //vuelve a entrar en el hormiguero
             Hormiguero.getDefendiendo().remove(this);
+           try{ 
             Hormiguero.entrar();
+           }
+           catch(Exception e)
+           {
+               System.out.println(e.getMessage());
+               e.printStackTrace();
+           }
         }
     }
 

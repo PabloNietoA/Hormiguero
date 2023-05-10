@@ -28,7 +28,7 @@ public class Cliente {
             InterfazOperaciones op = (InterfazOperaciones) Naming.lookup("//127.0.0.1/ObjOperador");
             while(true)
             {
-                while (true && (!pulsado))
+                while (true)
                 {
                    int nObrerasFuera = op.getNObrerasFuera();
                    ventana.modificar(ventana.getCampoNObrerasFuera(), Integer.toString(nObrerasFuera));
@@ -43,8 +43,7 @@ public class Cliente {
                    int nCriasRefugiadas = op.getNCriasRefugio();
                    ventana.modificar(ventana.getCampoNCriasRefugio(), Integer.toString(nCriasRefugiadas));
                 }
-                generarAmenaza();
-                pulsado = false;
+
             }
         }
         catch (Exception e)

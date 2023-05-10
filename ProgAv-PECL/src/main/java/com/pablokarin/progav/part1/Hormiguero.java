@@ -11,6 +11,8 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.CountDownLatch;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -50,34 +52,28 @@ public class Hormiguero
         soldados++;
     }
     
-    public static void entrar()
+    public static void entrar()throws InterruptedException
     {
         try
         {
             entrada.lock();
             Thread.sleep(100);            
         }
-        catch(InterruptedException IE)
-        {
-            System.out.println(IE.getMessage());
-        }
+      
         finally
         {
             entrada.unlock();
         }
     }
     
-    public static void salir()
+    public static void salir() throws InterruptedException
     {
         try
         {
             salida.acquire();
             Thread.sleep(100); 
         }
-         catch(InterruptedException IE)
-        {
-            System.out.println(IE.getMessage());
-        }
+
         finally
         {
             salida.release();
@@ -209,11 +205,21 @@ public class Hormiguero
             Cria.setLatch(latchPausa);
             
             pausa = true;
+            
+            try 
+            {
+                Thread.sleep(100);
+            } 
+            catch (InterruptedException ex) 
+            {
+                
+            }
+            
             for (Thread t : Thread.getAllStackTraces().keySet())
             {
                 if (t.getName().contains("HO") || t.getName().contains("HS") || t.getName().contains("HC"))
                 {
-                    System.out.println(t.getName());
+                    //System.out.println(t.getName());
                     t.interrupt();
                 }
             }
