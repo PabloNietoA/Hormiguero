@@ -4,7 +4,7 @@
  */
 package com.pablokarin.progav.jframe;
 
-import com.pablokarin.progav.part1.Hormiguero;
+import com.pablokarin.progav.pecl.Cliente;
 import javax.swing.JTextField;
 
 /**
@@ -215,8 +215,7 @@ public class VentanaRemota extends javax.swing.JFrame {
     }//GEN-LAST:event_campoNCriasRefugioActionPerformed
 
     private void generarAmenazaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_generarAmenazaActionPerformed
-        System.out.println("Interrumpiendo");
-        Hormiguero.ataque();
+        Cliente.setPulsado(true);
     }//GEN-LAST:event_generarAmenazaActionPerformed
 
     private void generarAmenazaStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_generarAmenazaStateChanged

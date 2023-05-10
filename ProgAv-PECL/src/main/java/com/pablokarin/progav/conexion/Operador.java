@@ -6,19 +6,12 @@ import java.rmi.server.UnicastRemoteObject;
 
 public class Operador extends UnicastRemoteObject implements InterfazOperaciones
 {
-    //sustituir todo esto por sizeof(?)
-    private int nObrerasFuera;
-    private int nObrerasDentro;
-    private int nSoldadosInstruc;
-    private int nSoldadosAmenaza;
-    private int nCriasComedor;
-    private int nCriasRefugio;
     
     public Operador () throws RemoteException{}
     
     public void generarAmenaza() throws RemoteException
     {
-        //código de generación de amenaza
+        Hormiguero.ataque();
     }
     
     public int getNObrerasFuera() throws RemoteException
