@@ -26,20 +26,25 @@ public class Cliente {
         try
         {
             InterfazOperaciones op = (InterfazOperaciones) Naming.lookup("//127.0.0.1/ObjOperador");
-            while (true)
+            while(true)
             {
-               int nObrerasFuera = op.getNObrerasFuera();
-               ventana.modificar(ventana.getCampoNObrerasFuera(), Integer.toString(nObrerasFuera));
-               int nObrerasDentro = op.getNObrerasDentro();
-               ventana.modificar(ventana.getCampoNObrerasDentro(), Integer.toString(nObrerasDentro));
-               int nSoldadosInstruc = op.getNSoldadosInstruc();
-               ventana.modificar(ventana.getCampoNSoldadosInstruc(), Integer.toString(nSoldadosInstruc));
-               int nSoldadosAmenaza = op.getNSoldadosAmenaza();
-               ventana.modificar(ventana.getCampoNSoldadosAmenaza(), Integer.toString(nSoldadosAmenaza));
-               int nCriasComedor = op.getNCriasComedor();
-               ventana.modificar(ventana.getCampoNCriasComedor(), Integer.toString(nCriasComedor));
-               int nCriasRefugiadas = op.getNCriasRefugio();
-               ventana.modificar(ventana.getCampoNCriasRefugio(), Integer.toString(nCriasRefugiadas));
+                while (true && (!pulsado))
+                {
+                   int nObrerasFuera = op.getNObrerasFuera();
+                   ventana.modificar(ventana.getCampoNObrerasFuera(), Integer.toString(nObrerasFuera));
+                   int nObrerasDentro = op.getNObrerasDentro();
+                   ventana.modificar(ventana.getCampoNObrerasDentro(), Integer.toString(nObrerasDentro));
+                   int nSoldadosInstruc = op.getNSoldadosInstruc();
+                   ventana.modificar(ventana.getCampoNSoldadosInstruc(), Integer.toString(nSoldadosInstruc));
+                   int nSoldadosAmenaza = op.getNSoldadosAmenaza();
+                   ventana.modificar(ventana.getCampoNSoldadosAmenaza(), Integer.toString(nSoldadosAmenaza));
+                   int nCriasComedor = op.getNCriasComedor();
+                   ventana.modificar(ventana.getCampoNCriasComedor(), Integer.toString(nCriasComedor));
+                   int nCriasRefugiadas = op.getNCriasRefugio();
+                   ventana.modificar(ventana.getCampoNCriasRefugio(), Integer.toString(nCriasRefugiadas));
+                }
+                generarAmenaza();
+                pulsado = false;
             }
         }
         catch (Exception e)

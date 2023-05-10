@@ -148,11 +148,15 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
         });
 
+        campoDefendiendo.setLineWrap(true); // Habilitar el ajuste de línea
+        campoDefendiendo.setWrapStyleWord(true); // Ajustar palabras completas
         campoDefendiendo.setEditable(false);
         campoDefendiendo.setColumns(20);
         campoDefendiendo.setRows(5);
         jScrollPane3.setViewportView(campoDefendiendo);
 
+        campoRefugio.setLineWrap(true); // Habilitar el ajuste de línea
+        campoRefugio.setWrapStyleWord(true); // Ajustar palabras completas
         campoRefugio.setEditable(false);
         campoRefugio.setColumns(20);
         campoRefugio.setRows(5);
@@ -225,9 +229,8 @@ public class VentanaPrincipal extends javax.swing.JFrame {
                             .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jLabel11, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel8, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                            .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jLabel8, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(12, 12, 12)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(campoDejandoComida, javax.swing.GroupLayout.Alignment.TRAILING)

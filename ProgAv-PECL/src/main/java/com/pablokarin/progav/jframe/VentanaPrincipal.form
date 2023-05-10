@@ -326,6 +326,9 @@
             <Property name="columns" type="int" value="20"/>
             <Property name="rows" type="int" value="5"/>
           </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="campoDefendiendo.setLineWrap(true); // Habilitar el ajuste de l&#xed;nea&#xa;        campoDefendiendo.setWrapStyleWord(true); // Ajustar palabras completas"/>
+          </AuxValues>
         </Component>
       </SubComponents>
     </Container>
@@ -342,6 +345,9 @@
             <Property name="columns" type="int" value="20"/>
             <Property name="rows" type="int" value="5"/>
           </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="campoRefugio.setLineWrap(true); // Habilitar el ajuste de l&#xed;nea&#xa;campoRefugio.setWrapStyleWord(true); // Ajustar palabras completas"/>
+          </AuxValues>
         </Component>
       </SubComponents>
     </Container>
