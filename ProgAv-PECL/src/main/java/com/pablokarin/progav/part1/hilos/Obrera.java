@@ -9,6 +9,9 @@ import com.pablokarin.progav.log.TareaEscribir;
 import com.pablokarin.progav.part1.*;
 import java.sql.Timestamp;
 import java.util.Random;
+import java.util.concurrent.CountDownLatch;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -18,7 +21,11 @@ public class Obrera implements Hormiga{
     private int iteracion = 0;
     private int id;
     private String nombre;
-    
+    private static CountDownLatch latch;
+
+    public static void setLatch(CountDownLatch latch) {
+        Obrera.latch = latch;
+    }
     
     public Obrera (int id)
    {
@@ -68,8 +75,14 @@ public class Obrera implements Hormiga{
         {
             while (true)
             {
-                
-                Almacen.decStock(5, this);
+                try
+                {
+                    Almacen.decStock(5, this);
+                }
+                catch (InterruptedException IE)
+                {
+                    interrumpido();
+                }
                 
                 
                 //camina del almacén al comedor
@@ -84,12 +97,19 @@ public class Obrera implements Hormiga{
                 }
                 catch(InterruptedException IE)
                 {
-                    System.out.println(IE.getMessage());
+                    interrumpido();
                 }
                 Hormiguero.getMovimiento().remove(this);
                 
                 Hormiguero.getDejandoComida().add(this);
-                Comedor.incStock(5);
+                try
+                {
+                    Comedor.incStock(5);
+                }
+                catch (InterruptedException IE)
+                {
+                    interrumpido();
+                }
                 Hormiguero.getDejandoComida().remove(this);
                 
                 //cada 10 iteraciones
@@ -101,7 +121,10 @@ public class Obrera implements Hormiga{
                     {
                         Comedor.comer(1, 3);
                     }
-                    catch(InterruptedException IE){}
+                    catch(InterruptedException IE)
+                    {
+                        interrumpido();
+                    }
                     
                     Hormiguero.getComer().remove(this);
                     
@@ -113,7 +136,10 @@ public class Obrera implements Hormiga{
                     {
                         Descanso.descansar(1);
                     }
-                    catch(InterruptedException IE){}
+                    catch(InterruptedException IE)
+                    {
+                        interrumpido();
+                    }
                     
                     Hormiguero.getDescanso().remove(this);
                 }
@@ -139,15 +165,21 @@ public class Obrera implements Hormiga{
                 }
                 catch (InterruptedException IE)
                 {
-                
+                    interrumpido();
                 }
                 Hormiguero.getFuera().remove(this);
                 Hormiguero.entrar();
                 
                 
                 //hormiguero.recolectar(); //lleva salir y entrar dentro //sigue haciendo falta?
-                
-                Almacen.incStock(5, this);
+                try
+                {
+                    Almacen.incStock(5, this);
+                }
+                catch (InterruptedException IE)
+                {
+                    interrumpido();
+                }
                 
                 //cada 10 iteraciones              
                 if (iteracion%10==0&& iteracion !=0)
@@ -159,7 +191,10 @@ public class Obrera implements Hormiga{
                     {
                         Comedor.comer(1, 3);
                     }
-                    catch(InterruptedException IE){}
+                    catch(InterruptedException IE)
+                    {
+                        interrumpido();
+                    }
                     
                     Hormiguero.getComer().remove(this);
                     
@@ -171,13 +206,22 @@ public class Obrera implements Hormiga{
                     {
                         Descanso.descansar(1);
                     }
-                    catch(InterruptedException IE){}
+                    catch(InterruptedException IE)
+                    {
+                        interrumpido();
+                    }
                     
                     Hormiguero.getDescanso().remove(this);
                 }
                 iteracion++;
             }
-            
         }
+    }
+    
+    public void interrumpido()
+    {
+        try {
+            latch.await();
+        } catch (InterruptedException ex) {}
     }
 }

@@ -10,6 +10,9 @@ import com.pablokarin.progav.part1.*;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.concurrent.CountDownLatch;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -20,7 +23,7 @@ public class Cria implements Hormiga
     
     private String nombre;
     private static final ArrayList<Cria> listaCrias = new ArrayList();
-    private static boolean amenazado = false;
+    private static CountDownLatch latch;
     
     public Cria (int id)
     {
@@ -77,9 +80,16 @@ public class Cria implements Hormiga
                 }
                 catch(InterruptedException IE)
                 {
-                    Hormiguero.getComer().remove(this);
+                    boolean pausado = false;
+                    if (!Hormiguero.isPausa())
+                    {
+                        Hormiguero.getComer().remove(this);
+                    }
+                    else pausado = true;
                     
                     interrumpido();
+                    
+                    if (pausado) Hormiguero.getComer().remove(this);
                 }
                 try
                 {
@@ -89,9 +99,16 @@ public class Cria implements Hormiga
                 }
                 catch(InterruptedException IE)
                 {
-                    Hormiguero.getDescanso().remove(this);
+                    boolean pausado = false;
+                    if (!Hormiguero.isPausa())
+                    {
+                        Hormiguero.getDescanso().remove(this);
+                    }
+                    else pausado = true;
 
                     interrumpido();
+                    
+                    if(pausado) Hormiguero.getDescanso().remove(this);
                 }
             }
         }
@@ -114,13 +131,26 @@ public class Cria implements Hormiga
     }
     public void interrumpido()
     {
-        try
+        if (Hormiguero.isPausa())
         {
-            Hormiguero.getRefugio().add(this);
-            Refugio.refugiar();
-            
-            Hormiguero.getRefugio().remove(this);
+            try {
+                latch.await();
+            } catch (InterruptedException ex) {}
         }
-        catch(InterruptedException IE){}
+        else
+        {
+            try
+            {
+                Hormiguero.getRefugio().add(this);
+                Refugio.refugiar();
+
+                Hormiguero.getRefugio().remove(this);
+            }
+            catch(InterruptedException IE){}
+        }
+    }
+
+    public static void setLatch(CountDownLatch latch) {
+        Cria.latch = latch;
     }
 }

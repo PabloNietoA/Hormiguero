@@ -18,7 +18,8 @@ public class Cliente {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         VentanaRemota ventana = new VentanaRemota();
         ventana.setLocationRelativeTo(null);
         ventana.setVisible(true);
@@ -45,8 +46,23 @@ public class Cliente {
         {
             System.out.println(e.getMessage());
             e.printStackTrace();
-        }        
-}
+        }
+        
+    }
+    
+    public static void amenaza()
+    {
+        try
+        {
+            InterfazOperaciones op = (InterfazOperaciones) Naming.lookup("//127.0.0.1/ObjOperador");
+            op.generarAmenaza();
+        }
+        catch(Exception e)
+        {
+            System.out.println(e.getMessage());
+            e.printStackTrace();
+        }
+    }
 }
     
 

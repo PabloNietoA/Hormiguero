@@ -25,6 +25,12 @@ public class Hormiguero
     private static int nCriasComiendo = 0;
     private static CyclicBarrier barreraAtaque;
     private static CountDownLatch bloqueoPelea;
+    private static CountDownLatch latchPausa;
+    private static boolean pausa = false;
+    
+    public static boolean isPausa() {
+        return pausa;
+    }
     
     
     
@@ -192,4 +198,31 @@ public class Hormiguero
         Hormiguero.refugio = refugio;
     }
     // </editor-fold>
+    public static void cambiaPausa()
+    {
+        if(!pausa)
+        {
+            latchPausa = new CountDownLatch(1);
+            
+            Obrera.setLatch(latchPausa);
+            Soldado.setLatch(latchPausa);
+            Cria.setLatch(latchPausa);
+            
+            pausa = true;
+            for (Thread t : Thread.getAllStackTraces().keySet())
+            {
+                if (t.getName().contains("HO") || t.getName().contains("HS") || t.getName().contains("HC"))
+                {
+                    System.out.println(t.getName());
+                    t.interrupt();
+                }
+            }
+        }
+        else
+        {
+            pausa = false;
+            latchPausa.countDown();
+        }
+        
+    }
 }

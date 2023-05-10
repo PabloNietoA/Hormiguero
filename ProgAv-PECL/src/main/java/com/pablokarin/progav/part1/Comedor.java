@@ -54,19 +54,13 @@ public class Comedor
         Thread.sleep(tiempo * 1000);
     }
     
-    public static void incStock(int inc)
+    public static void incStock(int inc) throws InterruptedException
     {
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 7, timestamp);
         Escritor.logger.execute(entrada);
-        try 
-        {
-            Thread.sleep((new Random().nextInt(2) + 1) * 1000);
-        } 
-        catch (InterruptedException IE) 
-        {
-            System.out.println(IE.getMessage());
-        }
+        
+        Thread.currentThread().sleep((new Random().nextInt(2) + 1) * 1000);
         
         try 
         {

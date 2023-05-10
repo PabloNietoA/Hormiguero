@@ -18,7 +18,7 @@ public class Operador extends UnicastRemoteObject implements InterfazOperaciones
     
     public void generarAmenaza() throws RemoteException
     {
-        //código de generación de amenaza
+        Hormiguero.ataque();
     }
     
     public int getNObrerasFuera() throws RemoteException

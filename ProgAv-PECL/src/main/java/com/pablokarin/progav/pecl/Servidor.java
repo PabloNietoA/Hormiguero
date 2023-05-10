@@ -84,31 +84,38 @@ public class Servidor {
         //creador de hormigas
         for (int i = 1; i <= 10000; i++)
         {
-            try
+            if(Hormiguero.isPausa())
             {
-                Thread.sleep(new Random().nextInt(2701)+800);
-            }
-            catch (InterruptedException IE)
-            {
-                System.out.println(IE.getMessage());
-            }
-            if ((i%5)==0)
-            {
-                new Thread(new Soldado(soldados)).start();
-                Hormiguero.aumentarSoldados();
-                soldados++;
+                i--;
             }
             else
             {
-                if (((i%5)-1)==0)
+                try
                 {
-                    new Thread(new Cria(crias)).start();
-                    crias++;
+                    Thread.sleep(new Random().nextInt(2701)+800);
+                }
+                catch (InterruptedException IE)
+                {
+                    System.out.println(IE.getMessage());
+                }
+                if ((i%5)==0)
+                {
+                    new Thread(new Soldado(soldados)).start();
+                    Hormiguero.aumentarSoldados();
+                    soldados++;
                 }
                 else
                 {
-                    new Thread(new Obrera(obreras)).start();
-                    obreras++;
+                    if (((i%5)-1)==0)
+                    {
+                        new Thread(new Cria(crias)).start();
+                        crias++;
+                    }
+                    else
+                    {
+                        new Thread(new Obrera(obreras)).start();
+                        obreras++;
+                    }
                 }
             }
         }

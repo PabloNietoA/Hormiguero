@@ -84,9 +84,15 @@ public class Soldado implements Hormiga {
                 }
                 catch(InterruptedException IE)
                 {
-                    Hormiguero.getComer().remove(this);    
+                    boolean pausado = false;
+                    if (!Hormiguero.isPausa())
+                    {
+                        Hormiguero.getComer().remove(this);
+                    }    
+                    else pausado = true;
                     
                     interrumpido();
+                    if (pausado) Hormiguero.getComer().remove(this);
                 }
             }
             else
@@ -100,9 +106,16 @@ public class Soldado implements Hormiga {
                 }
                 catch(InterruptedException IE)
                 {
-                    Hormiguero.getInstruc().remove(this);
+                    boolean pausado = false;
+                    if (!Hormiguero.isPausa())
+                    {
+                        Hormiguero.getInstruc().remove(this);
+                    }
+                    else pausado = true;
 
                     interrumpido();
+                    
+                    if (pausado) Hormiguero.getInstruc().remove(this);
                 }
 
                 try
@@ -115,9 +128,16 @@ public class Soldado implements Hormiga {
                 }
                 catch(InterruptedException IE)
                 {
-                    Hormiguero.getDescanso().remove(this);
+                    boolean pausado = false;
+                    if (!Hormiguero.isPausa())
+                    {
+                        Hormiguero.getDescanso().remove(this);
+                    }
+                    else pausado = true;
 
                     interrumpido();
+                    if (pausado) Hormiguero.getDescanso().remove(this);
+                        
                 }
             }
             iteracion++;
@@ -127,29 +147,40 @@ public class Soldado implements Hormiga {
     //se llama al manejar la interrupción generada por una ataque
     public void interrumpido()
     {
-        Timestamp timestamp1 = new Timestamp(System.currentTimeMillis());
-        TareaEscribir entrada1 = new TareaEscribir(Thread.currentThread().getName(), 10, timestamp1);
-        Escritor.logger.execute(entrada1);
-        //sale del hormiguero
-        Hormiguero.salir();
-        Hormiguero.getDefendiendo().add(this);
-        //entra en la cyclicbarrier de espera
-        try
+        if(Hormiguero.isPausa())
         {
-            barrera.await();
+            try
+            {
+                latch.await();
+            }
+            catch (InterruptedException IE){}
         }
-        catch(Exception e){}
+        else
+        {
+            Timestamp timestamp1 = new Timestamp(System.currentTimeMillis());
+            TareaEscribir entrada1 = new TareaEscribir(Thread.currentThread().getName(), 10, timestamp1);
+            Escritor.logger.execute(entrada1);
+            //sale del hormiguero
+            Hormiguero.salir();
+            Hormiguero.getDefendiendo().add(this);
+            //entra en la cyclicbarrier de espera
+            try
+            {
+                barrera.await();
+            }
+            catch(Exception e){}
 
-        //entra a la pelea (CountdownLatch)
-        try
-        {
-            latch.await();
+            //entra a la pelea (CountdownLatch)
+            try
+            {
+                latch.await();
+            }
+            catch (InterruptedException IE){}
+
+            //vuelve a entrar en el hormiguero
+            Hormiguero.getDefendiendo().remove(this);
+            Hormiguero.entrar();
         }
-        catch (InterruptedException IE){}
-        
-        //vuelve a entrar en el hormiguero
-        Hormiguero.getDefendiendo().remove(this);
-        Hormiguero.entrar();
     }
 
     //se llama desde el hormiguero cada vez que hay un ataque
@@ -166,4 +197,10 @@ public class Soldado implements Hormiga {
             }
         }
     }
+
+    public static void setLatch(CountDownLatch latch) {
+        Soldado.latch = latch;
+    }
+    
+    
 }

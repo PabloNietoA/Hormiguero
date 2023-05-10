@@ -300,11 +300,13 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             pausaReanudar.setText("Reanudar");
             pausaReanudar.setBackground(Color.white);
             
-            //insertar código para pausar hilos de mierda
+            Hormiguero.cambiaPausa();
         }
         if (!pausaReanudar.isSelected())
         {
             pausaReanudar.setText("Pausar");
+            
+            Hormiguero.cambiaPausa();
         }
     }//GEN-LAST:event_pausaReanudarActionPerformed
 

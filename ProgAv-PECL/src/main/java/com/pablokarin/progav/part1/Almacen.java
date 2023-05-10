@@ -23,7 +23,7 @@ public class Almacen
     private static final Lock control = new ReentrantLock();
     private static final Condition vacio = control.newCondition();
     
-    public static void incStock(int inc, Obrera obr)
+    public static void incStock(int inc, Obrera obr) throws InterruptedException
     {
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 4, timestamp);
@@ -38,13 +38,13 @@ public class Almacen
             //puede haber problemas si llegan 10 recolectores (que hacer?)
             vacio.signalAll();
         }
-        catch(InterruptedException IE)
-        {
-            System.out.println(IE.getMessage());
-        }
         finally 
         {
+            try
+            {
             control.unlock();
+            }
+            catch (Exception e) {}
             Hormiguero.getAlmacen().remove(obr);
             aforo.release();
         }
@@ -53,7 +53,7 @@ public class Almacen
     public static int getStock() {
         return stock;
     }
-    public static synchronized void decStock(int dec, Obrera obr)
+    public static synchronized void decStock(int dec, Obrera obr) throws InterruptedException
     {
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 5, timestamp);
@@ -77,10 +77,6 @@ public class Almacen
             Thread.sleep((new Random().nextInt(2) + 1) * 1000);
             stock -= dec;
             
-        }
-        catch (InterruptedException IE)
-        {
-            System.out.println(IE.getMessage());
         }
         finally 
         {

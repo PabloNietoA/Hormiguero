@@ -32,7 +32,7 @@ public class Refugio {
             espera.await();
             System.out.println("Unlock");
         }
-        catch (InterruptedException IE)
+        finally
         {
             System.out.println("Salgo del refugio");
             control.unlock();
