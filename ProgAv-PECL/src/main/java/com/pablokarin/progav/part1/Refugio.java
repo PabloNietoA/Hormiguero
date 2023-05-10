@@ -6,6 +6,7 @@ package com.pablokarin.progav.part1;
 
 import com.pablokarin.progav.log.Escritor;
 import com.pablokarin.progav.log.TareaEscribir;
+import com.pablokarin.progav.part1.hilos.Cria;
 import java.sql.Timestamp;
 import java.util.concurrent.locks.*;
 
@@ -23,10 +24,19 @@ public class Refugio {
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 10, timestamp);
         Escritor.logger.execute(entrada);
-        espera.await();
+        try
+        {
+            control.lock();
+            espera.await();
+        }
+        catch (InterruptedException IE)
+        {
+            control.unlock();
+        }
     }
     public static void terminarAmenaza()
     {
+        Cria.setAmenazado(false);
         espera.signalAll();
     }
 }

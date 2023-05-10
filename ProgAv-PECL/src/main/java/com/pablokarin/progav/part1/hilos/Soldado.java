@@ -8,6 +8,7 @@ import com.pablokarin.progav.log.Escritor;
 import com.pablokarin.progav.log.TareaEscribir;
 import com.pablokarin.progav.part1.*;
 import java.sql.Timestamp;
+import java.util.ArrayList;
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.CyclicBarrier;
@@ -22,9 +23,12 @@ public class Soldado implements Hormiga {
     private static CyclicBarrier barrera;
     private static CountDownLatch latch;
     private String nombre;
+    private static ArrayList<Soldado> listaSoldados = new ArrayList<Soldado>();
     
     public Soldado(int id)
     {
+        listaSoldados.add(this);
+        
         this.id = id;
                if (id < 10)
         {
@@ -80,6 +84,7 @@ public class Soldado implements Hormiga {
                 }
                 catch(InterruptedException IE)
                 {
+                    System.out.println("Interrumpido");
                     interrumpido();
                 }
             }
@@ -94,6 +99,7 @@ public class Soldado implements Hormiga {
                 }
                 catch(InterruptedException IE)
                 {
+                    System.out.println("Interrumpido");
                     interrumpido();
                 }
 
@@ -107,6 +113,7 @@ public class Soldado implements Hormiga {
                 }
                 catch(InterruptedException IE)
                 {
+                    System.out.println("Interrumpido");
                     interrumpido();
                 }
             }
@@ -128,7 +135,7 @@ public class Soldado implements Hormiga {
         {
             barrera.await();
         }
-        catch(InterruptedException | BrokenBarrierException IE){}
+        catch(Exception e){}
 
         //entra a la pelea (CountdownLatch)
         try
@@ -145,9 +152,15 @@ public class Soldado implements Hormiga {
     //se llama desde el hormiguero cada vez que hay un ataque
     public static void llamarAtaque(CyclicBarrier b, CountDownLatch l)
     {
-        Thread.currentThread().interrupt();
         barrera = b;
         latch = l;
-
+        for(int i = 0; i < listaSoldados.size(); i++)
+        {
+            String nombre = listaSoldados.get(i).getNombre();
+            for (Thread t : Thread.getAllStackTraces().keySet())
+            {
+                if(t.getName().equals(nombre)) t.interrupt();
+            }
+        }
     }
 }

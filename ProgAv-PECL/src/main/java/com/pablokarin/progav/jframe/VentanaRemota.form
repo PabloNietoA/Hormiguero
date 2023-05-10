@@ -201,6 +201,10 @@
         <Property name="text" type="java.lang.String" value="Generar Amenaza"/>
         <Property name="focusable" type="boolean" value="false"/>
       </Properties>
+      <Events>
+        <EventHandler event="stateChanged" listener="javax.swing.event.ChangeListener" parameters="javax.swing.event.ChangeEvent" handler="generarAmenazaStateChanged"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="generarAmenazaActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>

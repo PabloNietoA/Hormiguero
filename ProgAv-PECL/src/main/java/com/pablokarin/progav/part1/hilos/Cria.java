@@ -8,6 +8,7 @@ import com.pablokarin.progav.log.Escritor;
 import com.pablokarin.progav.log.TareaEscribir;
 import com.pablokarin.progav.part1.*;
 import java.sql.Timestamp;
+import java.util.ArrayList;
 import java.util.Random;
 
 /**
@@ -19,9 +20,17 @@ public class Cria implements Hormiga
     
     private String nombre;
     private int id;
+    private static ArrayList<Cria> listaCrias = new ArrayList<Cria>();
+    private static boolean amenazado = false;
+    
+    public static boolean getAmenazado()
+    {
+        return amenazado;
+    }
     
     public Cria (int id)
     {
+        listaCrias.add(this);
         this.id = id;
         if (id < 10)
         {
@@ -92,7 +101,20 @@ public class Cria implements Hormiga
     }
     public static void llamarAtaque()
     {
-        Thread.currentThread().interrupt();
+        amenazado = true;
+        ArrayList<Thread> crias = new ArrayList();
+        for(int i = 0; i < listaCrias.size(); i++)
+        {
+            String nombre = listaCrias.get(i).getNombre();
+            for (Thread t : Thread.getAllStackTraces().keySet())
+            {
+
+                if(t.getName().equals(nombre)) 
+                {
+                    t.interrupt();
+                }
+            }
+        }
     }
     public void interrumpido()
     {
@@ -103,5 +125,9 @@ public class Cria implements Hormiga
             Hormiguero.getRefugio().remove(this);
         }
         catch(InterruptedException IE){}
+    }
+
+    public static void setAmenazado(boolean amenazado) {
+        Cria.amenazado = amenazado;
     }
 }

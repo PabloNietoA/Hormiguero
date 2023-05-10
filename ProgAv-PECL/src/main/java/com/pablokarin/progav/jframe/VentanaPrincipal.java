@@ -312,6 +312,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
 
     private void generarAmenazaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_generarAmenazaActionPerformed
         // TODO add your handling code here:
+        Hormiguero.ataque();
     }//GEN-LAST:event_generarAmenazaActionPerformed
 
     private void campoComidaComedorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_campoComidaComedorActionPerformed

@@ -32,6 +32,7 @@ public class Bicho implements Runnable
         
         //al terminar la pelea libera a todas las soldado peleando
         pelea.countDown();
+        Refugio.terminarAmenaza();
         
         //notifica a las crias de que la amenaza ha terminado
         Refugio.terminarAmenaza();

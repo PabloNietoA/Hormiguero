@@ -37,7 +37,12 @@ public class Hormiguero
     private static ArrayList<Soldado> defendiendo = new ArrayList();
     private static ArrayList<Soldado> instruc = new ArrayList();
     private static ArrayList<Cria> refugio = new ArrayList();
-    private static ArrayList<Soldado> soldados = new ArrayList();
+    private static ArrayList<Soldado> listaSoldados = new ArrayList();
+    private static int soldados = 0;
+
+    public static void aumentarSoldados() {
+        soldados++;
+    }
     
     public static void entrar()
     {
@@ -77,8 +82,9 @@ public class Hormiguero
     {
         //TRIGGER CRIAS
         bloqueoPelea = new CountDownLatch(1);
-        barreraAtaque = new CyclicBarrier(soldados.size(), new Bicho(bloqueoPelea));
+        barreraAtaque = new CyclicBarrier( soldados, new Bicho(bloqueoPelea));
         Soldado.llamarAtaque(barreraAtaque, bloqueoPelea);
+        Cria.llamarAtaque();
     }
     
     

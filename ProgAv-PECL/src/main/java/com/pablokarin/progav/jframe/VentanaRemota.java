@@ -4,6 +4,7 @@
  */
 package com.pablokarin.progav.jframe;
 
+import com.pablokarin.progav.part1.Hormiguero;
 import javax.swing.JTextField;
 
 /**
@@ -115,6 +116,16 @@ public class VentanaRemota extends javax.swing.JFrame {
         generarAmenaza.setForeground(new java.awt.Color(255, 255, 255));
         generarAmenaza.setText("Generar Amenaza");
         generarAmenaza.setFocusable(false);
+        generarAmenaza.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                generarAmenazaStateChanged(evt);
+            }
+        });
+        generarAmenaza.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                generarAmenazaActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -202,6 +213,15 @@ public class VentanaRemota extends javax.swing.JFrame {
     private void campoNCriasRefugioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_campoNCriasRefugioActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_campoNCriasRefugioActionPerformed
+
+    private void generarAmenazaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_generarAmenazaActionPerformed
+        System.out.println("Interrumpiendo");
+        Hormiguero.ataque();
+    }//GEN-LAST:event_generarAmenazaActionPerformed
+
+    private void generarAmenazaStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_generarAmenazaStateChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_generarAmenazaStateChanged
 
     /**
      * @param args the command line arguments

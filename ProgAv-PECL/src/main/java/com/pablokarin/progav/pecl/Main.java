@@ -6,6 +6,7 @@ package com.pablokarin.progav.pecl;
 
 import com.pablokarin.progav.conexion.Operador;
 import com.pablokarin.progav.jframe.VentanaPrincipal;
+import com.pablokarin.progav.part1.Hormiguero;
 import com.pablokarin.progav.part1.hilos.*;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -94,11 +95,12 @@ public class Main {
             if ((i%5)==0)
             {
                 new Thread(new Soldado(soldados)).start();
+                Hormiguero.aumentarSoldados();
                 soldados++;
             }
             else
             {
-                if (((i%5)-1)==0)
+                if (((i%5)-1)==0 && !Cria.getAmenazado())
                 {
                     new Thread(new Cria(crias)).start();
                     crias++;
