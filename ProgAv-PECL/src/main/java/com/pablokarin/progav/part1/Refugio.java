@@ -19,29 +19,26 @@ public class Refugio {
     private static final Lock control = new ReentrantLock();
     private static final Condition espera = control.newCondition();
     
+    //mete a las crias en el refugio
     public static void refugiar() throws InterruptedException
     {
-        System.out.println("Se refugia");
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 10, timestamp);
         Escritor.logger.execute(entrada);
         try
         {
             control.lock();
-            System.out.println("Entra a refugio");
             espera.await();
-            System.out.println("Unlock");
         }
         finally
         {
-            System.out.println("Salgo del refugio");
             control.unlock();
-            System.out.println("He salido del refugio");
         }
     }
+    
+    //avisa de que tienen que salir del refugio
     public static void terminarAmenaza()
     {
-        System.out.println("Notifico");
         try
         {
             control.lock();
@@ -51,6 +48,5 @@ public class Refugio {
         {
             control.unlock();
         }
-        System.out.println("Notificado");
     }
 }

@@ -9,28 +9,27 @@ import com.pablokarin.progav.log.TareaEscribir;
 import com.pablokarin.progav.part1.*;
 import java.sql.Timestamp;
 import java.util.ArrayList;
-import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.CyclicBarrier;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *
  * @author Karín
  */
 public class Soldado implements Hormiga {
-    private int id;
+    private final int id;
     private int iteracion;
     private static CyclicBarrier barrera;
     private static CountDownLatch latch;
     private String nombre;
-    private static ArrayList<Soldado> listaSoldados = new ArrayList<Soldado>();
+    private static final ArrayList<Soldado> listaSoldados = new ArrayList();
     
     public Soldado(int id)
     {
+        //se añade a la lista de soldados estatica
         listaSoldados.add(this);
         
+        //genera el nombre de la hormiga
         this.id = id;
                if (id < 10)
         {
@@ -59,19 +58,27 @@ public class Soldado implements Hormiga {
         }
     }
     
+    @Override
     public String getNombre()
     {
         return nombre;
     }
     
+    @Override
     public void run()
     {
+        //pone nombre de la hormiga al hilo
         Thread.currentThread().setName(nombre);
+        
+        //actualiza las hormigas vivas
         Hormiguero.setNHormigasVivas(Hormiguero.getNHormigasVivas()+1);
+        
+        //logger y timestamps
         Timestamp timestamp1 = new Timestamp(System.currentTimeMillis());
         TareaEscribir entrada1 = new TareaEscribir(Thread.currentThread().getName(), 0, timestamp1);
         Escritor.logger.execute(entrada1);
         
+        //entra en el hormiguero por primera vez
         try 
         {
             Hormiguero.entrar();
@@ -80,12 +87,14 @@ public class Soldado implements Hormiga {
         {
             interrumpido();
         }
+        
         //bucle principal de comportamiento
         while (true)
         {
             //va a comer cada 6 iteraciones de comportamiento
             if (iteracion %6 == 0 && iteracion !=0)
             {
+                //va a comer
                 try
                 {
                     
@@ -95,6 +104,7 @@ public class Soldado implements Hormiga {
                 }
                 catch(InterruptedException IE)
                 {
+                    //gestion de listas
                     boolean pausado = false;
                     if (!Hormiguero.isPausa())
                     {
@@ -105,22 +115,25 @@ public class Soldado implements Hormiga {
                         pausado = true;
                     }
                     
+                    //interrupcion
                     interrumpido();
                     
                     if (pausado) Hormiguero.getComer().remove(this);
                 }
             }
+            //comportamiento del resto de iteraciones
             else
             {
+                //entrena
                 try
                 {
-                    //entrena
                     Hormiguero.getInstruc().add(this);
                     Instruc.instruir();
                     Hormiguero.getInstruc().remove(this);
                 }
                 catch(InterruptedException IE)
                 {
+                    //gestion de listas
                     boolean pausado = false;
                     if (!Hormiguero.isPausa())
                     {
@@ -131,21 +144,22 @@ public class Soldado implements Hormiga {
                         pausado = true;
                     }
 
+                    //interrupcion
                     interrumpido();
                     
                     if (pausado) Hormiguero.getInstruc().remove(this);
                 }
 
+                //descansa 2 segundos
                 try
                 {
-                    //descansa 2 sec
-                    
                     Hormiguero.getDescanso().add(this);
                     Descanso.descansar(2);
                     Hormiguero.getDescanso().remove(this);
                 }
                 catch(InterruptedException IE)
                 {
+                    //gestion de listas
                     boolean pausado = false;
                     if (!Hormiguero.isPausa())
                     {
@@ -156,6 +170,7 @@ public class Soldado implements Hormiga {
                         pausado = true;
                     }
 
+                    //interrupcion
                     interrumpido();
                     
                     if (pausado) Hormiguero.getDescanso().remove(this);
@@ -166,33 +181,42 @@ public class Soldado implements Hormiga {
         }
     }
     
-    //se llama al manejar la interrupción generada por una ataque
+    //gestor de interrupciones
     public void interrumpido()
     {
+        //en caso de que sea pausa
         if(Hormiguero.isPausa())
         {
             try
             {
+                //entra al countdownlatch de pausa
                 latch.await();
             }
             catch (InterruptedException IE)
             {
+                //por si acaso
                 interrumpido();
             }
         }
+        //en caso de que sea una amenaza
         else
         {
             Timestamp timestamp1 = new Timestamp(System.currentTimeMillis());
             TareaEscribir entrada1 = new TareaEscribir(Thread.currentThread().getName(), 10, timestamp1);
             Escritor.logger.execute(entrada1);
-            try {
-                //sale del hormiguero
-                Hormiguero.salir();
-            } catch (InterruptedException ex) 
+            
+            //sale a defender
+            try 
             {
+                Hormiguero.salir();
+            } 
+            catch (InterruptedException ex) 
+            {
+                //por si acaso
                 interrumpido();
             }
             Hormiguero.getDefendiendo().add(this);
+            
             //entra en la cyclicbarrier de espera
             try
             {
@@ -200,6 +224,7 @@ public class Soldado implements Hormiga {
             }
             catch(Exception e)
             {
+                //por si se pausa a mitad
                 interrumpido();
             }
 
@@ -210,18 +235,19 @@ public class Soldado implements Hormiga {
             }
             catch (InterruptedException IE)
             {
+                //por si se pausa a mitad
                 interrumpido();
             }
 
             //vuelve a entrar en el hormiguero
             Hormiguero.getDefendiendo().remove(this);
-           try{ 
-            Hormiguero.entrar();
-           }
-           catch(InterruptedException e)
-           {
+            try{ 
+                Hormiguero.entrar();
+            }
+            catch(InterruptedException e)
+            {
                interrumpido();
-           }
+            }
         }
     }
 
@@ -230,11 +256,15 @@ public class Soldado implements Hormiga {
     {
         barrera = b;
         latch = l;
+        
+        //interrumpe a todos los soldados
         for(int i = 0; i < listaSoldados.size(); i++)
         {
             String nombre = listaSoldados.get(i).getNombre();
+            //busca en los hilos activos
             for (Thread t : Thread.getAllStackTraces().keySet())
             {
+                //mira si tienen el mismo nombre y lo interrumpe
                 if(t.getName().equals(nombre)) t.interrupt();
             }
         }

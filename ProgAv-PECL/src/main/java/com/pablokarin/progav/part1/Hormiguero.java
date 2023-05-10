@@ -11,8 +11,6 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.CountDownLatch;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *
@@ -20,22 +18,29 @@ import java.util.logging.Logger;
  */
 public class Hormiguero 
 {
-    private static Semaphore salida = new Semaphore(2,true);
-    private static Lock entrada = new ReentrantLock();
+    //control para entradas y salidas
+    private static final Semaphore salida = new Semaphore(2,true);
+    private static final Lock entrada = new ReentrantLock();
+    
+    //contadores de hormigas
     private static int hormigasVivas = 0;
     private static int nObreras = 0;
     private static int nCriasComiendo = 0;
+    
+    //bloqueos para la amenaza
     private static CyclicBarrier barreraAtaque;
     private static CountDownLatch bloqueoPelea;
-    private static CountDownLatch latchPausa;
-    private static boolean pausa = false;
     
-    public static boolean isPausa() {
+    //bloqueos para la pausa
+    private static CountDownLatch latchPausa;
+    
+    private static boolean pausa = false;
+    public static boolean isPausa() 
+    {
         return pausa;
     }
     
-    
-    
+    //listas de hormigas para ScreenUpdate
     private static ArrayList<Obrera> almacen = new ArrayList();
     private static ArrayList<Hormiga> comer = new ArrayList();
     private static ArrayList<Hormiga> descanso = new ArrayList();
@@ -45,13 +50,15 @@ public class Hormiguero
     private static ArrayList<Soldado> defendiendo = new ArrayList();
     private static ArrayList<Soldado> instruc = new ArrayList();
     private static ArrayList<Cria> refugio = new ArrayList();
-    private static ArrayList<Soldado> listaSoldados = new ArrayList();
+    
+    //cantidad de soldados
     private static int soldados = 0;
-
+    //aumenta la cantidad de soldados
     public static void aumentarSoldados() {
         soldados++;
     }
     
+    //entrar a la colonia
     public static void entrar()throws InterruptedException
     {
         try
@@ -66,6 +73,7 @@ public class Hormiguero
         }
     }
     
+    //salir de la colonia
     public static void salir() throws InterruptedException
     {
         try
@@ -84,13 +92,54 @@ public class Hormiguero
     {
         if(soldados > 0)
         {
+            //inicializa los bloqueos
             bloqueoPelea = new CountDownLatch(1);
             barreraAtaque = new CyclicBarrier( soldados, new Bicho(bloqueoPelea));
+            
+            //avisa a las soldado
             Soldado.llamarAtaque(barreraAtaque, bloqueoPelea);
+            
+            //avisa a las crias
             Cria.llamarAtaque();
         }
     }
     
+    //logica del boton de pausa
+    public static void cambiaPausa()
+    {
+        //se rige por un CountDownLatch
+        if(!pausa)
+        {
+            latchPausa = new CountDownLatch(1);
+            
+            //referencia el latch a las hormigas
+            Obrera.setLatch(latchPausa);
+            Soldado.setLatch(latchPausa);
+            Cria.setLatch(latchPausa);
+            
+            //pausa la simulacion
+            pausa = true;
+            
+            //mira entre todas la threads de la ejecucion
+            for (Thread t : Thread.getAllStackTraces().keySet())
+            {
+                //pilla las que son hormigas
+                if (t.getName().contains("HO") || t.getName().contains("HS") || t.getName().contains("HC"))
+                {
+                    //System.out.println(t.getName());
+                    t.interrupt();
+                }
+            }
+        }
+        else
+        {
+            //despausa
+            pausa = false;
+            //decrementa el latch para liberarlo
+            latchPausa.countDown();
+        }
+        
+    }
     
     // <editor-fold desc="GETTER AND SETTER">
     public synchronized static int getNObreras()
@@ -194,32 +243,4 @@ public class Hormiguero
         Hormiguero.refugio = refugio;
     }
     // </editor-fold>
-    public static void cambiaPausa()
-    {
-        if(!pausa)
-        {
-            latchPausa = new CountDownLatch(1);
-            
-            Obrera.setLatch(latchPausa);
-            Soldado.setLatch(latchPausa);
-            Cria.setLatch(latchPausa);
-            
-            pausa = true;
-            
-            for (Thread t : Thread.getAllStackTraces().keySet())
-            {
-                if (t.getName().contains("HO") || t.getName().contains("HS") || t.getName().contains("HC"))
-                {
-                    //System.out.println(t.getName());
-                    t.interrupt();
-                }
-            }
-        }
-        else
-        {
-            pausa = false;
-            latchPausa.countDown();
-        }
-        
-    }
 }

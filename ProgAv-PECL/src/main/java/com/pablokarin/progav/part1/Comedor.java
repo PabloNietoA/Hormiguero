@@ -17,8 +17,8 @@ import java.util.concurrent.locks.*;
 public class Comedor 
 {
     private static int stock = 0;
-    private static Lock control = new ReentrantLock();
-    private static Condition vacio = control.newCondition();
+    private static final Lock control = new ReentrantLock();
+    private static final Condition vacio = control.newCondition();
     
     public static int getStock() 
     {
@@ -39,7 +39,6 @@ public class Comedor
             //mira si hay stock y si no espera
             while (stock == 0)
             {
-                //hace unlock?
                 vacio.await();
             }
             //come
@@ -60,6 +59,7 @@ public class Comedor
         TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 7, timestamp);
         Escritor.logger.execute(entrada);
         
+        //incrementa el stock del comedor
         Thread.currentThread().sleep((new Random().nextInt(2) + 1) * 1000);
         
         try 

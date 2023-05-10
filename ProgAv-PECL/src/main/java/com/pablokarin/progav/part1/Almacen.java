@@ -23,19 +23,26 @@ public class Almacen
     private static final Lock control = new ReentrantLock();
     private static final Condition vacio = control.newCondition();
     
+    //incrementa el stock del almacen
     public static void incStock(int inc, Obrera obr) throws InterruptedException
     {
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 4, timestamp);
         Escritor.logger.execute(entrada);
+        
         try 
         {
+            //entra al almacen
             aforo.acquire();
+            //gestion de listas
             Hormiguero.getAlmacen().add(obr);
+            //descarga
             Thread.sleep((new Random().nextInt(3) + 2)*1000);
+            //obtiene el lock de control
             control.lock();
+            //modifica la variable
             stock += inc;
-            //puede haber problemas si llegan 10 recolectores (que hacer?)
+            //avisa a los que estan esperando por stock
             vacio.signalAll();
         }
         finally 
@@ -53,6 +60,8 @@ public class Almacen
     public static int getStock() {
         return stock;
     }
+    
+    //disminuye el stock del almacen
     public static synchronized void decStock(int dec, Obrera obr) throws InterruptedException
     {
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
@@ -61,19 +70,28 @@ public class Almacen
         
         try
         {
+            //entra al almacen
             aforo.acquire();
+            //gestion de listas
             Hormiguero.getAlmacen().add(obr);
             control.lock();
+            //mira la variable y si no hay stock se sale del almacen a esperar
             while (stock < dec)
             {
                 Hormiguero.getAlmacen().remove(obr);
+                
+                //para evitar que se quede el almacen lleno de hormigas esperando por stock
                 aforo.release();
-                //sigue desde el await cuando hace el signal
+                
+                //sigue desde el await cuando ocurre el signal
                 vacio.await();
                 
+                //vuelve a entrar al almacen
                 aforo.acquire();
+                
                 Hormiguero.getAlmacen().add(obr);
             }
+            //saca comida
             Thread.sleep((new Random().nextInt(2) + 1) * 1000);
             stock -= dec;
             

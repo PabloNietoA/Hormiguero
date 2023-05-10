@@ -40,7 +40,7 @@ public class Servidor {
         }
         
         //se muestra la pantalla
-        com.pablokarin.progav.jframe.VentanaPrincipal ventana = new com.pablokarin.progav.jframe.VentanaPrincipal();
+        VentanaPrincipal ventana = new VentanaPrincipal();
         ventana.setLocationRelativeTo(null);
         ventana.setVisible(true);
         
@@ -70,19 +70,23 @@ public class Servidor {
         Lock l = new ReentrantLock();
         Condition c = l.newCondition();
         
+        //contadores
         int soldados = 0;
         int crias = 0;
         int obreras = 0;
         
-        //creador de hormigas
+        //generador de hormigas
         for (int i = 1; i <= 10000; i++)
         {
+            //en caso de que esté pausado
+            //el bucle no avanza
             if(Hormiguero.isPausa())
             {
                 i--;
             }
             else
             {
+                //espera para crear
                 try
                 {
                     Thread.sleep(new Random().nextInt(2701)+800);
@@ -91,26 +95,30 @@ public class Servidor {
                 {
                     System.out.println(IE.getMessage());
                 }
+                //comprueba si se ha parado la simulacion mientras descansaba
                 if (!Hormiguero.isPausa())
                 {
                     if ((i%5)==0)
                     {
+                        
+                        //genera una soldado
                         new Thread(new Soldado(soldados)).start();
                         Hormiguero.aumentarSoldados();
                         soldados++;
                     }
+                    else if (((i%5)-1)==0)
+                    {
+
+                        //genera una cria
+                        new Thread(new Cria(crias)).start();
+                        crias++;
+                    }
                     else
                     {
-                        if (((i%5)-1)==0)
-                        {
-                            new Thread(new Cria(crias)).start();
-                            crias++;
-                        }
-                        else
-                        {
-                            new Thread(new Obrera(obreras)).start();
-                            obreras++;
-                        }
+
+                        //genera una obrera
+                        new Thread(new Obrera(obreras)).start();
+                        obreras++;
                     }
                 }
             }

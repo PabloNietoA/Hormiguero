@@ -18,6 +18,8 @@ public class Descanso {
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
         TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 2, timestamp);
         Escritor.logger.execute(entrada);
+        
+        //duerme t segundos
         Thread.sleep(t*1000);
     }
 }

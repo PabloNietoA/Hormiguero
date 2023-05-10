@@ -8,7 +8,7 @@ import static java.lang.Thread.sleep;
 import java.util.concurrent.CountDownLatch;
 
 /**
- *
+ * Gestiona la cuenta de los ataques
  * @author Slend
  */
 public class Bicho implements Runnable

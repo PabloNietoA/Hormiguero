@@ -7,8 +7,6 @@ package com.pablokarin.progav.pecl;
 import com.pablokarin.progav.conexion.*;
 import com.pablokarin.progav.jframe.*;
 import java.rmi.*;
-import java.rmi.registry.LocateRegistry;
-import java.rmi.registry.Registry;
 /**
  *
  * @author Karín
@@ -20,6 +18,7 @@ public class Cliente {
      */
     public static void main(String[] args) 
     {
+        //crea la ventana
         VentanaRemota ventana = new VentanaRemota();
         ventana.setLocationRelativeTo(null);
         ventana.setVisible(true);
@@ -28,32 +27,31 @@ public class Cliente {
             InterfazOperaciones op = (InterfazOperaciones) Naming.lookup("//127.0.0.1/ObjOperador");
             while(true)
             {
-                while (true)
-                {
-                   int nObrerasFuera = op.getNObrerasFuera();
-                   ventana.modificar(ventana.getCampoNObrerasFuera(), Integer.toString(nObrerasFuera));
-                   int nObrerasDentro = op.getNObrerasDentro();
-                   ventana.modificar(ventana.getCampoNObrerasDentro(), Integer.toString(nObrerasDentro));
-                   int nSoldadosInstruc = op.getNSoldadosInstruc();
-                   ventana.modificar(ventana.getCampoNSoldadosInstruc(), Integer.toString(nSoldadosInstruc));
-                   int nSoldadosAmenaza = op.getNSoldadosAmenaza();
-                   ventana.modificar(ventana.getCampoNSoldadosAmenaza(), Integer.toString(nSoldadosAmenaza));
-                   int nCriasComedor = op.getNCriasComedor();
-                   ventana.modificar(ventana.getCampoNCriasComedor(), Integer.toString(nCriasComedor));
-                   int nCriasRefugiadas = op.getNCriasRefugio();
-                   ventana.modificar(ventana.getCampoNCriasRefugio(), Integer.toString(nCriasRefugiadas));
-                }
+                //actualiza los contadores del cliente
+                int nObrerasFuera = op.getNObrerasFuera();
+                ventana.modificar(ventana.getCampoNObrerasFuera(), Integer.toString(nObrerasFuera));
+                int nObrerasDentro = op.getNObrerasDentro();
+                ventana.modificar(ventana.getCampoNObrerasDentro(), Integer.toString(nObrerasDentro));
+                int nSoldadosInstruc = op.getNSoldadosInstruc();
+                ventana.modificar(ventana.getCampoNSoldadosInstruc(), Integer.toString(nSoldadosInstruc));
+                int nSoldadosAmenaza = op.getNSoldadosAmenaza();
+                ventana.modificar(ventana.getCampoNSoldadosAmenaza(), Integer.toString(nSoldadosAmenaza));
+                int nCriasComedor = op.getNCriasComedor();
+                ventana.modificar(ventana.getCampoNCriasComedor(), Integer.toString(nCriasComedor));
+                int nCriasRefugiadas = op.getNCriasRefugio();
+                ventana.modificar(ventana.getCampoNCriasRefugio(), Integer.toString(nCriasRefugiadas));
 
             }
         }
         catch (Exception e)
         {
             System.out.println(e.getMessage());
-            e.printStackTrace();
         }
         
     }
     
+    //genera una amenaza para la colonia
+    //desde el cliente
     public static void amenaza()
     {
         try
@@ -64,7 +62,6 @@ public class Cliente {
         catch(Exception e)
         {
             System.out.println(e.getMessage());
-            e.printStackTrace();
         }
     }
 }

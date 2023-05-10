@@ -7,7 +7,7 @@ package com.pablokarin.progav.pecl;
 import com.pablokarin.progav.jframe.VentanaPrincipal;
 
 /**
- *
+ * Este hilo se encarga de actualizar la pantalla por su cuenta
  * @author Slend
  */
 public class ScreenUpdate extends Thread 

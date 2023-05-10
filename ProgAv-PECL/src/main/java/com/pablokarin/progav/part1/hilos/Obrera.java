@@ -10,8 +10,6 @@ import com.pablokarin.progav.part1.*;
 import java.sql.Timestamp;
 import java.util.Random;
 import java.util.concurrent.CountDownLatch;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *
@@ -19,7 +17,7 @@ import java.util.logging.Logger;
  */
 public class Obrera implements Hormiga{
     private int iteracion = 0;
-    private int id;
+    private final int id;
     private String nombre;
     private static CountDownLatch latch;
 
@@ -55,7 +53,9 @@ public class Obrera implements Hormiga{
                 }
             }
         }
-   }
+    }
+    
+    @Override
     public String getNombre()
     {
         return nombre;
@@ -64,23 +64,34 @@ public class Obrera implements Hormiga{
     @Override
     public void run()
     {
+        //pone nombre al hilo
         Thread.currentThread().setName(nombre);
+        
+        //actualiza el contador de hormigas vivas
         Hormiguero.setNHormigasVivas(Hormiguero.getNHormigasVivas()+1);
+        //actualiza el contador de obreras
         Hormiguero.setNObreras(Hormiguero.getNObreras()+1);
+        
+        //logger y timestamps
         Timestamp timestamp1 = new Timestamp(System.currentTimeMillis());
         TareaEscribir entrada1 = new TareaEscribir(Thread.currentThread().getName(), 0, timestamp1);
         Escritor.logger.execute(entrada1);
         
+        //entra por primera vez
         try {
             Hormiguero.entrar();
-        } catch (InterruptedException ex) {
+        } 
+        catch (InterruptedException ex) 
+        {
            interrumpido();
         }
         //las obreras pares
         if (id%2==0)
         {
+            //funcionamiento de las obreras pares
             while (true)
             {
+                //saca comida del almacen
                 try
                 {
                     Almacen.decStock(5, this);
@@ -90,12 +101,11 @@ public class Obrera implements Hormiga{
                     interrumpido();
                 }
                 
-                
-                //camina del almacén al comedor
                 Timestamp timestamp = new Timestamp(System.currentTimeMillis());
                 TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 6, timestamp);
                 Escritor.logger.execute(entrada);
                 
+                //camina del almacen al comedor
                 Hormiguero.getMovimiento().add(this);
                 try
                 {
@@ -107,6 +117,7 @@ public class Obrera implements Hormiga{
                 }
                 Hormiguero.getMovimiento().remove(this);
                 
+                //deja la comida en el comedor
                 Hormiguero.getDejandoComida().add(this);
                 try
                 {
@@ -131,13 +142,11 @@ public class Obrera implements Hormiga{
                     {
                         interrumpido();
                     }
-                    
                     Hormiguero.getComer().remove(this);
                     
                     
                     //Entra a descansar
                     Hormiguero.getDescanso().add(this);
-                    
                     try
                     {
                         Descanso.descansar(1);
@@ -146,22 +155,23 @@ public class Obrera implements Hormiga{
                     {
                         interrumpido();
                     }
-                    
                     Hormiguero.getDescanso().remove(this);
                 }
+                //sube el contador de iteracion
                 iteracion++;
             }
         }
         //las obreras impares
         else
         {
+            //comportamiento de las obreras impares
             while (true)
             {
-                //recolecta comida
                 Timestamp timestamp = new Timestamp(System.currentTimeMillis());
                 TareaEscribir entrada = new TareaEscribir(Thread.currentThread().getName(), 3, timestamp);
                 Escritor.logger.execute(entrada);
                 
+                //sale del hormiguero
                 try
                 {
                     Hormiguero.salir();
@@ -171,6 +181,7 @@ public class Obrera implements Hormiga{
                     interrumpido();
                 }
                 
+                //recolecta comida
                 Hormiguero.getFuera().add(this);
                 try
                 {
@@ -181,6 +192,8 @@ public class Obrera implements Hormiga{
                     interrumpido();
                 }
                 Hormiguero.getFuera().remove(this);
+                
+                //entra al hormiguero
                 try
                 { 
                     Hormiguero.entrar();
@@ -190,7 +203,7 @@ public class Obrera implements Hormiga{
                     interrumpido();
                 }
                 
-                //hormiguero.recolectar(); //lleva salir y entrar dentro //sigue haciendo falta?
+                //deja la comida en el almacen
                 try
                 {
                     Almacen.incStock(5, this);
@@ -205,7 +218,6 @@ public class Obrera implements Hormiga{
                 {
                     //Entra a comer
                     Hormiguero.getComer().add(this);
-                    
                     try
                     {
                         Comedor.comer(1, 3);
@@ -214,13 +226,10 @@ public class Obrera implements Hormiga{
                     {
                         interrumpido();
                     }
-                    
                     Hormiguero.getComer().remove(this);
-                    
                     
                     //Entra a descansar
                     Hormiguero.getDescanso().add(this);
-                    
                     try
                     {
                         Descanso.descansar(1);
@@ -229,22 +238,25 @@ public class Obrera implements Hormiga{
                     {
                         interrumpido();
                     }
-                    
                     Hormiguero.getDescanso().remove(this);
                 }
+                //aumenta las iteraciones del bucle
                 iteracion++;
             }
         }
     }
     
+    //comportamiento en caso de interrupcion
     public void interrumpido()
     {
+        //solo se interrumpe por pausa
         try 
         {
             latch.await();
         } 
         catch (InterruptedException ex) 
         {
+            //por si acaso
             interrumpido();
         }
     }
