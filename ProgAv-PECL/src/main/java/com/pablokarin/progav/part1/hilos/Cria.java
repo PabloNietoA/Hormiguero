@@ -68,7 +68,9 @@ public class Cria implements Hormiga
                 try
                 {
                     Hormiguero.getComer().add(this);
+                    Hormiguero.setNCriasComiendo(Hormiguero.getNCriasComiendo()+1);
                     Comedor.comer(1, new Random().nextInt(2) + 3);
+                    Hormiguero.setNCriasComiendo(Hormiguero.getNCriasComiendo()-1);
                     Hormiguero.getComer().remove(this);
                 }
                 catch(InterruptedException IE)
