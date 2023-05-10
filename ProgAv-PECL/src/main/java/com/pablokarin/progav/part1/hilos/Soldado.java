@@ -61,7 +61,7 @@ public class Soldado implements Hormiga {
     public void run()
     {
         Thread.currentThread().setName(nombre);
-        
+        Hormiguero.setNHormigasVivas(Hormiguero.getNHormigasVivas()+1);
         Timestamp timestamp1 = new Timestamp(System.currentTimeMillis());
         TareaEscribir entrada1 = new TareaEscribir(Thread.currentThread().getName(), 0, timestamp1);
         Escritor.logger.execute(entrada1);
@@ -101,9 +101,9 @@ public class Soldado implements Hormiga {
                 {
                     //descansa 2 sec
                     
-                    Hormiguero.getDescanso().remove(this);
+                    Hormiguero.getDescanso().add(this);
                     Descanso.descansar(2);
-                    Hormiguero.getComer().remove(this);
+                    Hormiguero.getDescanso().remove(this);
                 }
                 catch(InterruptedException IE)
                 {

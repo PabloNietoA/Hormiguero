@@ -20,8 +20,12 @@ public class Hormiguero
 {
     private static Semaphore salida = new Semaphore(2,true);
     private static Lock entrada = new ReentrantLock();
+    private static int hormigasVivas = 0;
+    private static int nObreras = 0;
     private static CyclicBarrier barreraAtaque;
     private static CountDownLatch bloqueoPelea;
+    
+    
     
     private static ArrayList<Obrera> almacen = new ArrayList();
     private static ArrayList<Hormiga> comer = new ArrayList();
@@ -78,6 +82,23 @@ public class Hormiguero
     
     
     // <editor-fold desc="GETTER AND SETTER">
+    public synchronized static int getNObreras()
+    {
+        return nObreras;
+    }
+    public static void setNObreras(int nObreras)
+    {
+        Hormiguero.nObreras = nObreras;
+    }
+    public synchronized static int getNHormigasVivas()
+    {
+        return hormigasVivas;
+    }
+    public static void setNHormigasVivas(int hormigasVivas)
+    {
+        Hormiguero.hormigasVivas = hormigasVivas;
+    }
+    
     public synchronized static ArrayList<Obrera> getAlmacen() {
         return almacen;
     }

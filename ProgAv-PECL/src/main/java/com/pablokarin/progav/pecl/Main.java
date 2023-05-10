@@ -4,10 +4,14 @@
 
 package com.pablokarin.progav.pecl;
 
+import com.pablokarin.progav.conexion.Operador;
 import com.pablokarin.progav.jframe.VentanaPrincipal;
 import com.pablokarin.progav.part1.hilos.*;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.rmi.Naming;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
 import java.util.Random;
 import java.util.concurrent.locks.*;
 
@@ -21,10 +25,25 @@ public class Main {
     
     public static void main(String[] args) 
     {
+        //se inicia el servidor
+        try
+        {
+            Operador op = new Operador();
+            Registry reg = LocateRegistry.createRegistry(1099);
+            Naming.rebind("//127.0.0.1/ObjOperador", op);
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+            e.printStackTrace();
+        }
+        
+        //se muestra la pantalla
         VentanaPrincipal ventana = new VentanaPrincipal();
         ventana.setLocationRelativeTo(null);
         ventana.setVisible(true);
         
+        //se crea el hilo que actualiza la pantalla
         ScreenUpdate screenUpdater = new ScreenUpdate(ventana);
         screenUpdater.start();
         

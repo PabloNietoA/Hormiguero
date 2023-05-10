@@ -56,7 +56,7 @@ public class Cria implements Hormiga
     public void run()
     {
         Thread.currentThread().setName(nombre);
-        
+        Hormiguero.setNHormigasVivas(Hormiguero.getNHormigasVivas()+1);
         
         Timestamp timestamp1 = new Timestamp(System.currentTimeMillis());
         TareaEscribir entrada1 = new TareaEscribir(Thread.currentThread().getName(), 0, timestamp1);

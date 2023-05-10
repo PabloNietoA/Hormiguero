@@ -1,5 +1,6 @@
 package com.pablokarin.progav.conexion;
 
+import com.pablokarin.progav.part1.Hormiguero;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
@@ -22,31 +23,31 @@ public class Operador extends UnicastRemoteObject implements InterfazOperaciones
     
     public int getNObrerasFuera() throws RemoteException
     {
-        return nObrerasFuera;
+        return Hormiguero.getFuera().size();
     }
     
     public int getNObrerasDentro() throws RemoteException
     {
-        return nObrerasDentro;
+        return Hormiguero.getNObreras()-Hormiguero.getFuera().size();
     }
     
     public int getNSoldadosInstruc() throws RemoteException
     {
-        return nSoldadosInstruc;
+        return Hormiguero.getInstruc().size();
     }
     
     public int getNSoldadosAmenaza() throws RemoteException
     {
-        return nSoldadosAmenaza;
+        return Hormiguero.getDefendiendo().size();
     }
     
     public int getNCriasComedor() throws RemoteException
     {
-        return nCriasComedor;
+        return 0;
     }
     public int getNCriasRefugio() throws RemoteException
     {
-        return nCriasRefugio;
+        return Hormiguero.getRefugio().size();
     }
     
 }
