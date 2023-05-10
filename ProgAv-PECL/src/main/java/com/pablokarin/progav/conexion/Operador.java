@@ -43,7 +43,7 @@ public class Operador extends UnicastRemoteObject implements InterfazOperaciones
     
     public int getNCriasComedor() throws RemoteException
     {
-        return 0;
+        return Hormiguero.getNCriasComiendo();
     }
     public int getNCriasRefugio() throws RemoteException
     {

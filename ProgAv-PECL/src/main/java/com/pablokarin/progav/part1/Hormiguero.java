@@ -22,6 +22,7 @@ public class Hormiguero
     private static Lock entrada = new ReentrantLock();
     private static int hormigasVivas = 0;
     private static int nObreras = 0;
+    private static int nCriasComiendo = 0;
     private static CyclicBarrier barreraAtaque;
     private static CountDownLatch bloqueoPelea;
     
@@ -97,6 +98,16 @@ public class Hormiguero
     public static void setNHormigasVivas(int hormigasVivas)
     {
         Hormiguero.hormigasVivas = hormigasVivas;
+    }
+    
+    public synchronized static int getNCriasComiendo()
+    {
+        return nCriasComiendo;
+    }
+    
+    public static void setNCriasComiendo(int nCriasComiendo)
+    {
+        Hormiguero.nCriasComiendo = nCriasComiendo;
     }
     
     public synchronized static ArrayList<Obrera> getAlmacen() {
