@@ -22,9 +22,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
      * Creates new form Frame
      */
     public VentanaPrincipal() {
-        initComponents();
-        ExecutorService pool = Executors.newFixedThreadPool(10); 
-        
+        initComponents();        
     }
 
     /**

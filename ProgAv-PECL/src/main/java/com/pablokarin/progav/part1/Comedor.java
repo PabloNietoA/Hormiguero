@@ -17,13 +17,13 @@ import java.util.concurrent.locks.*;
 public class Comedor 
 {
     private static int stock = 0;
-
-    public static int getStock() {
-        return stock;
-    }
     private static Lock control = new ReentrantLock();
     private static Condition vacio = control.newCondition();
     
+    public static int getStock() 
+    {
+        return stock;
+    }
     //pilla del stock y luego come
     public static void comer(int comer, int tiempo) throws InterruptedException
     {
