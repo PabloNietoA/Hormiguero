@@ -1,16 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.pablokarin.progav.part1;
 
 import static java.lang.Thread.sleep;
 import java.util.concurrent.CountDownLatch;
 
-/**
- * Gestiona la cuenta de los ataques
- * @author Slend
- */
 public class Bicho implements Runnable
 {
     private final CountDownLatch pelea;

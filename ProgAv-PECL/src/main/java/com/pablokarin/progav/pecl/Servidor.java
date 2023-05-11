@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.pablokarin.progav.pecl;
 
 import com.pablokarin.progav.conexion.Operador;
@@ -16,10 +12,6 @@ import java.rmi.registry.Registry;
 import java.util.Random;
 import java.util.concurrent.locks.*;
 
-/**
- *
- * @author Slend
- */
 public class Servidor {
 
     

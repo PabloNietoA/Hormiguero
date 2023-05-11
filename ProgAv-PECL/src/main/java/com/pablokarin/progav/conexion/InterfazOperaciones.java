@@ -3,8 +3,6 @@ package com.pablokarin.progav.conexion;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 
-//ACABADO
-
 public interface InterfazOperaciones extends Remote
 {
     //se declaran métodos para usar remotamente

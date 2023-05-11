@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.pablokarin.progav.part1;
 
 import com.pablokarin.progav.part1.hilos.*;
@@ -12,10 +8,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.CountDownLatch;
 
-/**
- *
- * @author Slend
- */
+
 public class Hormiguero 
 {
     //control para entradas y salidas

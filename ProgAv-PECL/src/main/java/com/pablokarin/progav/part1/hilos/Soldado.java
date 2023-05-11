@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.pablokarin.progav.part1.hilos;
 
 import com.pablokarin.progav.log.Escritor;
@@ -12,10 +8,6 @@ import java.util.ArrayList;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.CyclicBarrier;
 
-/**
- *
- * @author Karín
- */
 public class Soldado implements Hormiga {
     private final int id;
     private int iteracion;

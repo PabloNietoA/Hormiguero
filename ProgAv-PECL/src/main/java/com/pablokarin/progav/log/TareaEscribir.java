@@ -1,17 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.pablokarin.progav.log;
 
 import java.io.FileWriter;
 import java.io.IOException;
 import java.sql.Timestamp;
 
-/**
- *
- * @author Karín
- */
 public class TareaEscribir implements Runnable{
     private String nombre;
     private String id;
@@ -131,6 +123,4 @@ public class TareaEscribir implements Runnable{
         catch (IOException e) {System.out.println("No se pudo escribir en el archivo. Error de I/0: " + e);}
         
     }
-    
-    
 }

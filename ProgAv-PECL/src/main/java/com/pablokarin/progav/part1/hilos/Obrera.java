@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.pablokarin.progav.part1.hilos;
 
 import com.pablokarin.progav.log.Escritor;
@@ -11,10 +7,6 @@ import java.sql.Timestamp;
 import java.util.Random;
 import java.util.concurrent.CountDownLatch;
 
-/**
- *
- * @author Slend
- */
 public class Obrera implements Hormiga{
     private int iteracion = 0;
     private final int id;

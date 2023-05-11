@@ -1,17 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
+
 package com.pablokarin.progav.jframe;
 
-import com.pablokarin.progav.part1.Hormiguero;
 import com.pablokarin.progav.pecl.Cliente;
 import javax.swing.JTextField;
 
-/**
- *
- * @author Karín
- */
+
 public class VentanaRemota extends javax.swing.JFrame {
 
     /**

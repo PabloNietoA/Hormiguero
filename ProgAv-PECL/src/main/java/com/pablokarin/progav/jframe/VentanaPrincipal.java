@@ -1,21 +1,10 @@
-/**
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package com.pablokarin.progav.jframe;
 
 import java.awt.Color;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 import com.pablokarin.progav.part1.*;
 import com.pablokarin.progav.part1.hilos.*;
 import java.util.ArrayList;
-import javax.swing.JScrollPane;
 
-/**
- *
- * @author Karín
- */
 public class VentanaPrincipal extends javax.swing.JFrame {
 
     /**
