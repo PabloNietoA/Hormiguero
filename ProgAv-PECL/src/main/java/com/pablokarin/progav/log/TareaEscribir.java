@@ -23,6 +23,7 @@ public class TareaEscribir implements Runnable{
     public TareaEscribir(String nombre, int tipo, Timestamp tiempo)
     {
         this.nombre = nombre;
+        //dependiendo del segundo caracter lo hará una hormiga u otra
         switch(nombre.charAt(1))
         {
             case 'O':
@@ -112,15 +113,19 @@ public class TareaEscribir implements Runnable{
     
     public void toText(String mensaje)
     {
+        //crea la cadena con un salto de línea
         StringBuilder sb = new StringBuilder();
         sb.append(mensaje);
         sb.append((System.lineSeparator()));
         mensaje = sb.toString();
         try 
         {
+            //localiza el archivo donde escribir
+            //parámetro true para añadir lo escrito al final del log
             FileWriter fileWriter = new FileWriter("src/main/java/com/pablokarin/progav/log/evolucionColonia.txt", true);
             //Escribe el string mensaje en el documento de texto
             fileWriter.write(mensaje);
+            //cierra el escritor
             fileWriter.close();
         } 
         catch (IOException e) {System.out.println("No se pudo escribir en el archivo. Error de I/0: " + e);}

@@ -216,6 +216,7 @@ public class VentanaRemota extends javax.swing.JFrame {
     }//GEN-LAST:event_campoNCriasRefugioActionPerformed
 
     private void generarAmenazaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_generarAmenazaActionPerformed
+        //llama a la función amenaza en cliente
         Cliente.amenaza();
     }//GEN-LAST:event_generarAmenazaActionPerformed
 
@@ -228,6 +229,7 @@ public class VentanaRemota extends javax.swing.JFrame {
      */
     public void modificar (javax.swing.JTextField campo, String texto)
     {
+        //modifica el campo
         campo.setText(texto);
     }
     public static void main(String args[]) {

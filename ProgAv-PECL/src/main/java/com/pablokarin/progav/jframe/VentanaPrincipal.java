@@ -300,21 +300,25 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     private void pausaReanudarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pausaReanudarActionPerformed
         if (pausaReanudar.isSelected())
         {
+            //se cambia el texto
             pausaReanudar.setText("Reanudar");
+            //se establece el color a blanco
+            //para que no cambie el color cuando se pulsa
             pausaReanudar.setBackground(Color.white);
-            
+            //se pausa el hormiguero
             Hormiguero.cambiaPausa();
         }
         if (!pausaReanudar.isSelected())
         {
+            //cambia el texto
             pausaReanudar.setText("Pausar");
-            
+            //Se reanuda el hormiguero
             Hormiguero.cambiaPausa();
         }
     }//GEN-LAST:event_pausaReanudarActionPerformed
 
     private void generarAmenazaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_generarAmenazaActionPerformed
-        // TODO add your handling code here:
+        //genera un ataque en el hormiguero
         Hormiguero.ataque();
     }//GEN-LAST:event_generarAmenazaActionPerformed
 
@@ -376,13 +380,17 @@ public class VentanaPrincipal extends javax.swing.JFrame {
     
     public void updateData()
     {
+        //establece los campos con los valores de las variables del hormiguero
         campoComidaAlmacen.setText(String.valueOf(Almacen.getStock()));
         campoComidaComedor.setText(String.valueOf(Comedor.getStock()));
         campoNHormigas.setText(String.valueOf(Hormiguero.getNHormigasVivas()));
         
+        //para actualizar el almacén
         String almacen = "";
+        //crea una copia de las hormigas en el almacen
         ArrayList<Obrera> lAlmacen = Hormiguero.getAlmacen();
-        
+        //recorre la lista copiada añadiendo a la 
+        //cadena las hormigas que hay
          for (int i = 0; i < lAlmacen.size(); i++)
          {
             try
@@ -391,11 +399,15 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
             catch(Exception e){}
          }
+         //modifica el valor del campo
         campoEnAlmacen.setText(almacen);
         
+        //para actualizar el comedor
         String comiendo = "";
+        //crea una copia de las hormigas en el comedor
         ArrayList<Hormiga> lComer = Hormiguero.getComer();
-        
+        //recorre la lista copiada añadiendo a la
+        //cadena las hormigas que hay
         for (int i = 0; i < lComer.size(); i++)
         {
             try
@@ -404,11 +416,15 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
             catch(Exception e){}
         }
+        //modifica el valor del campo
         campoComiendo.setText(comiendo);
         
+        //para actualizar zona de descanso
         String descansando = "";
+        //cera una copia de las hormigas descansando
         ArrayList<Hormiga> lDescanso = Hormiguero.getDescanso();
-        
+        //recorre la lista copiada añadiendo a la
+        //cadena las hormigas que hay
         for (int i = 0; i < lDescanso.size(); i++)
         {
             try
@@ -417,11 +433,15 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
             catch(Exception e){}
         }
+        //modifica el valor del campo
         campoDescansando.setText(descansando);
         
+        //para actualizar fuera
         String fuera = "";
+        //crea una copia de las hormigas fuera
         ArrayList<Obrera> lFuera = Hormiguero.getFuera();
-        
+        //recorre la lista copiada añadiendo a la
+        //cadena las hormigas que hay
         for (int i = 0; i < lFuera.size();i++)
         {
             try
@@ -430,11 +450,15 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
             catch(Exception e){}
         }
+        //modifica el valor del campo
         campoBuscandoComida.setText(fuera);
         
+        //para actualizar hormigas moviéndose
         String movimiento = "";
+        //crea una copia de las hormigas moviéndose con alimento
         ArrayList<Obrera> lMovimiento = Hormiguero.getMovimiento();
-        
+        //recorre la lista copiada añadiendo a la
+        //cadena las hormigas que hay
         for (int i = 0; i < lMovimiento.size(); i++)
         {
             try
@@ -443,11 +467,15 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
             catch(Exception e){}
         }
+        //modifica el valor del campo
         campoLlevandoComida.setText(movimiento);
         
+        //para actualizar hormigas dejando comida
         String dejandoComida = "";
+        //crea una copia de las hormigas dejando comida
         ArrayList<Obrera> lDejandoComida = Hormiguero.getDejandoComida();
-        
+        //recorre la lista copiada añadiendo a la
+        //cadena las hormigas que hay
         for (int i = 0; i < lDejandoComida.size(); i++)
         {
             try
@@ -456,11 +484,15 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
             catch(Exception e){}
         }
+        //modifica el valor del campo
         campoDejandoComida.setText(dejandoComida);
         
+        //para actualizar las hormigas defendiendo
         String defendiendo = "";
+        //crea una copia de las hormigas defendiendo
         ArrayList<Soldado> lDefendiendo = Hormiguero.getDefendiendo();
-        
+        //recorre la lista copiada añadiendo a la
+        //cadena las hormigas que hay
         for (int i = 0; i < lDefendiendo.size(); i++)
         {
             try
@@ -469,11 +501,15 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
             catch(Exception e){}
         }
+        //modifica el valor del campo
         campoDefendiendo.setText(defendiendo);
         
+        //para actualizar las hormigas instruyendose
         String instruc = "";
+        //crea una copia de las hormigas instruyendose
         ArrayList<Soldado> lInstruc = Hormiguero.getInstruc();
-        
+        //recorre la lista copiada añadiendo a la
+        //cadena las hormigas que hay
         for (int i = 0; i < lInstruc.size(); i++)
         {
             try
@@ -482,11 +518,15 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
             catch(Exception e){}
         }
+        //modifica el valor del campo
         campoInstruyendose.setText(instruc);
         
+        //para atualizar las crías refugiadas
         String refugio = "";
+        //crea una copia de las hormigas refugiadas
         ArrayList<Cria> lRefugio = Hormiguero.getRefugio();
-        
+        //recorre la lista copiada añadiendo a la
+        //cadena las hormigas que hay
         for (int i = 0; i < lRefugio.size(); i++)
         {
             try
@@ -495,6 +535,7 @@ public class VentanaPrincipal extends javax.swing.JFrame {
             }
             catch(Exception e){}
         }
+        //modifica el valor del campo
         campoRefugio.setText(refugio);
     }
     

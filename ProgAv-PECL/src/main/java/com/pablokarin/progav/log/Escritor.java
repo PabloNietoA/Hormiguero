@@ -12,6 +12,7 @@ import java.util.concurrent.Executors;
  * @author Karín
  */
 public class Escritor {
+    //se crea el pool de un solo hilo que gestiona la escritura en log
     public static final ExecutorService logger = Executors.newSingleThreadExecutor();
     
 }
